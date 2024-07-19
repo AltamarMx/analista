@@ -1,0 +1,5 @@
+Hola, en esta sesión vamos a aprender cómo combinar DataFrames en pandas utilizando `join`, `merge` y `concat`
+
+Primero, veremos cómo usar `join` para unir dos DataFrames, luego, exploraremos `merge`, que nos permite combinar DataFrames basados en una o más claves comunes, similar a una unión en SQL. Finalmente, aprenderemos a utilizar `concat` para apilar DataFrames, ya sea vertical u horizontalmente. Estos métodos son esenciales para manejar y combinar datos en pandas y lo aplicaremos usando series temporales.
+
+vamos a la libreta de Jupyter.

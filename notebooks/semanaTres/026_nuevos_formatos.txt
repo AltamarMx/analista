@@ -1,0 +1,6 @@
+Hola, en este video vamos a explorar las diferencias en velocidad al cargar archivos en formatos `xlsx` y `csv` y también presentaremos el formato `Parquet`, que es una excelente opción para grandes volúmenes de datos o si no se quiere perder la estructura.
+
+Además, si nos preocupa el espacio, aprenderemos que también podemos cargar archivos comprimidos en formato `zip`
+
+
+Vamos a la libreta de Jupyter.

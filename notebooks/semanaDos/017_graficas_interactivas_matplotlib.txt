@@ -1,0 +1,6 @@
+
+Hola, en este video vamos a ver como activar la barra de navegación de Matplotlib usando el paquete ipympl.
+
+Al activar esta barra de navegación podrás hacer zoom, desplazar y explorar tus figuras con el uso del ratón, ideal para la etapa de exploración de datos.
+
+Vamos a la libreta para ver como se hace esto.

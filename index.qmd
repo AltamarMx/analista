@@ -1,0 +1,49 @@
+# Bienvenida {.unnumbered}
+
+
+
+
+Si estás buscando comenzar una aventura en el mundo de la `programación y análisis de datos`, ¡estás en el lugar correcto!. En este curso [MOOC](https://www.coursera.org/learn/pythonexplorador/home/welcome) vamos a transformarte de usuario a explorador de datos. Si ya sabes instalar Python, la sintáxis básica de Python, uso de pip y usar la libreta de Jupyter, este curso es para ti.  
+
+No te mentiremos, este camino no es fácil ni corto, hemos preparado casi **70 lecciones** y **52 libretas de Jupyter** para este viaje. 
+
+Esta página **no** es un curso, contiene el material de ejercicios del curso [MOOC Python: De usuario a explorador de datos](https://www.coursera.org/learn/pythonexplorador/home/welcome), por lo que si aún no te has inscrito, te recomendamos hacerlo.
+
+::: {.callout-note appearance="simple"}
+Si estás arrancando desde cero, te recomendamos tomes el curso [MOOC Python, de cero a usuario](https://www.coursera.org/learn/python-usuario). 
+:::
+
+## ¿Qué aprenderás?
+
+El curso está organizado por **cuatro** grandes temas o semanas y un proyecto final, que son:
+
+1. **Introducción al Manejo de Datos con ETL**:
+   - **Extracción**: Aprenderás a obtener datos desde diferentes fuentes, incluyendo archivos CSV y XLSX.
+   - **Transformación**: Te enseñaremos a manipular y preparar tus datos utilizando `pandas`, facilitando la limpieza y organización.
+   - **Carga**: Finalmente, integraremos los datos transformados en una estructura que puedas utilizar para análisis o informes futuros.
+   -  **Inicio en Pandas**: Dominarás las técnicas de manipulación de dataframes y series temporales, esenciales para cualquier explorador de datos.
+
+2. **Visualización de Datos con Matplotlib**:
+   - Aprenderás a identificar la anatomia de una gráfica en `matplotlib`.
+   - Comenzarás creando gráficas simples con `plt.subplots`.
+   - Aprenderas a crear gráficas complejas con `plt.subplots` y `gridspec` para diseño más complejos.
+   - Aprenderás a crear gráficas interactivas en la libreta de Jupyter con los `ipywidgets`.
+   - Aprenderás a personalizar una figura para dejarla lista para ser publicada en cualquier medio.
+
+3. **Operaciones básicas con NumPy**:
+   - Aprenderas a crear y conocer los arrays.
+   - Aprenderás a cargar datos numéricos de archivos con diferentes herramientas.
+   - Aplicarás la carga y manipulación de matricez con un conjunto de imagenes.
+   - Explorarás las herramientas de algebra lineal  de **NumPy** para manejar grandes conjuntos de datos numéricos, optimizando tus análisis. 
+
+4. **Gestión de Proyectos de Datos**:
+   - Aprenderás y aplicarás el concepto del espacio de trabajo para tus proyectos de ciencia de datos.
+   - Conocerás la importancia de la narrativa computacional en tu espacio de trabajo, nombres de libretas y variables dentro de tus libretas de Jupyter.
+   - Conocerás las mejores estrategias para tener un flujo de trabajo robusto, reproducible y colaborativo.
+   - Aprenderás a como desarrollar  tus propios paquetes locales para disminuir los errores en tu flujo de trabajo.
+
+5. **Proyecto final**: 
+    - Culminarás con un proyecto final que pone en practica los conceptos de este curso y mucho enfasis en las buenas prácticas sobre narrativa computacional y espacio de trabajo.
+    - Aplicaras el ETL de principio a fin, desde extraer, transformar y cargar tus datos.
+
+

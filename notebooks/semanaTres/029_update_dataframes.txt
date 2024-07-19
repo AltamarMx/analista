@@ -1,0 +1,7 @@
+Hola, en esta sesión  vamos a aprender cómo usar el método `update` de pandas para rellenar datos con NaNs en un DataFrame.
+
+Primero, creamos un DataFrame que contenga los datos que queremos modificar. Luego, creamos un segundo DataFrame con los mismos índices y columnas, donde las posiciones que queremos reemplazar tienen el valor `NaN`. Finalmente, utilizamos `df.update(nuevos_datos)` para reemplazar los datos originales con los `NaN` especificados. Este método es muy útil para actualizar valores en un DataFrame de manera eficiente. ¡Vamos a ver un ejemplo!**
+
+---
+
+Este guion introduce de manera clara y concisa el uso del método `update` en pandas para rellenar datos con NaNs.

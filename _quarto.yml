@@ -1,0 +1,92 @@
+lang: es 
+website:
+  google-analytics: "G-4D5QFYD1KS"
+  cookie-consent: true
+
+project:
+  type: book  
+  output-dir: docs  
+
+  
+book:
+  title: "Python: De explorador a analista"
+  # language: es
+  # author: Guillermo Barrios
+  # version: 0.9.1
+  navbar:
+    search: True
+  sidebar:
+    menu: True
+    collapse-level: 1
+    border: true
+    logo: img/python.png
+  page-footer:
+    left:  Logo  por  Dnu72, [CC BY-SA 4.0](<https://creativecommons.org/licenses/by-sa/4.0>), via Wikimedia Commons.
+    center: "[Repositorio](https://github.com/altamarmx/explorador)"
+    right: Construido con [Quarto](https://quarto.org/).
+    background: "#f8f9fa"
+  repo-url: https://github.com/altamarmx/explorador/
+  chapters:
+    - index.qmd
+    - part: "Recomendaciones y datos"
+      chapters:
+        - uso.qmd
+        - datos.qmd
+    - part: notebooks/semanaUno/semana1.qmd
+      chapters: 
+        - notebooks/semanaUno/006_PEP8.ipynb
+        - notebooks/semanaUno/007_PiensaPOO.ipynb
+        - notebooks/semanaUno/008_try_except_finally.ipynb
+        - notebooks/semanaUno/009_decoradores.ipynb
+        - notebooks/semanaUno/010_unpack.ipynb
+        - notebooks/semanaUno/011_lambda.ipynb
+        - notebooks/semanaUno/012_walrus.ipynb
+    # - part: notebooks/semanaDos/semana2.qmd
+    #   chapters: 
+    #     - notebooks/semanaDos/IntroMatplotlib.ipynb
+    #     - notebooks/semanaDos/Anatomy_of_a_figure.ipynb
+    #     - notebooks/semanaDos/fig_ax.ipynb
+    #     - notebooks/semanaDos/Tipos_graficos.ipynb
+    #     - notebooks/semanaDos/graficas_individuales.ipynb
+    #     - notebooks/semanaDos/mi_primera_figura.ipynb
+    #     - notebooks/semanaDos/personaliza_figura.ipynb
+    #     - notebooks/semanaDos/multiples_graficas.ipynb
+    #     - notebooks/semanaDos/gridspec.ipynb
+    #     - notebooks/semanaDos/graficas_interactivas.ipynb
+    #     - notebooks/semanaDos/prepara_figura.ipynb
+    # - part: notebooks/semanaTres/semana3.qmd
+    #   chapters: 
+    #     - notebooks/semanaTres/Instala_Numpy_array.ipynb
+    #     - notebooks/semanaTres/Carga_datos_numpy.ipynb
+    #     - notebooks/semanaTres/caracteristicas_arrays.ipynb
+    #     - notebooks/semanaTres/Operaciones_basicas.ipynb
+    #     - notebooks/semanaTres/Slicing.ipynb
+    #     - notebooks/semanaTres/imagenes.ipynb
+    #     - notebooks/semanaTres/glob.ipynb
+    #     - notebooks/semanaTres/carga_flujo_obstaculo.ipynb
+    #     - notebooks/semanaTres/linspace_arange.ipynb
+    #     - notebooks/semanaTres/reshape.ipynb
+    #     - notebooks/semanaTres/guarda_numpy.ipynb
+    #     - notebooks/semanaTres/meshgrid.ipynb
+    #     - notebooks/semanaTres/Algebra_lineal.ipynb
+    # - part: notebooks/semanaCuatro/semana4.qmd
+    #   chapters: 
+    #     # - notebooks/semanaCuatro/concepto_espacio_trabajo.qmd
+    #     - notebooks/semanaCuatro/concatena.ipynb
+    #     - notebooks/semanaCuatro/multiindex_columnas.ipynb
+    #     - notebooks/semanaCuatro/multiindex_indice.ipynb
+    #     - notebooks/semanaCuatro/Encoding.ipynb
+    #     - notebooks/semanaCuatro/paquetes_locales.ipynb
+    #     # - notebooks/semanaCuatro/mensajes.ipynb
+    #     - notebooks/semanaCuatro/EF_EDA.ipynb
+    #     - notebooks/semanaCuatro/EF_LimpiezaDatos.ipynb
+    #     - notebooks/semanaCuatro/EF_Analisis.ipynb
+    #     - notebooks/semanaCuatro/Paquetes.ipynb
+    # - creditos.qmd
+format:
+  html: 
+    theme: 
+      light: cerulean
+      dark: darkly
+    code-link: true
+

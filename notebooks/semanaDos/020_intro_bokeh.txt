@@ -1,0 +1,8 @@
+Hola, en esta sesión vamos a explorar Bokeh, una herramienta de visualización de datos altamente interactiva. Bokeh es  patrocinado por NumFOCUS, una organización sin fines de lucro dedicada a apoyar a la comunidad de computación científica de código abierto.
+
+
+Usar Bokeh en Python ofrece varias ventajas sobre bibliotecas tradicionales como Matplotlib. Primero, Bokeh está diseñado para interactividad nativa. Esto significa que los usuarios pueden hacer zoom, panear y actualizar los gráficos dinámicamente, directamente desde su navegador.
+
+Bokeh se integra también con tecnologías web, permitiendo a los usuarios exportar sus gráficos fácilmente como archivos HTML o integrarlos directamente en aplicaciones web. Esto es posible gracias a su generación de gráficos que se basa en JavaScript.
+
+Ahora, vamos a ver cómo se instala y se utiliza en un entorno de Jupyter Notebook. Comenzaremos con la instalación mediante pip:**

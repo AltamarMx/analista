@@ -1,0 +1,5 @@
+Hola, en esta sesión vamos a explorar diferentes métodos para manejar datos faltantes en pandas
+
+Primero, veremos cómo utilizar `bfill` (relleno hacia atrás) para llenar los valores `NaN` utilizando el siguiente valor conocido en la serie. Luego, aprenderemos a usar `ffill` (relleno hacia adelante) para rellenar `NaN` con el valor anterior conocido. Finalmente, vamos a cubrir cómo utilizar `interpolate` para realizar una interpolación lineal y  para los valores faltantes en nuestros datos.
+
+Vamos a verlo en la libreta de Jupyter.

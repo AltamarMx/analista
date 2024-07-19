@@ -1,0 +1,7 @@
+Hola a todos, hoy exploraremos cómo Altair, una biblioteca de visualización en Python que utiliza la gramática de gráficos para crear visualizaciones complejas de manera intuitiva y expresiva. Altair se basa en Vega y Vega-Lite, que son lenguajes de visualización de alto nivel, diseñados para manejar la descripción de gráficos de manera declarativa.
+
+La gramática de gráficos, desarrollado por Leland Wilkinson, es un sistema poderoso para describir de manera consistente y sistemática las visualizaciones. Esto nos permite pensar en gráficos en términos de sus componentes individuales como datos, transformaciones de estos datos y representación visuales. Este marco, introducido por Leland Wilkinson, permite a los usuarios componer gráficos complejos desde componentes básicos, promoviendo la claridad y la reutilización en la creación de visualizaciones.
+
+Por otro lado, la visualización declarativa se refiere al estilo de especificación de visualizaciones en el que el usuario describe qué debe ser visualizado sin necesidad de detallar cómo se debe llevar a cabo en términos de procedimientos gráficos. Este enfoque, utilizado en herramientas como Altair, nos permite centrarnos en la interpretación de los datos, mientras que la biblioteca se encarga de los detalles de implementación, como la renderización y la optimización del gráfico.
+
+Vamos a ver como se hace esto en la libreta de Jupyter.

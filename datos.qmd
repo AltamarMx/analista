@@ -1,0 +1,20 @@
+# Datos para el curso {.unnumbered}
+
+
+Este MOOC está pensado para que repliques las clases con los datos proporcionados. Para esto es importante que tengas los datos y experimentes con los conceptos presentados. 
+
+Los datos se pueden descargar  en esta [liga](https://github.com/AltamarMx/explorador/blob/main/notebooks/data_MOOC_Usuario_a_Explorador.zip).
+
+
+Una vez que llegues a esa página (@fig-descarga), da click en `Download raw file` para que puedas descargar el zip.  
+
+
+::: {.callout-caution }
+## Espacio de trabajo
+`No olvides` crear tu espacio de trabajo para tu proceso de aprendizaje del curso. 
+:::
+
+
+![Página de descarga de los datos del MOOC Python de Usuario a Explorador de Datos](img/descarga_datos.jpeg){#fig-descarga}
+
+

@@ -1,0 +1,5 @@
+Hola, en este video veremos  tres  técnicas de promediado de datos en pandas:  `rolling`, `expanding` y `ewm`.
+
+Los promedios móviles se utilizan cuando tenemos fluctuaciones en los datos y queremos revelar tendencias a lo largo del tiempo. Con `rolling`, podemos calcular promedios móviles dentro de una ventana de tamaño fijo. La función `expanding` calcula estadísticas acumulativas desde el inicio de los datos hasta la posición actual, ideal para análisis de crecimiento. Finalmente, `ewm` calcula estadísticas exponencialmente ponderadas, otorgando más peso a los datos recientes.
+
+Vamos a ver estas tres funciones y como visualizar el efecto de estas transformaciones.

@@ -1,0 +1,9 @@
+## Semana Uno
+
+¡Bienvenides a una semana emocionante de aprendizaje al manejo de datos! 
+
+En esta semana abordarás desde las definiciones de funciones hasta la manipulación avanzada de archivos, pasando por una introducción esencial a las series temporales. Desentrañaremos los conceptos clave que forman el esqueleto de cualquier proyecto analítico práctico, incluyendo el manejo de formatos de archivo como CSV y XLSX, y el dominio de  Pandas, una de las herramientas más poderosas de Python para el manejo de datos.
+
+Con cada sesión, te equiparás para enfrentar desafíos cada vez más compleojs. Aprenderás a crear bloques de código reutilizables que servirán para automatizar tus tareas, optimizando así tu flujo de trabajo. Dominarás el proceso de ETL (Extracción, Transformación, Carga), esencial para extraer datos de diversas fuentes, transformarlos para su análisis y cargarlos en un entorno listo para usarse. 
+
+Aprenderás que el índice es uno de los conceptos más importantes de los DataFrames y más si es una serie temporal y lo configuras correctamente. Y para cerrar, aprenderás a generar gráficos y visualizaciones rápidas  para explorar tus datos de manera efectiva.

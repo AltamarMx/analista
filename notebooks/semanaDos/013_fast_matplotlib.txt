@@ -1,0 +1,7 @@
+Hola, en esta sesión vamos a recordar rápidamente Matplotlib, una de las bibliotecas más populares en Python para la creación de gráficos.
+
+Matplotlib te permite generar visualizaciones de alta calidad de manera sencilla. Puedes crear desde gráficos de líneas y barras hasta histogramas y diagramas de dispersión con solo unas pocas líneas de código.
+
+En Matplotlib, utilizamos el concepto de figuras y ejes o fig y ax.  La figura, fig,  actúa como un contenedor de toda la visualización. Dentro de esta figura, tenemos los ejes ,ax, que son los espacios donde realizamos el graficado. Al manipular estos ejes, puedes personalizar los gráficos a tu gusto.
+
+Vamos a la libreta de Jupyter para ver dos ejemplos de como podemos usar fig, ax en Matplotlib y recordar su sintaxis de uso.

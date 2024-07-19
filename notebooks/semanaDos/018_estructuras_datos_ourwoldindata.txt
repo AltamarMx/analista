@@ -1,0 +1,5 @@
+Hola, en este video vamos a ver como  utilizar máscaras para filtrar y visualizar datos usando pandas y Matplotlib para manejar y analizar eficientemente conjuntos de datos complejos, como los que ofrece Our World in Data. Estos conjuntos de datos son series temporales que registran múltiples métricas ambientales y económicas por país y año, incluyendo el GDP y emisiones de CO2 y proporcionan datos anuales, por lo que se pueden considerar una serie de tiempo, pero no utilizaremos el objeto datetime por qué los datos ya se encuentran procesados.
+
+Utilizar mascaras y subconjuntos de datos no solo simplifica la gestión de grandes volúmenes de información, sino que también asegura que nuestras visualizaciones y análisis sean más fáciles de manejar y alcanzar nuestro objetivos  de investigación y comunicación. 
+
+Vamos a revisar un conjunto de datos de emisiones de CO2 de todo el mundo.

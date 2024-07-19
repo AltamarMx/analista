@@ -1,0 +1,17 @@
+# Recomendaciones {.unnumbered}
+
+Para sacarle todo el provecho al [MOOC Python: De usuario a explorador de datos](https://www.coursera.org/learn/pythonexplorador/home/welcome), puedes usar este libro de ejercicios para complementar y profundizar en los conceptos y técnicas presentados en las clases. Este recurso está diseñado para maximizar tu aprendizaje y proporcionarte una experiencia práctica indispensable.
+
+## Explorar las libretas
+
+Las libreta están organizadas temáticamente de acuerdo al curso. Puedes desplegar los temas específicos en cada libreta para revisar o profundizar en áreas particulares de interés. Esta estructura modular te permite avanzar a tu propio ritmo y volver sobre temas según lo necesites solo con un vistazo.
+
+## Búsqueda específica
+
+Si necesitas encontrar ejercicios que utilicen un comando específico de Python o aborden un concepto particular, utiliza la barra de búsqueda, ubicada en la parte superior derecha. Esto te permitirá cruzar toda la colección de libretas rápidamente, identificando ejemplos, explicaciones y problemas prácticos que hacen uso del comando o tema que quieres revisar. Esta función es ideal para estudiar funciones específicas, para la revisión de temas de interés en tus proyectos o para recordar esa configuración especial en algún comando.
+
+## Copiar código fácilmente
+
+Gracias a la integración con la tecnología de Quarto, copiar y pegar código de estas libretas es más sencillo que nunca. Simplemente con un clic sobre el bloque de código, este se copiará al portapapeles, facilitando la práctica y la implementación de lo aprendido en tus propios proyectos o ejercicios de prueba. Esto es especialmente útil para experimentar con variantes de los códigos proporcionados y para realizar tus propios ajustes y mejoras.
+
+Este libro de ejercicios es una herramienta valiosa que te proporciona flexibilidad y control sobre tu aprendizaje en Python, permitiéndote explorar, practicar y perfeccionar tus habilidades de programación en ciencia de datos. Utiliza estas libretas como acompañamiento a las lecciones del [MOOC Python: De usuario a explorador de datos](https://www.coursera.org/learn/pythonexplorador/home/welcome) y verás cómo tu comprensión y habilidad con Python crecen exponencialmente.  

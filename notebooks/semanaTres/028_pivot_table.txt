@@ -1,0 +1,7 @@
+Hola, en esta sesión vamos a aprender  groupby  y lo combinaremos con  pivot_table en pandas
+
+Primero, vamos a usar pivot_table para crear un mapa de calor o heatmap que muestra la temperatura promedio horaria para cada mes. Esto nos ayudará a visualizar los patrones de temperatura a lo largo del año.
+
+Luego, utilizaremos groupby y pivot_table para identificar los 10 países que más contaminan desde el año 2000 y visualizaremos sus emisiones de CO2 por año.
+
+Vamos a la libreta de Jupyter.

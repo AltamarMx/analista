@@ -1,0 +1,9 @@
+Hola, en esta sesión vamos a hacer una presentación super rápida de pandas,  una poderosa biblioteca de Python para el análisis de datos. Pandas proporciona estructuras de datos flexibles y expresivas, siendo la más importante el DataFrame, que lo puedes imaginar como una hoja de cálculo super vitaminada.
+
+Un DataFrame es una tabla bidimensional, similar a una hoja de cálculo, con filas y columnas etiquetadas. Esta estructura es fundamental en el análisis de datos porque permite manipular, filtrar, agregar y visualizar datos de manera eficiente. Cuando manejamos datos temporales se vuelve muy importante convertir esa columna con la fecha y hora a objeto datetime y convertilo a índice para un manejo efectivo de la serie temporal.
+
+
+Con pandas, podemos leer datos de múltiples fuentes, como CSV, Excel, SQL, JSON, entre otros, y realizar operaciones complejas con facilidad. La capacidad de pandas para manejar grandes volúmenes de datos y su integración con otras bibliotecas como NumPy y Matplotlib lo hace esencial para cualquier persona que trabaje con datos.
+
+
+vamos a ver algunas cosa básicas en la libreta de Jupyter.
