@@ -208,12 +208,12 @@
   {
     "objectID": "notebooks/semanaUno/008_try_except_finally.html",
     "href": "notebooks/semanaUno/008_try_except_finally.html",
-    "title": "Python: De explorador de datos a analista",
+    "title": "8  try-except",
     "section": "",
     "text": "import pandas as pd\n\n\ndef importa_clima(file_path):\n    \"\"\"Importa un archivo CSV y pone la columna 0 como índice, regresa un dataframe vacio si la ruta es incorrecta\"\"\"\n    try:\n        df = pd.read_csv(file_path,index_col=0,parse_dates=True)    \n    except:\n        print(\"El archivo o ruta es incorrecto\")\n        print(file_path)\n        df = None\n    finally:\n        return df\n        \n        \n\n\nimporta_clima(\"../../data/Temixco_2018_10Min.csv\")\n\n\n\n\n\n\n\n\n\nIb\nIg\nTo\nRH\nWS\nWD\nP\n\n\ntime\n\n\n\n\n\n\n\n\n\n\n\n2018-01-01 00:00:00\nNaN\nNaN\n18.70\n36.34\n1.422\n316.0\n87864.11\n\n\n2018-01-01 00:10:00\n0.002\n0.0\n18.95\n35.29\n1.008\n283.7\n87876.37\n\n\n2018-01-01 00:20:00\n0.170\n0.0\n18.94\n35.43\n1.565\n326.0\n87888.64\n\n\n2018-01-01 00:30:00\n0.371\n0.0\n18.77\n35.89\n2.175\n354.5\n87887.21\n\n\n2018-01-01 00:40:00\n0.305\n0.0\n18.81\n36.34\n1.902\n348.0\n87886.91\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n2018-12-31 23:10:00\n0.125\n0.0\n18.51\n47.29\n1.715\n332.2\n87484.32\n\n\n2018-12-31 23:20:00\n0.000\n0.0\n18.26\n48.02\n1.703\n320.5\n87470.70\n\n\n2018-12-31 23:30:00\n0.044\n0.0\n18.39\n46.84\n2.887\n335.7\n87455.03\n\n\n2018-12-31 23:40:00\n0.170\n0.0\n17.99\n47.85\n1.528\n358.8\n87470.02\n\n\n2018-12-31 23:50:00\n0.003\n0.0\n17.75\n49.65\n0.598\n322.3\n87467.29\n\n\n\n\n52560 rows × 7 columns\n\n\n\n\n\na = importa_clima(\"../../data/Temixco_2018_10Min_.csv\")\n\nEl archivo o ruta es incorrecto\n../../data/Temixco_2018_10Min_.csv\n\n\n\na",
     "crumbs": [
       "Semana Uno",
-      "<span class='chapter-number'>8</span>  <span class='chapter-title'>008_try_except_finally.html</span>"
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>try-except</span>"
     ]
   },
   {

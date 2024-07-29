@@ -22,10 +22,10 @@ book:
     logo: img/python.png
   page-footer:
     left:  Logo  por  Dnu72, [CC BY-SA 4.0](<https://creativecommons.org/licenses/by-sa/4.0>), via Wikimedia Commons.
-    center: "[Repositorio](https://github.com/altamarmx/explorador)"
+    center: "[Repositorio](https://github.com/altamarmx/analista)"
     right: Construido con [Quarto](https://quarto.org/).
     background: "#f8f9fa"
-  repo-url: https://github.com/altamarmx/explorador/
+  repo-url: https://github.com/altamarmx/analista/
   chapters:
     - index.qmd
     - part: "Recomendaciones y datos"
