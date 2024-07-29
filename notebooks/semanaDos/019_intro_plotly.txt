@@ -1,9 +1,0 @@
-Hola, en esta sesión vamos a explorar Plotly, que es una empresa conocida por sus herramientas de visualización de datos altamente interactivas. 
-
-Plotly ofrece una suite de herramientas de graficación open source que soportan múltiples lenguajes de programación, incluyendo Python, R, MATLAB, y JavaScript. Esto hace que Plotly sea extremadamente versátil y útil en un amplio rango de aplicaciones y disciplinas. 
-
-Usar Plotly en Python ofrece varias ventajas sobre bibliotecas tradicionales como Matplotlib. Primero, Plotly nativamente soporta interactividad, lo que significa que los usuarios pueden hacer zoom, panear y actualizar los gráficos dinámicamente sin necesidad de especificarlo. Además, Plotly integra sin problemas con las tecnologías web, lo que permite a los usuarios fácilmente exportar sus gráficos como HTML o integrarlos en aplicaciones web.
-
-Otra ventaja significativa es la configuración visual predeterminada de los gráficos de Plotly, que son visualmente atractivos y pueden ser altamente personalizados con mínimos ajustes. Esto, combinado con su capacidad para manejar grandes conjuntos de datos sin degradar el rendimiento o la interactividad, hace que Plotly sea especialmente valorado en la comunidad.
-
-Ahora, vamos a ver como se instala y se usa  en la libreta de Jupyter

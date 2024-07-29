@@ -1,3 +1,0 @@
-En este video vamos a ver como sacar ventaja al paradigma de Programación Orientada a Objetos en Matplotlib y de los objetos iterables para que puedas hacer gráficos de manera muy efectiva.
-
-Vamos a la libreta de Jupyter para que veas como usar POO de Matplotlib al momento de graficas.

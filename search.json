@@ -1,0 +1,263 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Python: De explorador de datos a analista",
+    "section": "",
+    "text": "Bienvenida\nSi ya sabes Python, tienes los conocimientos básicos de Pandas y Matplotlib, estás listo para pasar al siguiente nivel en el mundo de la programación y análisis de datos, ¡estás en el lugar correcto!. En este curso MOOC Python: de explorador de datos a analista vamos a transformarte de explorador de datos a analista.\nHemos preparado 4 semanas y ejercicios para asegurarnos que aprendas:\nEsta página no es un curso, contiene el material de ejercicios del curso MOOC Python: explorador de datos a analista, por lo que si aún no te has inscrito, te recomendamos hacerlo.",
+    "crumbs": [
+      "Bienvenida"
+    ]
+  },
+  {
+    "objectID": "index.html#qué-aprenderás",
+    "href": "index.html#qué-aprenderás",
+    "title": "Python: De explorador de datos a analista",
+    "section": "¿Qué aprenderás?",
+    "text": "¿Qué aprenderás?\nEl curso está organizado por cuatro grandes temas o semanas y un proyecto final, que son:\n\nIntroducción al Manejo de Datos con ETL:\n\nExtracción: Aprenderás a obtener datos desde diferentes fuentes, incluyendo archivos CSV y XLSX.\nTransformación: Te enseñaremos a manipular y preparar tus datos utilizando pandas, facilitando la limpieza y organización.\nCarga: Finalmente, integraremos los datos transformados en una estructura que puedas utilizar para análisis o informes futuros.\nInicio en Pandas: Dominarás las técnicas de manipulación de dataframes y series temporales, esenciales para cualquier explorador de datos.\n\nVisualización de Datos con Matplotlib:\n\nAprenderás a identificar la anatomia de una gráfica en matplotlib.\nComenzarás creando gráficas simples con plt.subplots.\nAprenderas a crear gráficas complejas con plt.subplots y gridspec para diseño más complejos.\nAprenderás a crear gráficas interactivas en la libreta de Jupyter con los ipywidgets.\nAprenderás a personalizar una figura para dejarla lista para ser publicada en cualquier medio.\n\nOperaciones básicas con NumPy:\n\nAprenderas a crear y conocer los arrays.\nAprenderás a cargar datos numéricos de archivos con diferentes herramientas.\nAplicarás la carga y manipulación de matricez con un conjunto de imagenes.\nExplorarás las herramientas de algebra lineal de NumPy para manejar grandes conjuntos de datos numéricos, optimizando tus análisis.\n\nGestión de Proyectos de Datos:\n\nAprenderás y aplicarás el concepto del espacio de trabajo para tus proyectos de ciencia de datos.\nConocerás la importancia de la narrativa computacional en tu espacio de trabajo, nombres de libretas y variables dentro de tus libretas de Jupyter.\nConocerás las mejores estrategias para tener un flujo de trabajo robusto, reproducible y colaborativo.\nAprenderás a como desarrollar tus propios paquetes locales para disminuir los errores en tu flujo de trabajo.\n\nProyecto final:\n\nCulminarás con un proyecto final que pone en practica los conceptos de este curso y mucho enfasis en las buenas prácticas sobre narrativa computacional y espacio de trabajo.\nAplicaras el ETL de principio a fin, desde extraer, transformar y cargar tus datos.",
+    "crumbs": [
+      "Bienvenida"
+    ]
+  },
+  {
+    "objectID": "uso.html",
+    "href": "uso.html",
+    "title": "Recomendaciones",
+    "section": "",
+    "text": "Explorar las libretas\nLas libreta están organizadas temáticamente de acuerdo al curso. Puedes desplegar los temas específicos en cada libreta para revisar o profundizar en áreas particulares de interés. Esta estructura modular te permite avanzar a tu propio ritmo y volver sobre temas según lo necesites solo con un vistazo.",
+    "crumbs": [
+      "Recomendaciones y datos",
+      "Recomendaciones"
+    ]
+  },
+  {
+    "objectID": "uso.html#búsqueda-específica",
+    "href": "uso.html#búsqueda-específica",
+    "title": "Recomendaciones",
+    "section": "Búsqueda específica",
+    "text": "Búsqueda específica\nSi necesitas encontrar ejercicios que utilicen un comando específico de Python o aborden un concepto particular, utiliza la barra de búsqueda, ubicada en la parte superior derecha. Esto te permitirá cruzar toda la colección de libretas rápidamente, identificando ejemplos, explicaciones y problemas prácticos que hacen uso del comando o tema que quieres revisar. Esta función es ideal para estudiar funciones específicas, para la revisión de temas de interés en tus proyectos o para recordar esa configuración especial en algún comando.",
+    "crumbs": [
+      "Recomendaciones y datos",
+      "Recomendaciones"
+    ]
+  },
+  {
+    "objectID": "uso.html#copiar-código-fácilmente",
+    "href": "uso.html#copiar-código-fácilmente",
+    "title": "Recomendaciones",
+    "section": "Copiar código fácilmente",
+    "text": "Copiar código fácilmente\nGracias a la integración con la tecnología de Quarto, copiar y pegar código de estas libretas es más sencillo que nunca. Simplemente con un clic sobre el bloque de código, este se copiará al portapapeles, facilitando la práctica y la implementación de lo aprendido en tus propios proyectos o ejercicios de prueba. Esto es especialmente útil para experimentar con variantes de los códigos proporcionados y para realizar tus propios ajustes y mejoras.\nEste libro de ejercicios es una herramienta valiosa que te proporciona flexibilidad y control sobre tu aprendizaje en Python, permitiéndote explorar, practicar y perfeccionar tus habilidades de programación en ciencia de datos. Utiliza estas libretas como acompañamiento a las lecciones del MOOC Python: De usuario a explorador de datos y verás cómo tu comprensión y habilidad con Python crecen exponencialmente.",
+    "crumbs": [
+      "Recomendaciones y datos",
+      "Recomendaciones"
+    ]
+  },
+  {
+    "objectID": "datos.html",
+    "href": "datos.html",
+    "title": "Datos para el curso",
+    "section": "",
+    "text": "Este MOOC está pensado para que repliques las clases con los datos proporcionados. Para esto es importante que tengas los datos y experimentes con los conceptos presentados.\nLos datos se pueden descargar en esta liga.\nUna vez que llegues a esa página (Figura 1), da click en Download raw file para que puedas descargar el zip.\n\n\n\n\n\n\nEspacio de trabajo\n\n\n\nNo olvides crear tu espacio de trabajo para tu proceso de aprendizaje del curso.\n\n\n\n\n\n\n\n\nFigura 1: Página de descarga de los datos del MOOC Python de Usuario a Explorador de Datos",
+    "crumbs": [
+      "Recomendaciones y datos",
+      "Datos para el curso"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/semana1.html",
+    "href": "notebooks/semanaUno/semana1.html",
+    "title": "Semana Uno",
+    "section": "",
+    "text": "¡Bienvenides a una semana emocionante de aprendizaje al manejo de datos!\nEn esta semana abordarás desde las definiciones de funciones hasta la manipulación avanzada de archivos, pasando por una introducción esencial a las series temporales. Desentrañaremos los conceptos clave que forman el esqueleto de cualquier proyecto analítico práctico, incluyendo el manejo de formatos de archivo como CSV y XLSX, y el dominio de Pandas, una de las herramientas más poderosas de Python para el manejo de datos.\nCon cada sesión, te equiparás para enfrentar desafíos cada vez más compleojs. Aprenderás a crear bloques de código reutilizables que servirán para automatizar tus tareas, optimizando así tu flujo de trabajo. Dominarás el proceso de ETL (Extracción, Transformación, Carga), esencial para extraer datos de diversas fuentes, transformarlos para su análisis y cargarlos en un entorno listo para usarse.\nAprenderás que el índice es uno de los conceptos más importantes de los DataFrames y más si es una serie temporal y lo configuras correctamente. Y para cerrar, aprenderás a generar gráficos y visualizaciones rápidas para explorar tus datos de manera efectiva.",
+    "crumbs": [
+      "Semana Uno"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/001_instala_python.html",
+    "href": "notebooks/semanaUno/001_instala_python.html",
+    "title": "1  Instala Python",
+    "section": "",
+    "text": "Hola, para iniciar este curso vamos a ver cómo instalar Python y Jupyter Notebook desde cero, descargando directamente de python.org.\nRealizar esto nos asegura una instalación sencilla y que podemos instalar la versión que deseemos y que podemos personalizar nuestra instalación según necesitemos.\n\nVe python.org, selecciona y descarga\nInstala y asegurate de marcar Add Python to PATH\nAsegurate de que tu power shell funciona ejecutando python o py\nInstala jupyter notebook, pandas y matlplotlib, recuerda hacerlo con python -m pip install jupyter notebook pandas matplotlib\nAbre una terminal nueva y prueba que funciona ejecutando “jupyter",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Instala Python</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/002_intro_powershell.html",
+    "href": "notebooks/semanaUno/002_intro_powershell.html",
+    "title": "2  Powershell",
+    "section": "",
+    "text": "Hola, hoy vamos a ver qué es PowerShell y algunas de las cosas que puede hacer y que estamos usando en este curso.\nPowerShell es una interfaz de línea de comandos y lenguaje de scripting desarrollado por Microsoft. Está diseñado principalmente para la administración del sistema y la automatización de tareas repetitivas, por lo que se destaca por su interfaz en modo texto.\nUna de las funciones básicas de PowerShell es ejecutar programas, desde abrir el explorador de archivos hasta lanzar jupyter notebook o iniciar scripts complejos de automatización. También puedes usar PowerShell para copiar o mover archivos y directorios, siendo una gran herramienta para la gestión de tus proyectos de datos.\nSi trabajas con Python, te interesará saber que puedes ejecutar Jupyter Notebook directamente desde PowerShell, puedes iniciar tus notebooks con un comando en PowerShell, haciendo más sencillo tu flujo de trabajo.\nAdemás, si tienes Git instalado, PowerShell se integra con Git, lo que te permite ejecutar todos tus comandos de Git desde la misma ventana de PowerShell.\nVamos a ver como usamos PowerShell para navegar por nuestra computadora y lanzar tu libreta de Jupyter.\n\nLanzar PowerShell\nContar por qué nos conviene poner los proyectos o repos en el home\nAcceder a un repo/espacio de trabajo\nAbrir ii . explorador de archivos y mover un archivo\nLanzar jupyter notebook para que vea todos los folders del espacio de trabajo",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Powershell</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/003_venvs.html",
+    "href": "notebooks/semanaUno/003_venvs.html",
+    "title": "3  Entornos virtuales",
+    "section": "",
+    "text": "Hola, hoy vamos a explorar qué son los entornos virtuales, comúnmente llamados venv, en Python y por qué debes usarlos en tus proyectos de ciencia de datos.\nUn entorno virtual en Python es un espacio aislado que permite tener versiones específicas de Python y de paquetes instalados que son independientes de las instalaciones globales. Esto significa que puedes tener diferentes proyectos con sus propias versiones de paquetes y dependencias, sin que interfieran entre sí.\nBueno, en ciencia de datos, frecuentemente necesitas experimentar con diversas bibliotecas y versiones de las mismas. Usando ambientes virtuales, puedes asegurarte de que tu proyecto de análisis de datos use exactamente las versiones que necesitas y además dejar un archivo documentando las versiones que usa.\nPuedes crear y tener muchos entornos virtuales, solo necesitas crearlo por primera vez y para usarlo solo necesitas activar entorno virtual.\n\nActivar el permiso de scripts en la terminal para poder activar el entorno virtual.\nTener un ambiente virtual llamado alldays\nCrear ambiente virtual llamado mooc\nInstalar version de pandas viejita en mooc\nDemostrar que tengo una version viejita de pandas en mooc\nActualizar mooc a partir de un requirements.txt\n\nPENDIENTES: 1. Preparar venv alldays 2. Tener a la manos un requirements.txt para actualizar mooc",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Entornos virtuales</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/004_espacio_trabajo_venv.html",
+    "href": "notebooks/semanaUno/004_espacio_trabajo_venv.html",
+    "title": "4  Espacio de trabajo",
+    "section": "",
+    "text": "Hola, hoy vamos a hablar sobre cómo estandarizar y automatizar la creación de nuestros espacios de trabajo para proyectos de ciencia de datos usando Cookiecutter.\nUn espacio de trabajo es un conjunto de folders con una estructura y nombres que tienen una narrativa acorde a tu proyecto y nos ayuda a mantenerlos estructurados, propicia la reproducibilidad y facilita la colaboración.\nCon Cookiecutter, podemos crear nuestro espacio automáticamente, siguiendo un modelo predefinido que garantiza que todos los elementos esenciales estén en su lugar desde el inicio.\nEn los próximos minutos, les mostraré cómo usar y configurar Cookiecutter para generar todo tipo de proyectos, y nos enfocaremos en proyectos de ciencia de datos.\n\nInstalar cookiecutter\nUsar cookiecutter para crear un espacio de trabajo cookiecutter.exe gh:altamarmx/cookiecutter_cienciadatos\nRevisar el espacio de trabajo creado\nExplicar como funciona cookiecutter",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Espacio de trabajo</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/005_desarrolla_paquetes.html",
+    "href": "notebooks/semanaUno/005_desarrolla_paquetes.html",
+    "title": "5  Paquetes en Python",
+    "section": "",
+    "text": "Hola, hoy vamos a hablar sobre cómo desarrollar tus propios paquetes de Python localmente y por qué deberías considerar subirlos a GitHub.\nDesarrollar paquetes localmente te permite modularizar y reutilizar tu código. Esto no solo hace tu código más organizado, sino también más fácil de mantener. Pero, ¿qué pasa cuando quieres compartir tu trabajo con el mundo o tu equipe de trabajo?\nAl subir tus paquetes a GitHub, permites que cualquiera los instale fácilmente con un simple comando y la dirección del repositorio.\nVamos a ver los pasos para crear un paquete instalable desde github\n\nCrea el folder del paquete\nCrea otro folder adentro del paquete con el mismo nombre\nAgrega el archivo init.py\nAgrega en el directorio raiz del paquete lo siguiente:\n\nfrom setuptools import setup, find_packages\nsetup( name=‘mi_paquete’, version=‘0.1.0’, packages=find_packages(), description=‘Descripción breve del paquete’, author=‘Tu Nombre’, author_email=‘tu_email@example.com’, url=‘URL del repositorio de GitHub’, install_requires=[ # Lista de dependencias necesarias ], )\n\nCrea un repo y pasa todo a ese repo\nInstala pip install git+https://github.com/tu_usuario/mi_paquete.git\nTambién puedes instalar desde una rama pip install git+https://github.com/tu_usuario/mi_paquete.git@tu_rama\nRecomendación de usar un template de cookiecutter cuando avance mucho.",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Paquetes en Python</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/006_PEP8.html",
+    "href": "notebooks/semanaUno/006_PEP8.html",
+    "title": "6  PEP8",
+    "section": "",
+    "text": "6.1 Uso de nombres adecuados\n# MAL\nc = \"Temixco\"\n#BIEN\nciudad = \"Temixco\"",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PEP8</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/006_PEP8.html#uso-adecuado-de-espacios-en-las-declaraciones",
+    "href": "notebooks/semanaUno/006_PEP8.html#uso-adecuado-de-espacios-en-las-declaraciones",
+    "title": "6  PEP8",
+    "section": "6.2 Uso adecuado de espacios en las declaraciones",
+    "text": "6.2 Uso adecuado de espacios en las declaraciones\n\n# MAL\nfuncion(argumento=valor)\n#BIEN\nfuncion(argumento = valor)\n\nNameError: name 'funcion' is not defined",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PEP8</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/006_PEP8.html#evita-espacios-en-listas-diccionarios",
+    "href": "notebooks/semanaUno/006_PEP8.html#evita-espacios-en-listas-diccionarios",
+    "title": "6  PEP8",
+    "section": "6.3 Evita espacios en listas, diccionarios",
+    "text": "6.3 Evita espacios en listas, diccionarios\n\n#MAL\nlista = [ 1, 2, 3 ]\n#BIEN\nlista = [1, 2, 3]",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PEP8</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/006_PEP8.html#importa-paquetes-siempre-al-inicio-del-archivo",
+    "href": "notebooks/semanaUno/006_PEP8.html#importa-paquetes-siempre-al-inicio-del-archivo",
+    "title": "6  PEP8",
+    "section": "6.4 Importa paquetes siempre al inicio del archivo",
+    "text": "6.4 Importa paquetes siempre al inicio del archivo",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PEP8</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/006_PEP8.html#comparación-is-o-is-not",
+    "href": "notebooks/semanaUno/006_PEP8.html#comparación-is-o-is-not",
+    "title": "6  PEP8",
+    "section": "6.5 Comparación is o is not",
+    "text": "6.5 Comparación is o is not\n\n#MAL\nif variable == None:\n\n#BIEN\nif variable is None:",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PEP8</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/006_PEP8.html#documenta-tus-funciones",
+    "href": "notebooks/semanaUno/006_PEP8.html#documenta-tus-funciones",
+    "title": "6  PEP8",
+    "section": "6.6 Documenta tus funciones",
+    "text": "6.6 Documenta tus funciones\n\ndef suma(a, b):\n    \"\"\"Suma dos números y devuelve el resultado.\"\"\"\n    return a + b",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>PEP8</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/007_PiensaPOO.html",
+    "href": "notebooks/semanaUno/007_PiensaPOO.html",
+    "title": "7  Piensa POO",
+    "section": "",
+    "text": "https://github.com/AltamarMx/iertools/blob/main/iertools/read.py\n\nimport pandas as pd\nimport matplotlib.pyplot as plt\n\nclass read_climate:\n    def __init__(self, file_path):\n        \"\"\"\n        Constructor para cargar datos desde un archivo CSV y usar la primera columna como índice y pasarla a objeto datetime.\n        \n        :param file_path: str, la ruta al archivo CSV que se desea cargar.\n        \"\"\"\n        self.data = pd.read_csv(file_path,index_col=0,parse_dates=True)\n    \n    def plot_mean_column(self,column):\n        \"\"\"\n        Función para graficar el promedio diario de una columna específica\n        \n        :param column: str, el nombre de la columna del dataframe.\n        \"\"\"\n        self.data[column].resample(\"D\").mean().plot(subplots=True,figsize=(12,3))\n        plt.show()\n    \n    def calculate_mean(self, column):\n        \"\"\"\n        Función para calcular el promedio de una columna.\n        \n        :param column: str, el nombre de la columna sobre la cual calcular el promedio.\n        \"\"\"\n        return self.data[column].mean()\n\n\ntmx_2018 = read_climate(\"../../data/Temixco_2018_10Min.csv\")\n\n\ntmx_2018.data\n\n\n\n\n\n\n\n\n\nIb\nIg\nTo\nRH\nWS\nWD\nP\n\n\ntime\n\n\n\n\n\n\n\n\n\n\n\n2018-01-01 00:00:00\nNaN\nNaN\n18.70\n36.34\n1.422\n316.0\n87864.11\n\n\n2018-01-01 00:10:00\n0.002\n0.0\n18.95\n35.29\n1.008\n283.7\n87876.37\n\n\n2018-01-01 00:20:00\n0.170\n0.0\n18.94\n35.43\n1.565\n326.0\n87888.64\n\n\n2018-01-01 00:30:00\n0.371\n0.0\n18.77\n35.89\n2.175\n354.5\n87887.21\n\n\n2018-01-01 00:40:00\n0.305\n0.0\n18.81\n36.34\n1.902\n348.0\n87886.91\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n2018-12-31 23:10:00\n0.125\n0.0\n18.51\n47.29\n1.715\n332.2\n87484.32\n\n\n2018-12-31 23:20:00\n0.000\n0.0\n18.26\n48.02\n1.703\n320.5\n87470.70\n\n\n2018-12-31 23:30:00\n0.044\n0.0\n18.39\n46.84\n2.887\n335.7\n87455.03\n\n\n2018-12-31 23:40:00\n0.170\n0.0\n17.99\n47.85\n1.528\n358.8\n87470.02\n\n\n2018-12-31 23:50:00\n0.003\n0.0\n17.75\n49.65\n0.598\n322.3\n87467.29\n\n\n\n\n52560 rows × 7 columns\n\n\n\n\n\ntmx_2018.plot_mean_column([\"Ib\"])\n\n\n\n\n\n\n\n\n\ntmx_2018.plot_mean_column([\"Ib\",\"To\"])\n\n\n\n\n\n\n\n\n\ntmx_2018.calculate_mean(\"To\")\n\nnp.float64(22.838097602739726)",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Piensa POO</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/008_try_except_finally.html",
+    "href": "notebooks/semanaUno/008_try_except_finally.html",
+    "title": "Python: De explorador de datos a analista",
+    "section": "",
+    "text": "import pandas as pd\n\n\ndef importa_clima(file_path):\n    \"\"\"Importa un archivo CSV y pone la columna 0 como índice, regresa un dataframe vacio si la ruta es incorrecta\"\"\"\n    try:\n        df = pd.read_csv(file_path,index_col=0,parse_dates=True)    \n    except:\n        print(\"El archivo o ruta es incorrecto\")\n        print(file_path)\n        df = None\n    finally:\n        return df\n        \n        \n\n\nimporta_clima(\"../../data/Temixco_2018_10Min.csv\")\n\n\n\n\n\n\n\n\n\nIb\nIg\nTo\nRH\nWS\nWD\nP\n\n\ntime\n\n\n\n\n\n\n\n\n\n\n\n2018-01-01 00:00:00\nNaN\nNaN\n18.70\n36.34\n1.422\n316.0\n87864.11\n\n\n2018-01-01 00:10:00\n0.002\n0.0\n18.95\n35.29\n1.008\n283.7\n87876.37\n\n\n2018-01-01 00:20:00\n0.170\n0.0\n18.94\n35.43\n1.565\n326.0\n87888.64\n\n\n2018-01-01 00:30:00\n0.371\n0.0\n18.77\n35.89\n2.175\n354.5\n87887.21\n\n\n2018-01-01 00:40:00\n0.305\n0.0\n18.81\n36.34\n1.902\n348.0\n87886.91\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n2018-12-31 23:10:00\n0.125\n0.0\n18.51\n47.29\n1.715\n332.2\n87484.32\n\n\n2018-12-31 23:20:00\n0.000\n0.0\n18.26\n48.02\n1.703\n320.5\n87470.70\n\n\n2018-12-31 23:30:00\n0.044\n0.0\n18.39\n46.84\n2.887\n335.7\n87455.03\n\n\n2018-12-31 23:40:00\n0.170\n0.0\n17.99\n47.85\n1.528\n358.8\n87470.02\n\n\n2018-12-31 23:50:00\n0.003\n0.0\n17.75\n49.65\n0.598\n322.3\n87467.29\n\n\n\n\n52560 rows × 7 columns\n\n\n\n\n\na = importa_clima(\"../../data/Temixco_2018_10Min_.csv\")\n\nEl archivo o ruta es incorrecto\n../../data/Temixco_2018_10Min_.csv\n\n\n\na",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>008_try_except_finally.html</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/009_decoradores.html",
+    "href": "notebooks/semanaUno/009_decoradores.html",
+    "title": "9  Decoradores",
+    "section": "",
+    "text": "import pandas as pd\n\ndef funcion_decorador(funcion_original):\n    def wrapper(*args, **kargs):\n        # antes de la funcion\n        resultado = funcion_original(*args, **kargs)\n        # despu'es de la funci'on\n        return resultado\n    return wrapper\n\ndef imprimir_antes_despues(func):\n    def wrapper(*args, **kwargs):\n        print(\"Antes de la función.\")\n        resultado = func(*args, **kwargs)  # Ejecuta la función original\n        print(\"Después de la función.\")\n        return resultado\n    return wrapper\n\n\n@imprimir_antes_despues\ndef hola_mundo(palabra):\n    print(f\"Hola mundo {palabra}\")\n\nhola_mundo('cruel')\n\nAntes de la función.\nHola mundo cruel\nDespués de la función.\n\n\n\ndef agregar_promedio_diario_to(func):\n    \"\"\"Decorador que agrega una columna de promedio diario para la columna 'To'.\"\"\"\n    def wrapper(file_path):\n        # Llama a la función original para obtener el DataFrame\n        df = func(file_path)\n        df['To_daily_mean'] = df['To'].resample('D').mean()\n        return df\n    return wrapper\n\n\n# @agregar_promedio_diario_to\ndef importa_clima(file_path):\n    \"\"\"Importa un archivo CSV y pone la columna 0 como índice, regresa un dataframe vacio si la ruta es incorrecta\"\"\"\n    try:\n        df = pd.read_csv(file_path,index_col=0,parse_dates=True)    \n    except:\n        print(\"El archivo o ruta es incorrecto\")\n        print(file_path)\n        df = None\n    finally:\n        return df\n\n\ntmx = importa_clima(\"../../data/Temixco_2018_10Min.csv\")\ntmx\n\n\n\n\n\n\n\n\n\nIb\nIg\nTo\nRH\nWS\nWD\nP\n\n\ntime\n\n\n\n\n\n\n\n\n\n\n\n2018-01-01 00:00:00\nNaN\nNaN\n18.70\n36.34\n1.422\n316.0\n87864.11\n\n\n2018-01-01 00:10:00\n0.002\n0.0\n18.95\n35.29\n1.008\n283.7\n87876.37\n\n\n2018-01-01 00:20:00\n0.170\n0.0\n18.94\n35.43\n1.565\n326.0\n87888.64\n\n\n2018-01-01 00:30:00\n0.371\n0.0\n18.77\n35.89\n2.175\n354.5\n87887.21\n\n\n2018-01-01 00:40:00\n0.305\n0.0\n18.81\n36.34\n1.902\n348.0\n87886.91\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n2018-12-31 23:10:00\n0.125\n0.0\n18.51\n47.29\n1.715\n332.2\n87484.32\n\n\n2018-12-31 23:20:00\n0.000\n0.0\n18.26\n48.02\n1.703\n320.5\n87470.70\n\n\n2018-12-31 23:30:00\n0.044\n0.0\n18.39\n46.84\n2.887\n335.7\n87455.03\n\n\n2018-12-31 23:40:00\n0.170\n0.0\n17.99\n47.85\n1.528\n358.8\n87470.02\n\n\n2018-12-31 23:50:00\n0.003\n0.0\n17.75\n49.65\n0.598\n322.3\n87467.29\n\n\n\n\n52560 rows × 7 columns\n\n\n\n\n\ntmx.To.plot()\n# tmx.To_daily_mean.dropna().plot()",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>9</span>  <span class='chapter-title'>Decoradores</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/010_unpack.html",
+    "href": "notebooks/semanaUno/010_unpack.html",
+    "title": "10  Desempaca listas",
+    "section": "",
+    "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n\n\ndef suma_tres(a,b,c):\n    return a + b + c\n\n\nsuma_tres(1,1,1)\n\n3\n\n\n\nnumeros = [1, 1, 1]\n\n\nsuma_tres(numeros)\n\nTypeError: suma_tres() missing 2 required positional arguments: 'b' and 'c'\n\n\n\nsuma_tres(*numeros)\n\n3\n\n\n\nprint(numeros)\n\n[1, 1, 1]\n\n\n\nprint(*numeros)\n\n1 1 1\n\n\n\n\nf = \"../../data/personas_cargas.csv\"\nhorario = pd.read_csv(f,index_col=0,parse_dates=True)\nhorario\n\n\n\n\n\n\n\n\n\nBATH_2_LIGHT:Lights Electricity Rate (W)\nBATH_LIGHT:Lights Electricity Rate (W)\nCOCINA_ESTUFA_EQUIPMENT:Electric Equipment Electricity Rate (W)\nCOCINA_REFR_EQUIPMENT:Electric Equipment Electricity Rate (W)\nESTANCIA_COCINA_LIGHT:Lights Electricity Rate (W)\nESTANCIA_TV_EQUIPMENT:Electric Equipment Electricity Rate (W)\nR_1_LIGHT:Lights Electricity Rate (W)\nR_2_LIGHT:Lights Electricity Rate (W)\nR_3_LIGHT:Lights Electricity Rate (W)\nSTAND_BY_EQUIPMENT:Electric Equipment Electricity Rate (W)\nB1:Space People Occupant Count ()\nB2:Space People Occupant Count ()\nCOCINA:Space People Occupant Count ()\nR1:Space People Occupant Count ()\nR2:Space People Occupant Count ()\nR3:Space People Occupant Count ()\n\n\ndate\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n2006-01-01 00:01:00\n0.0\n0.0\n0.0\n40.0\n0.0\n0.0\n0.0\n0.0\n0.0\n50.0\n0.0\n0.0\n0.0\n1.0\n2.0\n1.0\n\n\n2006-01-01 00:02:00\n0.0\n0.0\n0.0\n40.0\n0.0\n0.0\n0.0\n0.0\n0.0\n50.0\n0.0\n0.0\n0.0\n1.0\n2.0\n1.0\n\n\n2006-01-01 00:03:00\n0.0\n0.0\n0.0\n40.0\n0.0\n0.0\n0.0\n0.0\n0.0\n50.0\n0.0\n0.0\n0.0\n1.0\n2.0\n1.0\n\n\n2006-01-01 00:04:00\n0.0\n0.0\n0.0\n40.0\n0.0\n0.0\n0.0\n0.0\n0.0\n50.0\n0.0\n0.0\n0.0\n1.0\n2.0\n1.0\n\n\n2006-01-01 00:05:00\n0.0\n0.0\n0.0\n40.0\n0.0\n0.0\n0.0\n0.0\n0.0\n50.0\n0.0\n0.0\n0.0\n1.0\n2.0\n1.0\n\n\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n...\n\n\n2006-01-01 23:55:00\n0.0\n0.0\n0.0\n40.0\n0.0\n0.0\n0.0\n0.0\n0.0\n50.0\n0.0\n0.0\n0.0\n1.0\n2.0\n1.0\n\n\n2006-01-01 23:56:00\n0.0\n0.0\n0.0\n40.0\n0.0\n0.0\n0.0\n0.0\n0.0\n50.0\n0.0\n0.0\n0.0\n1.0\n2.0\n1.0\n\n\n2006-01-01 23:57:00\n0.0\n0.0\n0.0\n40.0\n0.0\n0.0\n0.0\n0.0\n0.0\n50.0\n0.0\n0.0\n0.0\n1.0\n2.0\n1.0\n\n\n2006-01-01 23:58:00\n0.0\n0.0\n0.0\n40.0\n0.0\n0.0\n0.0\n0.0\n0.0\n50.0\n0.0\n0.0\n0.0\n1.0\n2.0\n1.0\n\n\n2006-01-01 23:59:00\n0.0\n0.0\n0.0\n40.0\n0.0\n0.0\n0.0\n0.0\n0.0\n50.0\n0.0\n0.0\n0.0\n1.0\n2.0\n1.0\n\n\n\n\n1439 rows × 16 columns\n\n\n\n\n\npeople = [columna for columna in horario.columns if \"People\" in columna]\nelectricos = [columna for columna in horario.columns if \"(W)\" in columna]\n\npeople,electricos\n\n(['B1:Space People Occupant Count ()',\n  'B2:Space People Occupant Count ()',\n  'COCINA:Space People Occupant Count ()',\n  'R1:Space People Occupant Count ()',\n  'R2:Space People Occupant Count ()',\n  'R3:Space People Occupant Count ()'],\n ['BATH_2_LIGHT:Lights Electricity Rate (W)',\n  'BATH_LIGHT:Lights Electricity Rate (W)',\n  'COCINA_ESTUFA_EQUIPMENT:Electric Equipment Electricity Rate (W)',\n  'COCINA_REFR_EQUIPMENT:Electric Equipment Electricity Rate (W)',\n  'ESTANCIA_COCINA_LIGHT:Lights Electricity Rate (W)',\n  'ESTANCIA_TV_EQUIPMENT:Electric Equipment Electricity Rate (W)',\n  'R_1_LIGHT:Lights Electricity Rate (W)',\n  'R_2_LIGHT:Lights Electricity Rate (W)',\n  'R_3_LIGHT:Lights Electricity Rate (W)',\n  'STAND_BY_EQUIPMENT:Electric Equipment Electricity Rate (W)'])\n\n\n\nhorario[electricos].dtypes\n\nBATH_2_LIGHT:Lights Electricity Rate (W)                           float64\nBATH_LIGHT:Lights Electricity Rate (W)                             float64\nCOCINA_ESTUFA_EQUIPMENT:Electric Equipment Electricity Rate (W)    float64\nCOCINA_REFR_EQUIPMENT:Electric Equipment Electricity Rate (W)      float64\nESTANCIA_COCINA_LIGHT:Lights Electricity Rate (W)                  float64\nESTANCIA_TV_EQUIPMENT:Electric Equipment Electricity Rate (W)      float64\nR_1_LIGHT:Lights Electricity Rate (W)                              float64\nR_2_LIGHT:Lights Electricity Rate (W)                              float64\nR_3_LIGHT:Lights Electricity Rate (W)                              float64\nSTAND_BY_EQUIPMENT:Electric Equipment Electricity Rate (W)         float64\ndtype: object\n\n\n\nfig, ax = plt.subplots(figsize=(12,6))\n\nax.stackplot(horario.index,\n             horario[electricos[0]],\n             horario[electricos[1]],\n             horario[electricos[2]],\n             horario[electricos[3]],\n             horario[electricos[4]],\n             horario[electricos[5]],\n             horario[electricos[6]],\n             horario[electricos[7]],\n             horario[electricos[8]],\n             horario[electricos[9]],\n#              data[electricos[8]],\n             labels=electricos\n            )\n\n\nax.legend(loc=\"upper left\",\n#           ncols=6,\n          fontsize=6)\nax.grid()\n\n\n\n\n\n\n\n\n\nfig, ax = plt.subplots(figsize=(12,6))\n\nax.stackplot(horario.index,horario[electricos],labels=electricos)\n\nax.legend()\n\nValueError: operands could not be broadcast together with shapes (1439,) (10,) \n\n\n\n\n\n\n\n\n\n\nfig, ax = plt.subplots(figsize=(12,6))\n\nax.stackplot(horario.index,*[horario[electrico] for electrico in electricos],labels=electricos)\n\nax.legend()\nplt.show()\n\n\n\n\n\n\n\n\n\n# En las nuevas versiones de matplotlib podemos no desempacar\nfig, ax = plt.subplots(figsize=(12,6))\n\nax.stackplot(horario.index,[horario[electrico] for electrico in electricos],labels=electricos)\n\nax.legend()\n\n\n\n\n\n\n\n\n\nprint(*[columna for columna in horario.columns])\n\nBATH_2_LIGHT:Lights Electricity Rate (W) BATH_LIGHT:Lights Electricity Rate (W) COCINA_ESTUFA_EQUIPMENT:Electric Equipment Electricity Rate (W) COCINA_REFR_EQUIPMENT:Electric Equipment Electricity Rate (W) ESTANCIA_COCINA_LIGHT:Lights Electricity Rate (W) ESTANCIA_TV_EQUIPMENT:Electric Equipment Electricity Rate (W) R_1_LIGHT:Lights Electricity Rate (W) R_2_LIGHT:Lights Electricity Rate (W) R_3_LIGHT:Lights Electricity Rate (W) STAND_BY_EQUIPMENT:Electric Equipment Electricity Rate (W) B1:Space People Occupant Count () B2:Space People Occupant Count () COCINA:Space People Occupant Count () R1:Space People Occupant Count () R2:Space People Occupant Count () R3:Space People Occupant Count ()\n\n\n\nprint([columna for columna in horario.columns])\n\n['BATH_2_LIGHT:Lights Electricity Rate (W)', 'BATH_LIGHT:Lights Electricity Rate (W)', 'COCINA_ESTUFA_EQUIPMENT:Electric Equipment Electricity Rate (W)', 'COCINA_REFR_EQUIPMENT:Electric Equipment Electricity Rate (W)', 'ESTANCIA_COCINA_LIGHT:Lights Electricity Rate (W)', 'ESTANCIA_TV_EQUIPMENT:Electric Equipment Electricity Rate (W)', 'R_1_LIGHT:Lights Electricity Rate (W)', 'R_2_LIGHT:Lights Electricity Rate (W)', 'R_3_LIGHT:Lights Electricity Rate (W)', 'STAND_BY_EQUIPMENT:Electric Equipment Electricity Rate (W)', 'B1:Space People Occupant Count ()', 'B2:Space People Occupant Count ()', 'COCINA:Space People Occupant Count ()', 'R1:Space People Occupant Count ()', 'R2:Space People Occupant Count ()', 'R3:Space People Occupant Count ()']",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>10</span>  <span class='chapter-title'>Desempaca listas</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/011_lambda.html",
+    "href": "notebooks/semanaUno/011_lambda.html",
+    "title": "11  Funciones lambda",
+    "section": "",
+    "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n\n\nf = \"../../data/Temixco_2018_10Min.csv\"\ntmx = pd.read_csv(f,parse_dates=[\"time\"])\ntmx.time\n\n0       2018-01-01 00:00:00\n1       2018-01-01 00:10:00\n2       2018-01-01 00:20:00\n3       2018-01-01 00:30:00\n4       2018-01-01 00:40:00\n                ...        \n52555   2018-12-31 23:10:00\n52556   2018-12-31 23:20:00\n52557   2018-12-31 23:30:00\n52558   2018-12-31 23:40:00\n52559   2018-12-31 23:50:00\nName: time, Length: 52560, dtype: datetime64[ns]\n\n\n\ntmx[\"time\"].apply(lambda x: x.year)\n\n0        2018\n1        2018\n2        2018\n3        2018\n4        2018\n         ... \n52555    2018\n52556    2018\n52557    2018\n52558    2018\n52559    2018\nName: time, Length: 52560, dtype: int64\n\n\n\ntmx[\"year\"] = tmx[\"time\"].apply(lambda x: x.year)\ntmx.columns\n\nIndex(['time', 'Ib', 'Ig', 'To', 'RH', 'WS', 'WD', 'P', 'year'], dtype='object')\n\n\n\n%%timeit\ntmx[\"P\"].apply(lambda x: x*100)\n\n23.1 ms ± 6.48 ms per loop (mean ± std. dev. of 7 runs, 100 loops each)\n\n\n\n%%timeit\ntmx[\"P\"]*100\n\n101 μs ± 17.6 μs per loop (mean ± std. dev. of 7 runs, 1,000 loops each)\n\n\n\ntmx['mensaje'] = tmx['To'].apply(lambda x: 'confort' if 20 &lt;= x &lt;= 24 else ('calor' if x &gt; 24 else 'frío'))\n\n\ntmx.mensaje\n\n0        frío\n1        frío\n2        frío\n3        frío\n4        frío\n         ... \n52555    frío\n52556    frío\n52557    frío\n52558    frío\n52559    frío\nName: mensaje, Length: 52560, dtype: object\n\n\n\ntmx.mensaje.value_counts()\n\nmensaje\ncalor      20907\nconfort    15921\nfrío       15732\nName: count, dtype: int64",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>11</span>  <span class='chapter-title'>Funciones lambda</span>"
+    ]
+  },
+  {
+    "objectID": "notebooks/semanaUno/012_walrus.html",
+    "href": "notebooks/semanaUno/012_walrus.html",
+    "title": "12  Operador Walrus",
+    "section": "",
+    "text": "import pandas as pd\nimport matplotlib.pyplot as plt\n\n\nfunciones = [\"pd.read_csv\", \"pd.concat\", \"pd.read_excel\", \"pd.read_parquet\"]\n# Supongamos que queremos filtrar solo los que tienen más de 11 letras \nresultados = []\nfor funcion in funciones:\n    largo = len(funcion)\n    if largo &gt; 11:\n        resultados.append(funcion)\nprint(resultados)\n\n['pd.read_excel', 'pd.read_parquet']\n\n\nCon el operador walrus\n\nfunciones = [\"pd.read_csv\", \"pd.concat\", \"pd.read_excel\", \"pd.read_parquet\"]\nresultados = []\nfor funcion in funciones:\n    if (largo := len(funcion)) &gt; 11:\n        resultados.append(funcion)\nprint(resultados)\n\n['pd.read_excel', 'pd.read_parquet']\n\n\n\n\n# Calcular el valor de una función y luego usarlo para alguna condición\nvalor =16**2\nif valor &gt; 3:\n    print(f\"El valor es mayor que 3 y es {valor}\")\n\nEl valor es mayor que 3 y es 256\n\n\n\n# Calcular el valor de una función y evaluarlo en la misma expresión\nif (valor := 16**2) &gt; 3:\n    print(f\"El valor es mayor que 3 y es {valor}\")\n\nEl valor es mayor que 3 y es 256\n\n\n\nf = \"../../data/Temixco_2018_10Min.csv\"\ntmx = pd.read_csv(f,parse_dates=[\"time\"])\ntmx.time\n\n0       2018-01-01 00:00:00\n1       2018-01-01 00:10:00\n2       2018-01-01 00:20:00\n3       2018-01-01 00:30:00\n4       2018-01-01 00:40:00\n                ...        \n52555   2018-12-31 23:10:00\n52556   2018-12-31 23:20:00\n52557   2018-12-31 23:30:00\n52558   2018-12-31 23:40:00\n52559   2018-12-31 23:50:00\nName: time, Length: 52560, dtype: datetime64[ns]\n\n\n\ntmx[\"time\"].apply(lambda x: x.year)\n\n0        2018\n1        2018\n2        2018\n3        2018\n4        2018\n         ... \n52555    2018\n52556    2018\n52557    2018\n52558    2018\n52559    2018\nName: time, Length: 52560, dtype: int64\n\n\n\ntmx[\"year\"] = tmx[\"time\"].apply(lambda x: x.year)\ntmx.columns\n\nIndex(['time', 'Ib', 'Ig', 'To', 'RH', 'WS', 'WD', 'P', 'year'], dtype='object')\n\n\n\n%%timeit\ntmx[\"P\"].apply(lambda x: x*100)\n\n19 ms ± 4.57 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)\n\n\n\n%%timeit\ntmx[\"P\"]*100\n\n107 μs ± 8.46 μs per loop (mean ± std. dev. of 7 runs, 10,000 loops each)\n\n\n\ntmx['mensaje'] = tmx['To'].apply(lambda x: 'confort' if 20 &lt;= x &lt;= 24 else ('calor' if x &gt; 24 else 'frío'))\n\n\ntmx.mensaje\n\n0        frío\n1        frío\n2        frío\n3        frío\n4        frío\n         ... \n52555    frío\n52556    frío\n52557    frío\n52558    frío\n52559    frío\nName: mensaje, Length: 52560, dtype: object\n\n\n\ntmx.mensaje.value_counts()\n\nmensaje\ncalor      20907\nconfort    15921\nfrío       15732\nName: count, dtype: int64",
+    "crumbs": [
+      "Semana Uno",
+      "<span class='chapter-number'>12</span>  <span class='chapter-title'>Operador Walrus</span>"
+    ]
+  }
+]

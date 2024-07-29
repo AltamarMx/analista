@@ -1,3 +1,0 @@
-Hola, hoy vamos a recordar qué son los decoradores y cómo se pueden usar en pandas al transformar datos.
-
-Los decoradores en Python son funciones que modifican el comportamiento de otras funciones o métodos. Son útiles para añadir funcionalidad adicional sin cambiar el código original. En pandas, podemos usar decoradores para tareas como medir el tiempo de ejecución de una función, agregar columnas calculadas automáticamente, manejar excepciones y validar la estructura de los DataFrames. Estos ayudan a mantener nuestro código limpio, modular y fácil de mantener.

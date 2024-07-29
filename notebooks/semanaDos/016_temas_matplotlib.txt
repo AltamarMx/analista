@@ -1,9 +1,0 @@
-Hola, en este video vamos a explorar cómo cambiar rápidamente el estilo de nuestras gráficas en Matplotlib de Python
-
-Matplotlib tiene predefinidos una variedad de estilos que podemos aplicar a nuestras figuras para cambiar su apariencia con una sola línea de código. 
-Para usarlos, simplemente importamos Matplotlib, seleccionamos el estilo deseado  y luego continuamos con la creación de nuestro gráfico. 
-
-Matplotlib nos permite crear nuestros propios estilos utilizando archivos `.mplstyle`,  simplemente escribe las configuraciones de estilo en un archivo con terminación `.mplstyle`, y luego úsalo con `plt.style.use
-
-
-Vamos a ver esto en la libreta de Jupyter con un par de gráficas.
