@@ -1,0 +1,23 @@
+# Entornos virtuales
+Hola, hoy vamos a explorar qué son los entornos virtuales, comúnmente llamados `venv`, en Python y por qué debes usarlos en tus proyectos de ciencia de datos.
+
+Un entorno virtual en Python es un espacio aislado que permite tener versiones específicas de Python y de paquetes instalados que son independientes de las instalaciones globales. Esto significa que puedes tener diferentes proyectos con sus propias versiones de paquetes y dependencias, sin que interfieran entre sí.
+
+Bueno, en ciencia de datos, frecuentemente necesitas experimentar con diversas bibliotecas y versiones de las mismas. Usando ambientes virtuales, puedes asegurarte de que tu proyecto de análisis de datos use exactamente las versiones que necesitas y además dejar un archivo documentando las versiones que usa.
+
+Puedes crear y tener muchos entornos virtuales, solo necesitas crearlo por primera vez y para usarlo solo necesitas activar entorno virtual. 
+
+1. Activar el permiso de scripts en la terminal para poder activar el entorno virtual.
+
+
+1. Tener un ambiente virtual llamado alldays
+1. Crear ambiente virtual llamado mooc
+1. Instalar version de pandas viejita en mooc
+1. Demostrar que tengo una version viejita de pandas en mooc
+1. Actualizar mooc a partir de un requirements.txt
+
+
+PENDIENTES:
+1. Preparar venv alldays
+2. Tener a la manos un requirements.txt para actualizar mooc
+

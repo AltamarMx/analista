@@ -9,7 +9,7 @@ project:
 
   
 book:
-  title: "Python: De explorador a analista"
+  title: "Python: De explorador de datos a analista"
   # language: es
   # author: Guillermo Barrios
   # version: 0.9.1
@@ -34,6 +34,11 @@ book:
         - datos.qmd
     - part: notebooks/semanaUno/semana1.qmd
       chapters: 
+        - notebooks/semanaUno/001_instala_python.qmd
+        - notebooks/semanaUno/002_intro_powershell.qmd
+        - notebooks/semanaUno/003_venvs.qmd
+        - notebooks/semanaUno/004_espacio_trabajo_venv.qmd
+        - notebooks/semanaUno/005_desarrolla_paquetes.qmd
         - notebooks/semanaUno/006_PEP8.ipynb
         - notebooks/semanaUno/007_PiensaPOO.ipynb
         - notebooks/semanaUno/008_try_except_finally.ipynb

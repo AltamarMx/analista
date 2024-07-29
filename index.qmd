@@ -3,14 +3,23 @@
 
 
 
-Si estás buscando comenzar una aventura en el mundo de la `programación y análisis de datos`, ¡estás en el lugar correcto!. En este curso [MOOC](https://www.coursera.org/learn/pythonexplorador/home/welcome) vamos a transformarte de usuario a explorador de datos. Si ya sabes instalar Python, la sintáxis básica de Python, uso de pip y usar la libreta de Jupyter, este curso es para ti.  
+Si ya sabes Python, tienes los conocimientos básicos de Pandas y Matplotlib, estás listo para pasar al siguiente nivel en el mundo de la `programación y análisis de datos`, ¡estás en el lugar correcto!. En este curso [MOOC Python: de explorador de datos a analista](https://www.coursera.org/learn/pythonanalista/home/welcome) vamos a transformarte de explorador de datos a analista. 
 
-No te mentiremos, este camino no es fácil ni corto, hemos preparado casi **70 lecciones** y **52 libretas de Jupyter** para este viaje. 
 
-Esta página **no** es un curso, contiene el material de ejercicios del curso [MOOC Python: De usuario a explorador de datos](https://www.coursera.org/learn/pythonexplorador/home/welcome), por lo que si aún no te has inscrito, te recomendamos hacerlo.
+Hemos preparado  **4 semanas** y **ejercicios** para asegurarnos que aprendas:
+
+1. Algo
+1. Algo
+1. Algo más
+
+Esta página **no** es un curso, contiene el material de ejercicios del curso [MOOC Python: explorador de datos a analista](https://www.coursera.org/learn/pythonanalista/home/welcome), por lo que si aún no te has inscrito, te recomendamos hacerlo.
 
 ::: {.callout-note appearance="simple"}
 Si estás arrancando desde cero, te recomendamos tomes el curso [MOOC Python, de cero a usuario](https://www.coursera.org/learn/python-usuario). 
+:::
+
+::: {.callout-note appearance="simple"}
+Si ya sabes Python y quieres aprender Pandas, Matplotlib mediante el manejo de series temporales, te recomendamos tomes el curso [MOOC Python, usuario a explorador de datos](https://www.coursera.org/learn/pythonexplorador). 
 :::
 
 ## ¿Qué aprenderás?

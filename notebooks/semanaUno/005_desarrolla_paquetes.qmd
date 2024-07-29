@@ -1,0 +1,41 @@
+# Paquetes en Python
+Hola, hoy vamos a hablar sobre cómo desarrollar tus propios paquetes de Python localmente y por qué deberías considerar subirlos a GitHub.
+
+
+Desarrollar paquetes localmente te permite modularizar y reutilizar tu código. Esto no solo hace tu código más organizado, sino también más fácil de mantener. Pero, ¿qué pasa cuando quieres compartir tu trabajo con el mundo o tu equipe de trabajo?
+
+Al subir tus paquetes a GitHub, permites que cualquiera los instale fácilmente con un simple comando y la dirección del repositorio. 
+
+Vamos a ver los pasos para crear un paquete instalable desde github
+
+
+1. Crea el folder del paquete
+1. Crea otro folder adentro del paquete con el mismo nombre
+1. Agrega el archivo __init__.py 
+1. Agrega en el directorio raiz del paquete lo siguiente:
+
+from setuptools import setup, find_packages
+
+setup(
+    name='mi_paquete',
+    version='0.1.0',
+    packages=find_packages(),
+    description='Descripción breve del paquete',
+    author='Tu Nombre',
+    author_email='tu_email@example.com',
+    url='URL del repositorio de GitHub',
+    install_requires=[
+        # Lista de dependencias necesarias
+    ],
+)
+
+1. Crea un repo y pasa todo a ese repo
+1. Instala
+pip install git+https://github.com/tu_usuario/mi_paquete.git
+
+1. También puedes instalar desde una rama
+pip install git+https://github.com/tu_usuario/mi_paquete.git@tu_rama
+
+1. Recomendación de usar un template de cookiecutter cuando avance mucho.
+
+

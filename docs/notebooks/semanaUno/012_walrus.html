@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Python: De explorador de datos a analista - 6&nbsp; PEP8</title>
+<title>Python: De explorador de datos a analista - 12&nbsp; Operador Walrus</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,8 +64,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../notebooks/semanaUno/007_PiensaPOO.html" rel="next">
-<link href="../../notebooks/semanaUno/005_desarrolla_paquetes.html" rel="prev">
+<link href="../../notebooks/semanaUno/011_lambda.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -131,7 +130,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/semana1.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/006_PEP8.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">PEP8</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/semana1.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/012_walrus.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Operador Walrus</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -218,7 +217,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notebooks/semanaUno/006_PEP8.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../notebooks/semanaUno/006_PEP8.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">PEP8</span></span></a>
   </div>
 </li>
@@ -254,7 +253,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notebooks/semanaUno/012_walrus.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notebooks/semanaUno/012_walrus.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Operador Walrus</span></span></a>
   </div>
 </li>
@@ -266,25 +265,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">Tabla de contenidos</h2>
-   
-  <ul>
-  <li><a href="#uso-de-nombres-adecuados" id="toc-uso-de-nombres-adecuados" class="nav-link active" data-scroll-target="#uso-de-nombres-adecuados"><span class="header-section-number">6.1</span> Uso de nombres adecuados</a></li>
-  <li><a href="#uso-adecuado-de-espacios-en-las-declaraciones" id="toc-uso-adecuado-de-espacios-en-las-declaraciones" class="nav-link" data-scroll-target="#uso-adecuado-de-espacios-en-las-declaraciones"><span class="header-section-number">6.2</span> Uso adecuado de espacios en las declaraciones</a></li>
-  <li><a href="#evita-espacios-en-listas-diccionarios" id="toc-evita-espacios-en-listas-diccionarios" class="nav-link" data-scroll-target="#evita-espacios-en-listas-diccionarios"><span class="header-section-number">6.3</span> Evita espacios en listas, diccionarios</a></li>
-  <li><a href="#importa-paquetes-siempre-al-inicio-del-archivo" id="toc-importa-paquetes-siempre-al-inicio-del-archivo" class="nav-link" data-scroll-target="#importa-paquetes-siempre-al-inicio-del-archivo"><span class="header-section-number">6.4</span> Importa paquetes siempre al inicio del archivo</a></li>
-  <li><a href="#comparación-is-o-is-not" id="toc-comparación-is-o-is-not" class="nav-link" data-scroll-target="#comparación-is-o-is-not"><span class="header-section-number">6.5</span> Comparación <code>is</code> o <code>is not</code></a></li>
-  <li><a href="#documenta-tus-funciones" id="toc-documenta-tus-funciones" class="nav-link" data-scroll-target="#documenta-tus-funciones"><span class="header-section-number">6.6</span> Documenta tus funciones</a></li>
-  </ul>
-</nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/semana1.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/006_PEP8.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">PEP8</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/semana1.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/012_walrus.html"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Operador Walrus</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">PEP8</span></h1>
+<h1 class="title"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Operador Walrus</span></h1>
 </div>
 
 
@@ -301,59 +289,142 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="uso-de-nombres-adecuados" class="level2" data-number="6.1">
-<h2 data-number="6.1" class="anchored" data-anchor-id="uso-de-nombres-adecuados"><span class="header-section-number">6.1</span> Uso de nombres adecuados</h2>
-<div id="4d3e1c51-a375-4136-99d7-0ef1e9d45d69" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># MAL</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>c <span class="op">=</span> <span class="st">"Temixco"</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co">#BIEN</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>ciudad <span class="op">=</span> <span class="st">"Temixco"</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="7616bf6f-1a56-4176-96eb-732a47335432" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
-<section id="uso-adecuado-de-espacios-en-las-declaraciones" class="level2" data-number="6.2">
-<h2 data-number="6.2" class="anchored" data-anchor-id="uso-adecuado-de-espacios-en-las-declaraciones"><span class="header-section-number">6.2</span> Uso adecuado de espacios en las declaraciones</h2>
-<div id="1261e805-1c95-4e49-be75-3adf1894147c" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># MAL</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>funcion(argumento<span class="op">=</span>valor)</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co">#BIEN</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>funcion(argumento <span class="op">=</span> valor)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-error">
-<pre><code>NameError: name 'funcion' is not defined</code></pre>
+<div id="e5fa25f1-a187-430f-b30d-17b5f53eacea" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>funciones <span class="op">=</span> [<span class="st">"pd.read_csv"</span>, <span class="st">"pd.concat"</span>, <span class="st">"pd.read_excel"</span>, <span class="st">"pd.read_parquet"</span>]</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Supongamos que queremos filtrar solo los que tienen más de 11 letras </span></span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>resultados <span class="op">=</span> []</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> funcion <span class="kw">in</span> funciones:</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    largo <span class="op">=</span> <span class="bu">len</span>(funcion)</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> largo <span class="op">&gt;</span> <span class="dv">11</span>:</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>        resultados.append(funcion)</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(resultados)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>['pd.read_excel', 'pd.read_parquet']</code></pre>
 </div>
 </div>
-</section>
-<section id="evita-espacios-en-listas-diccionarios" class="level2" data-number="6.3">
-<h2 data-number="6.3" class="anchored" data-anchor-id="evita-espacios-en-listas-diccionarios"><span class="header-section-number">6.3</span> Evita espacios en listas, diccionarios</h2>
-<div id="a34861f7-138d-4f55-9bf7-c821cad5cc99" class="cell">
-<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co">#MAL</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>lista <span class="op">=</span> [ <span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span> ]</span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co">#BIEN</span></span>
-<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>lista <span class="op">=</span> [<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>]</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Con el operador walrus</p>
+<div id="c16f953b-6740-4c28-85fe-9806a2b32d33" class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>funciones <span class="op">=</span> [<span class="st">"pd.read_csv"</span>, <span class="st">"pd.concat"</span>, <span class="st">"pd.read_excel"</span>, <span class="st">"pd.read_parquet"</span>]</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>resultados <span class="op">=</span> []</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> funcion <span class="kw">in</span> funciones:</span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> (largo <span class="op">:=</span> <span class="bu">len</span>(funcion)) <span class="op">&gt;</span> <span class="dv">11</span>:</span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>        resultados.append(funcion)</span>
+<span id="cb4-6"><a href="#cb4-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(resultados)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>['pd.read_excel', 'pd.read_parquet']</code></pre>
 </div>
-</section>
-<section id="importa-paquetes-siempre-al-inicio-del-archivo" class="level2" data-number="6.4">
-<h2 data-number="6.4" class="anchored" data-anchor-id="importa-paquetes-siempre-al-inicio-del-archivo"><span class="header-section-number">6.4</span> Importa paquetes siempre al inicio del archivo</h2>
-</section>
-<section id="comparación-is-o-is-not" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="comparación-is-o-is-not"><span class="header-section-number">6.5</span> Comparación <code>is</code> o <code>is not</code></h2>
-<div id="295c27e6-1382-4ca3-98fc-e2d67f93f3a5" class="cell">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co">#MAL</span></span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> variable <span class="op">==</span> <span class="va">None</span>:</span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a><span class="co">#BIEN</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> variable <span class="kw">is</span> <span class="va">None</span>:</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-</section>
-<section id="documenta-tus-funciones" class="level2" data-number="6.6">
-<h2 data-number="6.6" class="anchored" data-anchor-id="documenta-tus-funciones"><span class="header-section-number">6.6</span> Documenta tus funciones</h2>
-<div id="050dba67-55e0-459b-9ba2-642d90d12667" class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> suma(a, b):</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Suma dos números y devuelve el resultado."""</span></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> a <span class="op">+</span> b</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="a1020ae7-6b1d-42dd-947c-64d4906b2b52" class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular el valor de una función y luego usarlo para alguna condición</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>valor <span class="op">=</span><span class="dv">16</span><span class="op">**</span><span class="dv">2</span></span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> valor <span class="op">&gt;</span> <span class="dv">3</span>:</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"El valor es mayor que 3 y es </span><span class="sc">{</span>valor<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>El valor es mayor que 3 y es 256</code></pre>
+</div>
+</div>
+<div id="90d0ca3c-34f7-445d-b163-91e454998b11" class="cell" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Calcular el valor de una función y evaluarlo en la misma expresión</span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="cf">if</span> (valor <span class="op">:=</span> <span class="dv">16</span><span class="op">**</span><span class="dv">2</span>) <span class="op">&gt;</span> <span class="dv">3</span>:</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"El valor es mayor que 3 y es </span><span class="sc">{</span>valor<span class="sc">}</span><span class="ss">"</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>El valor es mayor que 3 y es 256</code></pre>
+</div>
+</div>
+<div id="80de3e9d-b746-4b74-a113-6ea45c2ade55" class="cell" data-execution_count="6">
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="st">"../../data/Temixco_2018_10Min.csv"</span></span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>tmx <span class="op">=</span> pd.read_csv(f,parse_dates<span class="op">=</span>[<span class="st">"time"</span>])</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>tmx.time</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="6">
+<pre><code>0       2018-01-01 00:00:00
+1       2018-01-01 00:10:00
+2       2018-01-01 00:20:00
+3       2018-01-01 00:30:00
+4       2018-01-01 00:40:00
+                ...        
+52555   2018-12-31 23:10:00
+52556   2018-12-31 23:20:00
+52557   2018-12-31 23:30:00
+52558   2018-12-31 23:40:00
+52559   2018-12-31 23:50:00
+Name: time, Length: 52560, dtype: datetime64[ns]</code></pre>
+</div>
+</div>
+<div id="7e1d3fee-8362-444e-b57d-bd6732769340" class="cell" data-scrolled="true" data-execution_count="7">
+<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>tmx[<span class="st">"time"</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x.year)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="7">
+<pre><code>0        2018
+1        2018
+2        2018
+3        2018
+4        2018
+         ... 
+52555    2018
+52556    2018
+52557    2018
+52558    2018
+52559    2018
+Name: time, Length: 52560, dtype: int64</code></pre>
+</div>
+</div>
+<div id="d72101d2-6088-4090-9aa1-83012131f17f" class="cell" data-execution_count="8">
+<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>tmx[<span class="st">"year"</span>] <span class="op">=</span> tmx[<span class="st">"time"</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x.year)</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>tmx.columns</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="8">
+<pre><code>Index(['time', 'Ib', 'Ig', 'To', 'RH', 'WS', 'WD', 'P', 'year'], dtype='object')</code></pre>
+</div>
+</div>
+<div id="480551be-1c9c-44af-9781-a90438edab25" class="cell" data-execution_count="9">
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>timeit</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a>tmx[<span class="st">"P"</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: x<span class="op">*</span><span class="dv">100</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>19 ms ± 4.57 ms per loop (mean ± std. dev. of 7 runs, 10 loops each)</code></pre>
+</div>
+</div>
+<div id="f173b47d-b426-4bf9-9a8c-0b283b7cbdfd" class="cell" data-execution_count="10">
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="op">%%</span>timeit</span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>tmx[<span class="st">"P"</span>]<span class="op">*</span><span class="dv">100</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>107 μs ± 8.46 μs per loop (mean ± std. dev. of 7 runs, 10,000 loops each)</code></pre>
+</div>
+</div>
+<div id="6402c93b-5c93-47c4-b37e-ab07cc4098c6" class="cell" data-execution_count="11">
+<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>tmx[<span class="st">'mensaje'</span>] <span class="op">=</span> tmx[<span class="st">'To'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="st">'confort'</span> <span class="cf">if</span> <span class="dv">20</span> <span class="op">&lt;=</span> x <span class="op">&lt;=</span> <span class="dv">24</span> <span class="cf">else</span> (<span class="st">'calor'</span> <span class="cf">if</span> x <span class="op">&gt;</span> <span class="dv">24</span> <span class="cf">else</span> <span class="st">'frío'</span>))</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+<div id="d74e70ab-047c-4bec-a59f-1db1777dd203" class="cell" data-execution_count="12">
+<div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a>tmx.mensaje</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="12">
+<pre><code>0        frío
+1        frío
+2        frío
+3        frío
+4        frío
+         ... 
+52555    frío
+52556    frío
+52557    frío
+52558    frío
+52559    frío
+Name: mensaje, Length: 52560, dtype: object</code></pre>
+</div>
+</div>
+<div id="9569cb1a-65b1-4d39-8e13-f98fdffcd74d" class="cell" data-scrolled="true" data-execution_count="13">
+<div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>tmx.mensaje.value_counts()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="13">
+<pre><code>mensaje
+calor      20907
+confort    15921
+frío       15732
+Name: count, dtype: int64</code></pre>
+</div>
 </div>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -911,14 +982,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../notebooks/semanaUno/005_desarrolla_paquetes.html" class="pagination-link" aria-label="Paquetes en Python">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Paquetes en Python</span></span>
+      <a href="../../notebooks/semanaUno/011_lambda.html" class="pagination-link" aria-label="Funciones lambda">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Funciones lambda</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../notebooks/semanaUno/007_PiensaPOO.html" class="pagination-link" aria-label="Piensa POO">
-        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Piensa POO</span></span> <i class="bi bi-arrow-right-short"></i>
-      </a>
   </div>
 </nav>
 </div> <!-- /content -->

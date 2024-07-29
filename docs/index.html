@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.4.553">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Python: De explorador a analista</title>
+<title>Python: De explorador de datos a analista</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Python: De explorador a analista</span>
+    <span class="navbar-title">Python: De explorador de datos a analista</span>
     </a>
   </div>
         <div class="quarto-navbar-tools tools-end">
@@ -153,14 +153,74 @@ ul.task-list li input[type="checkbox"] {
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
+  <a href="./notebooks/semanaUno/001_instala_python.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Instala Python</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notebooks/semanaUno/002_intro_powershell.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Powershell</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notebooks/semanaUno/003_venvs.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Entornos virtuales</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notebooks/semanaUno/004_espacio_trabajo_venv.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Espacio de trabajo</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notebooks/semanaUno/005_desarrolla_paquetes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Paquetes en Python</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
   <a href="./notebooks/semanaUno/006_PEP8.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Uso de nombres adecuados</span></span></a>
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">PEP8</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="./notebooks/semanaUno/007_PiensaPOO.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">https://github.com/AltamarMx/iertools/blob/main/iertools/read.py</span></span></a>
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Piensa POO</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notebooks/semanaUno/008_try_except_finally.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">008_try_except_finally.html</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notebooks/semanaUno/009_decoradores.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Decoradores</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notebooks/semanaUno/010_unpack.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Desempaca listas</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notebooks/semanaUno/011_lambda.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Funciones lambda</span></span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./notebooks/semanaUno/012_walrus.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Operador Walrus</span></span></a>
   </div>
 </li>
       </ul>
@@ -187,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Python: De explorador a analista</h1>
+<h1 class="title">Python: De explorador de datos a analista</h1>
 </div>
 
 
@@ -206,9 +266,14 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="bienvenida" class="level1 unnumbered">
 <h1 class="unnumbered">Bienvenida</h1>
-<p>Si estás buscando comenzar una aventura en el mundo de la <code>programación y análisis de datos</code>, ¡estás en el lugar correcto!. En este curso <a href="https://www.coursera.org/learn/pythonexplorador/home/welcome">MOOC</a> vamos a transformarte de usuario a explorador de datos. Si ya sabes instalar Python, la sintáxis básica de Python, uso de pip y usar la libreta de Jupyter, este curso es para ti.</p>
-<p>No te mentiremos, este camino no es fácil ni corto, hemos preparado casi <strong>70 lecciones</strong> y <strong>52 libretas de Jupyter</strong> para este viaje.</p>
-<p>Esta página <strong>no</strong> es un curso, contiene el material de ejercicios del curso <a href="https://www.coursera.org/learn/pythonexplorador/home/welcome">MOOC Python: De usuario a explorador de datos</a>, por lo que si aún no te has inscrito, te recomendamos hacerlo.</p>
+<p>Si ya sabes Python, tienes los conocimientos básicos de Pandas y Matplotlib, estás listo para pasar al siguiente nivel en el mundo de la <code>programación y análisis de datos</code>, ¡estás en el lugar correcto!. En este curso <a href="https://www.coursera.org/learn/pythonanalista/home/welcome">MOOC Python: de explorador de datos a analista</a> vamos a transformarte de explorador de datos a analista.</p>
+<p>Hemos preparado <strong>4 semanas</strong> y <strong>ejercicios</strong> para asegurarnos que aprendas:</p>
+<ol type="1">
+<li>Algo</li>
+<li>Algo</li>
+<li>Algo más</li>
+</ol>
+<p>Esta página <strong>no</strong> es un curso, contiene el material de ejercicios del curso <a href="https://www.coursera.org/learn/pythonanalista/home/welcome">MOOC Python: explorador de datos a analista</a>, por lo que si aún no te has inscrito, te recomendamos hacerlo.</p>
 <div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -216,6 +281,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <div class="callout-body-container">
 <p>Si estás arrancando desde cero, te recomendamos tomes el curso <a href="https://www.coursera.org/learn/python-usuario">MOOC Python, de cero a usuario</a>.</p>
+</div>
+</div>
+</div>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Si ya sabes Python y quieres aprender Pandas, Matplotlib mediante el manejo de series temporales, te recomendamos tomes el curso <a href="https://www.coursera.org/learn/pythonexplorador">MOOC Python, usuario a explorador de datos</a>.</p>
 </div>
 </div>
 </div>

@@ -1,0 +1,22 @@
+# Powershell
+Hola, hoy vamos a ver qué es PowerShell y algunas de las cosas que puede hacer y que estamos usando en este curso.
+
+PowerShell es una interfaz de línea de comandos y lenguaje de scripting desarrollado por Microsoft. Está diseñado principalmente para la administración del sistema y la automatización de tareas repetitivas, por lo que se destaca por su interfaz en modo texto.
+
+Una de las funciones básicas de PowerShell es ejecutar programas, desde abrir el explorador de archivos hasta  lanzar jupyter notebook o iniciar  scripts complejos de automatización. También puedes usar PowerShell para copiar o mover archivos y directorios, siendo una gran herramienta para la gestión de tus proyectos de datos.
+
+
+Si trabajas con Python, te interesará saber que puedes ejecutar Jupyter Notebook directamente desde PowerShell, puedes iniciar tus notebooks con un comando en PowerShell, haciendo más  sencillo tu flujo de trabajo.
+
+
+Además, si tienes Git instalado, PowerShell se integra con Git, lo que  te permite ejecutar todos tus comandos de Git desde la misma ventana de PowerShell.
+
+Vamos a ver como usamos PowerShell para navegar por nuestra computadora y lanzar tu libreta de Jupyter.
+
+
+1. Lanzar PowerShell
+1. Contar por qué nos conviene poner los proyectos o repos en el home
+1. Acceder a un repo/espacio de trabajo
+1. Abrir ii . explorador de archivos y mover un archivo
+1. Lanzar jupyter notebook para que vea todos los folders del espacio de trabajo
+
