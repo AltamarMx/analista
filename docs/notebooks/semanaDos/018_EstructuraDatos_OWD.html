@@ -290,7 +290,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notebooks/semanaDos/016_TemasMatplotlib.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Instala fuentes xkcd y reinicia windows</span></span></a>
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Temas en Matplotlib</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -386,11 +386,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="b848d3c8-59e1-4467-b7b2-2558fd94a0ed" class="cell" data-execution_count="2">
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="st">"../../data/owid-co2-data.csv"</span></span>
+<div id="b848d3c8-59e1-4467-b7b2-2558fd94a0ed" class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="st">"../data/owid-co2-data.csv"</span></span>
 <span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>co2 <span class="op">=</span> pd.read_csv(f)</span>
 <span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>co2.columns</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="2">
+<div class="cell-output cell-output-display" data-execution_count="3">
 <pre><code>Index(['country', 'year', 'iso_code', 'population', 'gdp', 'cement_co2',
        'cement_co2_per_capita', 'co2', 'co2_growth_abs', 'co2_growth_prct',
        'co2_including_luc', 'co2_including_luc_growth_abs',
@@ -426,9 +426,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       dtype='object')</code></pre>
 </div>
 </div>
-<div id="56c87339-7c7d-48f0-b5e4-d905919f188b" class="cell" data-execution_count="3">
+<div id="56c87339-7c7d-48f0-b5e4-d905919f188b" class="cell" data-execution_count="4">
 <div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>co2.country.unique()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="3">
+<div class="cell-output cell-output-display" data-execution_count="4">
 <pre><code>array(['Afghanistan', 'Africa', 'Africa (GCP)', 'Albania', 'Algeria',
        'Andorra', 'Angola', 'Anguilla', 'Antarctica',
        'Antigua and Barbuda', 'Argentina', 'Armenia', 'Aruba', 'Asia',
@@ -495,11 +495,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       dtype=object)</code></pre>
 </div>
 </div>
-<div id="c635c4dc-a976-494e-8b23-c6c1a2d746d5" class="cell" data-execution_count="4">
+<div id="c635c4dc-a976-494e-8b23-c6c1a2d746d5" class="cell" data-execution_count="5">
 <div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>irlanda <span class="op">=</span> co2.loc[co2[<span class="st">"country"</span>] <span class="op">==</span> <span class="st">"Ireland"</span>][[<span class="st">"year"</span>,<span class="st">"co2"</span>,<span class="st">"co2_per_capita"</span>,<span class="st">"population"</span>]]</span>
 <span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>mexico <span class="op">=</span> co2.loc[co2[<span class="st">"country"</span>] <span class="op">==</span> <span class="st">"Mexico"</span>][[<span class="st">"year"</span>,<span class="st">"co2"</span>,<span class="st">"co2_per_capita"</span>,<span class="st">"population"</span>]]</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="2b3e8d74-0b4d-4d52-80c2-9033f9cfb167" class="cell" data-execution_count="5">
+<div id="2b3e8d74-0b4d-4d52-80c2-9033f9cfb167" class="cell" data-execution_count="6">
 <div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">4</span>))</span>
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>ax.plot(irlanda.year,irlanda.co2,label<span class="op">=</span><span class="st">"Irlanda"</span>)</span>
@@ -515,7 +515,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </div>
 </div>
 </div>
-<div id="a5d75c84-8a38-4158-9727-e7be0ed07cc2" class="cell" data-execution_count="6">
+<div id="a5d75c84-8a38-4158-9727-e7be0ed07cc2" class="cell" data-execution_count="7">
 <div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">4</span>))</span>
 <span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a></span>
 <span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>ax.plot(irlanda.year,irlanda.co2_per_capita,label<span class="op">=</span><span class="st">"Irlanda"</span>)</span>
