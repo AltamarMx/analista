@@ -1,5 +1,0 @@
-Hola, en este video vamos a transformar una funcion para visualizar datos en Python usando un decorador. Este decorador en particular, `agrega_promedio_std`, toma una función existente que grafica una columna de datos y le agrega más información estadística.
-
-El decorador calcula el promedio más y menos la desviación estándar diarios de la columna deseada. Luego, visualiza estas estadísticas como un área sombreada alrededor de la línea principal del gráfico para ofrecer una vista clara de la variabilidad diaria.
-
-Vamos a la libreta de Jupyter para ver como se hace esto.

@@ -46,19 +46,21 @@ book:
         - notebooks/semanaUno/010_unpack.ipynb
         - notebooks/semanaUno/011_lambda.ipynb
         - notebooks/semanaUno/012_walrus.ipynb
-    # - part: notebooks/semanaDos/semana2.qmd
-    #   chapters: 
-    #     - notebooks/semanaDos/IntroMatplotlib.ipynb
-    #     - notebooks/semanaDos/Anatomy_of_a_figure.ipynb
-    #     - notebooks/semanaDos/fig_ax.ipynb
-    #     - notebooks/semanaDos/Tipos_graficos.ipynb
-    #     - notebooks/semanaDos/graficas_individuales.ipynb
-    #     - notebooks/semanaDos/mi_primera_figura.ipynb
-    #     - notebooks/semanaDos/personaliza_figura.ipynb
-    #     - notebooks/semanaDos/multiples_graficas.ipynb
-    #     - notebooks/semanaDos/gridspec.ipynb
-    #     - notebooks/semanaDos/graficas_interactivas.ipynb
-    #     - notebooks/semanaDos/prepara_figura.ipynb
+    - part: notebooks/semanaDos/semana2.qmd 
+      chapters: 
+        - notebooks/semanaDos/013_IntroMatplotlib.ipynb
+        - notebooks/semanaDos/014_POOMatplotlib.ipynb
+        - notebooks/semanaDos/015_DecoradoresMatplotlib.ipynb
+        - notebooks/semanaDos/016_TemasMatplotlib.ipynb
+        - notebooks/semanaDos/017_InteractivasMatplotlib.ipynb
+        - notebooks/semanaDos/018_EstructuraDatos_OWD.ipynb
+        - notebooks/semanaDos/019_Intro_Plotly.ipynb
+        - notebooks/semanaDos/020_Intro_Bokeh.ipynb
+        - notebooks/semanaDos/021_Intro_Altair.ipynb
+        - notebooks/semanaDos/022a_Matplotlib.ipynb
+        - notebooks/semanaDos/022b_Plotly.ipynb
+        - notebooks/semanaDos/022c_Bokeh.ipynb
+        - notebooks/semanaDos/022d_Altair.ipynb
     # - part: notebooks/semanaTres/semana3.qmd
     #   chapters: 
     #     - notebooks/semanaTres/Instala_Numpy_array.ipynb

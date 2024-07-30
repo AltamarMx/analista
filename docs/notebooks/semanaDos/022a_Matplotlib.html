@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Python: De explorador de datos a analista - 9&nbsp; Decoradores</title>
+<title>Python: De explorador de datos a analista - 22&nbsp; Figura rápida con Matplotlib</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -64,8 +64,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../notebooks/semanaUno/010_unpack.html" rel="next">
-<link href="../../notebooks/semanaUno/008_try_except_finally.html" rel="prev">
+<link href="../../notebooks/semanaDos/022b_Plotly.html" rel="next">
+<link href="../../notebooks/semanaDos/021_Intro_Altair.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -134,7 +134,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/semana1.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/009_decoradores.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Decoradores</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaDos/semana2.html">Semana Dos</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaDos/022a_Matplotlib.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Figura rápida con Matplotlib</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -184,11 +184,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="sidebar-item-container"> 
             <a href="../../notebooks/semanaUno/semana1.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Semana Uno</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notebooks/semanaUno/001_instala_python.html" class="sidebar-item-text sidebar-link">
@@ -239,7 +239,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notebooks/semanaUno/009_decoradores.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../notebooks/semanaUno/009_decoradores.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Decoradores</span></span></a>
   </div>
 </li>
@@ -267,11 +267,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="sidebar-item-container"> 
             <a href="../../notebooks/semanaDos/semana2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Semana Dos</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notebooks/semanaDos/013_IntroMatplotlib.html" class="sidebar-item-text sidebar-link">
@@ -328,7 +328,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notebooks/semanaDos/022a_Matplotlib.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notebooks/semanaDos/022a_Matplotlib.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Figura rápida con Matplotlib</span></span></a>
   </div>
 </li>
@@ -363,9 +363,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/semana1.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/009_decoradores.html"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Decoradores</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaDos/semana2.html">Semana Dos</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaDos/022a_Matplotlib.html"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Figura rápida con Matplotlib</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Decoradores</span></h1>
+<h1 class="title"><span class="chapter-number">22</span>&nbsp; <span class="chapter-title">Figura rápida con Matplotlib</span></h1>
 </div>
 
 
@@ -382,64 +382,87 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<div id="5d7b27e0-f11e-4aab-ba66-01a62a1e35d6" class="cell" data-execution_count="1">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<p>Como han contribuido a lo largo del tiempo los 4 paises que más emiten en el 2022 respecto a las emisiones totales e incluir a México</p>
+<div id="5442e4d7-1fcb-4e8b-bd2e-45d938ae1557" class="cell" data-execution_count="1">
+<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div class="sourceCode" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> funcion_decorador(funcion_original):</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> wrapper(<span class="op">*</span>args, <span class="op">**</span>kargs):</span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>        <span class="co"># antes de la funcion</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>        resultado <span class="op">=</span> funcion_original(<span class="op">*</span>args, <span class="op">**</span>kargs)</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>        <span class="co"># despu'es de la funci'on</span></span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> resultado</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> wrapper</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div id="95124b2a-ce96-40dd-9335-08e79c014c28" class="cell" data-execution_count="13">
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> imprimir_antes_despues(func):</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> wrapper(<span class="op">*</span>args, <span class="op">**</span>kwargs):</span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"Antes de la función."</span>)</span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        resultado <span class="op">=</span> func(<span class="op">*</span>args, <span class="op">**</span>kwargs)  <span class="co"># Ejecuta la función original</span></span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"Después de la función."</span>)</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> resultado</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> wrapper</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="at">@imprimir_antes_despues</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> hola_mundo(palabra):</span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>    <span class="bu">print</span>(<span class="ss">f"Hola mundo </span><span class="sc">{</span>palabra<span class="sc">}</span><span class="ss">"</span>)</span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>hola_mundo(<span class="st">'cruel'</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>Antes de la función.
-Hola mundo cruel
-Después de la función.</code></pre>
+<div id="b2d577dc-480c-40fc-b926-9ce43b27bd59" class="cell" data-execution_count="2">
+<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>f <span class="op">=</span> <span class="st">"../../data/owid-co2-data.csv"</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>co2 <span class="op">=</span> pd.read_csv(f)</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>co2.columns</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="2">
+<pre><code>Index(['country', 'year', 'iso_code', 'population', 'gdp', 'cement_co2',
+       'cement_co2_per_capita', 'co2', 'co2_growth_abs', 'co2_growth_prct',
+       'co2_including_luc', 'co2_including_luc_growth_abs',
+       'co2_including_luc_growth_prct', 'co2_including_luc_per_capita',
+       'co2_including_luc_per_gdp', 'co2_including_luc_per_unit_energy',
+       'co2_per_capita', 'co2_per_gdp', 'co2_per_unit_energy', 'coal_co2',
+       'coal_co2_per_capita', 'consumption_co2', 'consumption_co2_per_capita',
+       'consumption_co2_per_gdp', 'cumulative_cement_co2', 'cumulative_co2',
+       'cumulative_co2_including_luc', 'cumulative_coal_co2',
+       'cumulative_flaring_co2', 'cumulative_gas_co2', 'cumulative_luc_co2',
+       'cumulative_oil_co2', 'cumulative_other_co2', 'energy_per_capita',
+       'energy_per_gdp', 'flaring_co2', 'flaring_co2_per_capita', 'gas_co2',
+       'gas_co2_per_capita', 'ghg_excluding_lucf_per_capita', 'ghg_per_capita',
+       'land_use_change_co2', 'land_use_change_co2_per_capita', 'methane',
+       'methane_per_capita', 'nitrous_oxide', 'nitrous_oxide_per_capita',
+       'oil_co2', 'oil_co2_per_capita', 'other_co2_per_capita',
+       'other_industry_co2', 'primary_energy_consumption',
+       'share_global_cement_co2', 'share_global_co2',
+       'share_global_co2_including_luc', 'share_global_coal_co2',
+       'share_global_cumulative_cement_co2', 'share_global_cumulative_co2',
+       'share_global_cumulative_co2_including_luc',
+       'share_global_cumulative_coal_co2',
+       'share_global_cumulative_flaring_co2',
+       'share_global_cumulative_gas_co2', 'share_global_cumulative_luc_co2',
+       'share_global_cumulative_oil_co2', 'share_global_cumulative_other_co2',
+       'share_global_flaring_co2', 'share_global_gas_co2',
+       'share_global_luc_co2', 'share_global_oil_co2',
+       'share_global_other_co2', 'share_of_temperature_change_from_ghg',
+       'temperature_change_from_ch4', 'temperature_change_from_co2',
+       'temperature_change_from_ghg', 'temperature_change_from_n2o',
+       'total_ghg', 'total_ghg_excluding_lucf', 'trade_co2',
+       'trade_co2_share'],
+      dtype='object')</code></pre>
 </div>
 </div>
-<div id="481d1043-cb60-4ee2-b1af-813e13b20bfb" class="cell" data-execution_count="3">
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> agregar_promedio_diario_to(func):</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Decorador que agrega una columna de promedio diario para la columna 'To'."""</span></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> wrapper(file_path):</span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Llama a la función original para obtener el DataFrame</span></span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>        df <span class="op">=</span> func(file_path)</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>        df[<span class="st">'To_daily_mean'</span>] <span class="op">=</span> df[<span class="st">'To'</span>].resample(<span class="st">'D'</span>).mean()</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> df</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> wrapper</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="de2972b1-61b2-4262-8dc1-139d9a5e9186" class="cell" data-execution_count="3">
+<div class="sourceCode cell-code" id="cb4"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>mascara <span class="op">=</span> (co2[<span class="st">'year'</span>] <span class="op">==</span> <span class="dv">2022</span>) <span class="op">&amp;</span> (co2[<span class="st">'iso_code'</span>].<span class="bu">apply</span>(<span class="kw">lambda</span> x: <span class="bu">isinstance</span>(x, <span class="bu">str</span>) <span class="kw">and</span> <span class="bu">len</span>(x) <span class="op">==</span> <span class="dv">3</span>))</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>co2_2022 <span class="op">=</span> co2[mascara]</span>
+<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb4-4"><a href="#cb4-4" aria-hidden="true" tabindex="-1"></a><span class="co"># # Calculate total CO2 emissions for each country in 2022</span></span>
+<span id="cb4-5"><a href="#cb4-5" aria-hidden="true" tabindex="-1"></a>co2_2022.groupby(<span class="st">'country'</span>)[<span class="st">'co2'</span>].<span class="bu">sum</span>().sort_values(ascending<span class="op">=</span><span class="va">False</span>).head(<span class="dv">10</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="3">
+<pre><code>country
+China            11396.777
+United States     5057.304
+India             2829.644
+Russia            1652.177
+Japan             1053.798
+Indonesia          728.883
+Iran               690.635
+Germany            665.605
+Saudi Arabia       662.549
+South Korea        600.999
+Name: co2, dtype: float64</code></pre>
 </div>
-<div id="0e011ef6-34e3-49b3-8c1c-d81514266951" class="cell" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># @agregar_promedio_diario_to</span></span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> importa_clima(file_path):</span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">"""Importa un archivo CSV y pone la columna 0 como índice, regresa un dataframe vacio si la ruta es incorrecta"""</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>    <span class="cf">try</span>:</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>        df <span class="op">=</span> pd.read_csv(file_path,index_col<span class="op">=</span><span class="dv">0</span>,parse_dates<span class="op">=</span><span class="va">True</span>)    </span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">except</span>:</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">"El archivo o ruta es incorrecto"</span>)</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(file_path)</span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>        df <span class="op">=</span> <span class="va">None</span></span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>    <span class="cf">finally</span>:</span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> df</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<div id="b21cad45-96fa-4cf3-9bf8-30bb5c991438" class="cell" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>tmx <span class="op">=</span> importa_clima(<span class="st">"../../data/Temixco_2018_10Min.csv"</span>)</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>tmx</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-display" data-execution_count="17">
+<div id="12bb5829-bedc-404f-a933-472fa7381e7a" class="cell" data-execution_count="4">
+<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Asumiendo que 'co2' es el DataFrame original con los datos de emisiones</span></span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Filtrar los datos para incluir solo los cinco "países" de interés</span></span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>paises_interes <span class="op">=</span> [<span class="st">'China'</span>, <span class="st">'United States'</span>, <span class="st">'India'</span>, <span class="st">'Russia'</span>, <span class="st">'Mexico'</span>, <span class="st">'World'</span>]</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a>paises_co2 <span class="op">=</span> co2[co2[<span class="st">'country'</span>].isin(paises_interes)]</span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a><span class="co"># Asegurarse de que los datos están ordenados por país y año</span></span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>paises_co2_sorted <span class="op">=</span> paises_co2.sort_values(by<span class="op">=</span>[<span class="st">'country'</span>, <span class="st">'year'</span>])</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear una pivot table para organizar los datos adecuadamente para el gráfico</span></span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>data_pivot <span class="op">=</span> paises_co2_sorted.pivot(index<span class="op">=</span><span class="st">'year'</span>, columns<span class="op">=</span><span class="st">'country'</span>, values<span class="op">=</span><span class="st">'co2'</span>)</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="co"># Verificando la estructura de los datos organizados</span></span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>data_pivot.head()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-display" data-execution_count="4">
 <div>
 <div>
 
@@ -447,18 +470,16 @@ Después de la función.</code></pre>
 <table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
-<th data-quarto-table-cell-role="th"></th>
-<th data-quarto-table-cell-role="th">Ib</th>
-<th data-quarto-table-cell-role="th">Ig</th>
-<th data-quarto-table-cell-role="th">To</th>
-<th data-quarto-table-cell-role="th">RH</th>
-<th data-quarto-table-cell-role="th">WS</th>
-<th data-quarto-table-cell-role="th">WD</th>
-<th data-quarto-table-cell-role="th">P</th>
+<th data-quarto-table-cell-role="th">country</th>
+<th data-quarto-table-cell-role="th">China</th>
+<th data-quarto-table-cell-role="th">India</th>
+<th data-quarto-table-cell-role="th">Mexico</th>
+<th data-quarto-table-cell-role="th">Russia</th>
+<th data-quarto-table-cell-role="th">United States</th>
+<th data-quarto-table-cell-role="th">World</th>
 </tr>
 <tr class="odd">
-<th data-quarto-table-cell-role="th">time</th>
-<th data-quarto-table-cell-role="th"></th>
+<th data-quarto-table-cell-role="th">year</th>
 <th data-quarto-table-cell-role="th"></th>
 <th data-quarto-table-cell-role="th"></th>
 <th data-quarto-table-cell-role="th"></th>
@@ -469,130 +490,84 @@ Después de la función.</code></pre>
 </thead>
 <tbody>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2018-01-01 00:00:00</td>
+<td data-quarto-table-cell-role="th">1750</td>
 <td>NaN</td>
 <td>NaN</td>
-<td>18.70</td>
-<td>36.34</td>
-<td>1.422</td>
-<td>316.0</td>
-<td>87864.11</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>9.306</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">2018-01-01 00:10:00</td>
-<td>0.002</td>
-<td>0.0</td>
-<td>18.95</td>
-<td>35.29</td>
-<td>1.008</td>
-<td>283.7</td>
-<td>87876.37</td>
+<td data-quarto-table-cell-role="th">1751</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>9.407</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2018-01-01 00:20:00</td>
-<td>0.170</td>
-<td>0.0</td>
-<td>18.94</td>
-<td>35.43</td>
-<td>1.565</td>
-<td>326.0</td>
-<td>87888.64</td>
+<td data-quarto-table-cell-role="th">1752</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>9.505</td>
 </tr>
 <tr class="even">
-<td data-quarto-table-cell-role="th">2018-01-01 00:30:00</td>
-<td>0.371</td>
-<td>0.0</td>
-<td>18.77</td>
-<td>35.89</td>
-<td>2.175</td>
-<td>354.5</td>
-<td>87887.21</td>
+<td data-quarto-table-cell-role="th">1753</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>9.610</td>
 </tr>
 <tr class="odd">
-<td data-quarto-table-cell-role="th">2018-01-01 00:40:00</td>
-<td>0.305</td>
-<td>0.0</td>
-<td>18.81</td>
-<td>36.34</td>
-<td>1.902</td>
-<td>348.0</td>
-<td>87886.91</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-<td>...</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2018-12-31 23:10:00</td>
-<td>0.125</td>
-<td>0.0</td>
-<td>18.51</td>
-<td>47.29</td>
-<td>1.715</td>
-<td>332.2</td>
-<td>87484.32</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">2018-12-31 23:20:00</td>
-<td>0.000</td>
-<td>0.0</td>
-<td>18.26</td>
-<td>48.02</td>
-<td>1.703</td>
-<td>320.5</td>
-<td>87470.70</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2018-12-31 23:30:00</td>
-<td>0.044</td>
-<td>0.0</td>
-<td>18.39</td>
-<td>46.84</td>
-<td>2.887</td>
-<td>335.7</td>
-<td>87455.03</td>
-</tr>
-<tr class="even">
-<td data-quarto-table-cell-role="th">2018-12-31 23:40:00</td>
-<td>0.170</td>
-<td>0.0</td>
-<td>17.99</td>
-<td>47.85</td>
-<td>1.528</td>
-<td>358.8</td>
-<td>87470.02</td>
-</tr>
-<tr class="odd">
-<td data-quarto-table-cell-role="th">2018-12-31 23:50:00</td>
-<td>0.003</td>
-<td>0.0</td>
-<td>17.75</td>
-<td>49.65</td>
-<td>0.598</td>
-<td>322.3</td>
-<td>87467.29</td>
+<td data-quarto-table-cell-role="th">1754</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>NaN</td>
+<td>9.734</td>
 </tr>
 </tbody>
 </table>
 
-<p>52560 rows × 7 columns</p>
 </div>
 </div>
 </div>
 </div>
-<div id="bbf2e727-5f64-42ab-b674-cd8409125279" class="cell" data-execution_count="19">
-<div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>tmx.To.plot()</span>
-<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a><span class="co"># tmx.To_daily_mean.dropna().plot()</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div id="824c4a9b-bc39-4464-9051-750b94d03261" class="cell" data-execution_count="5">
+<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico</span></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(figsize<span class="op">=</span>(<span class="dv">8</span>, <span class="dv">4</span>))</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Gráfico de línea para las emisiones globales ('World')</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>ax.plot(data_pivot.index, data_pivot[<span class="st">'World'</span>], label<span class="op">=</span><span class="st">'Mundo'</span>, color<span class="op">=</span><span class="st">'black'</span>, linewidth<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Stackplot para los cuatro países</span></span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>ax.stackplot(</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>    data_pivot.index,</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>    data_pivot[<span class="st">'United States'</span>], </span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>    data_pivot[<span class="st">'China'</span>], </span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>    data_pivot[<span class="st">'India'</span>], </span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>    data_pivot[<span class="st">'Russia'</span>],</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>    data_pivot[<span class="st">'Mexico'</span>],</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>    labels<span class="op">=</span>[<span class="st">'Estados Unidos'</span>, <span class="st">'China'</span>, <span class="st">'India'</span>, <span class="st">'Rusia'</span>,<span class="st">'Mexico'</span>], </span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>    alpha<span class="op">=</span><span class="fl">0.8</span>)</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Añadir título y etiquetas</span></span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>ax.set_ylabel(<span class="st">'CO2 (millones de toneladas)'</span>)</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>ax.legend()</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="009_decoradores_files/figure-html/cell-9-output-1.png" class="img-fluid figure-img"></p>
+<p><img src="022a_Matplotlib_files/figure-html/cell-6-output-1.png" class="img-fluid figure-img"></p>
 </figure>
 </div>
 </div>
@@ -1156,13 +1131,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../notebooks/semanaUno/008_try_except_finally.html" class="pagination-link" aria-label="try-except">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">try-except</span></span>
+      <a href="../../notebooks/semanaDos/021_Intro_Altair.html" class="pagination-link" aria-label="Altair">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">21</span>&nbsp; <span class="chapter-title">Altair</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../notebooks/semanaUno/010_unpack.html" class="pagination-link" aria-label="Desempaca listas">
-        <span class="nav-page-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Desempaca listas</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../notebooks/semanaDos/022b_Plotly.html" class="pagination-link" aria-label="Figura rápida en Plotly">
+        <span class="nav-page-text"><span class="chapter-number">23</span>&nbsp; <span class="chapter-title">Figura rápida en Plotly</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
