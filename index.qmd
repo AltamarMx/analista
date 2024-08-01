@@ -56,3 +56,4 @@ El curso está organizado por **cuatro** grandes temas o semanas y un proyecto f
     - Aplicaras el ETL de principio a fin, desde extraer, transformar y cargar tus datos.
 
 
+a

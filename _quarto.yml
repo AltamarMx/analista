@@ -73,20 +73,18 @@ book:
         - notebooks/semanaTres/031_decoradores_pandas.ipynb
         - notebooks/semanaTres/032_join_merge_concat.ipynb
         - notebooks/semanaTres/033_datos_faltantes.ipynb
-        - notebooks/semanaTres/034_zonas_horarias.ipynb
-    # - part: notebooks/semanaCuatro/semana4.qmd
-    #   chapters: 
-    #     # - notebooks/semanaCuatro/concepto_espacio_trabajo.qmd
-    #     - notebooks/semanaCuatro/concatena.ipynb
-    #     - notebooks/semanaCuatro/multiindex_columnas.ipynb
-    #     - notebooks/semanaCuatro/multiindex_indice.ipynb
-    #     - notebooks/semanaCuatro/Encoding.ipynb
-    #     - notebooks/semanaCuatro/paquetes_locales.ipynb
-    #     # - notebooks/semanaCuatro/mensajes.ipynb
-    #     - notebooks/semanaCuatro/EF_EDA.ipynb
-    #     - notebooks/semanaCuatro/EF_LimpiezaDatos.ipynb
-    #     - notebooks/semanaCuatro/EF_Analisis.ipynb
-    #     - notebooks/semanaCuatro/Paquetes.ipynb
+        - notebooks/semanaTres/034a_zonas_horarias.ipynb
+        - notebooks/semanaTres/034b_zonas_horarias.ipynb
+    - part: notebooks/semanaCuatro/semana4.qmd
+      chapters: 
+        - notebooks/semanaCuatro/035_EjecutaLibretas.ipynb
+        - notebooks/semanaCuatro/036_convierte_libretas_a_scripts.qmd
+        - notebooks/semanaCuatro/037_PruebasUnitarias.ipynb
+        - notebooks/semanaCuatro/038_quarto_presentacion_instalacion.qmd
+        - notebooks/semanaCuatro/039_QuartoLibreta.ipynb
+        - notebooks/semanaCuatro/040_QuartoPresentacion.qmd
+        - notebooks/semanaCuatro/041_webapps_shiny.qmd
+        - notebooks/semanaCuatro/042_polars_scikitlearn_dask.qmd
     # - creditos.qmd
 format:
   html: 

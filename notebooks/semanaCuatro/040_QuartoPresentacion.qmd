@@ -1,0 +1,37 @@
+
+## Quarto presentación
+
+1. Crear diapositivas
+1. Insertar una figura de una libreta 
+1. Insertar ecuaciones en formato $\LaTeX$
+
+## Insertar figura de una libreta 
+
+
+{{< embed 039_QuartoLibreta.ipynb#fig-to-ig >}}
+
+## Ecuaciones en $\LaTeX$
+
+
+$$ \frac{\partial T}{\partial t} = \alpha \left( \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} \right)  $$
+
+* $T = T(x, y, t)$  es la temperatura como función del espacio  y del tiempo.
+* $\alpha$ es la difusividad térmica del material.
+
+
+
+## Resalta código
+
+<br>
+<br>
+<br>
+
+``` {.python code-line-numbers="1-2|4-5|7"}
+import pandas as pd
+import plotly.express as px
+
+f = '../../data/owid-co2-data.csv'
+co2 = pd.read_csv(f)
+
+px.line(co2, x = 'year',y='co2',color='country')
+```
