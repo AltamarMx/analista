@@ -1,5 +1,0 @@
-Hola, en este video vamos a hablar sobre una herramienta de pandas llamada `groupby`
-
-El método `groupby` nos permite agrupar nuestros datos según una o más columnas y luego aplicar funciones de agregación, como suma, promedio o conteo. Esto es especialmente útil para analizar grandes conjuntos de datos categorizándolos por diferentes criterios, como año, país, hora o cualquier otra categoría relevante.
-
-vamos a la libreta de Jupyter a ver como se usa.

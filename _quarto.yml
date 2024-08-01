@@ -61,21 +61,19 @@ book:
         - notebooks/semanaDos/022b_Plotly.ipynb
         - notebooks/semanaDos/022c_Bokeh.ipynb
         - notebooks/semanaDos/022d_Altair.ipynb
-    # - part: notebooks/semanaTres/semana3.qmd
-    #   chapters: 
-    #     - notebooks/semanaTres/Instala_Numpy_array.ipynb
-    #     - notebooks/semanaTres/Carga_datos_numpy.ipynb
-    #     - notebooks/semanaTres/caracteristicas_arrays.ipynb
-    #     - notebooks/semanaTres/Operaciones_basicas.ipynb
-    #     - notebooks/semanaTres/Slicing.ipynb
-    #     - notebooks/semanaTres/imagenes.ipynb
-    #     - notebooks/semanaTres/glob.ipynb
-    #     - notebooks/semanaTres/carga_flujo_obstaculo.ipynb
-    #     - notebooks/semanaTres/linspace_arange.ipynb
-    #     - notebooks/semanaTres/reshape.ipynb
-    #     - notebooks/semanaTres/guarda_numpy.ipynb
-    #     - notebooks/semanaTres/meshgrid.ipynb
-    #     - notebooks/semanaTres/Algebra_lineal.ipynb
+    - part: notebooks/semanaTres/semana3.qmd
+      chapters: 
+        - notebooks/semanaTres/024_Intro_pandas.ipynb
+        - notebooks/semanaTres/025_Promedios_moviles.ipynb
+        - notebooks/semanaTres/026_Desplazamientos.ipynb
+        - notebooks/semanaTres/027_parquet.ipynb
+        - notebooks/semanaTres/028_groupby.ipynb
+        - notebooks/semanaTres/029_pivot_table.ipynb
+        - notebooks/semanaTres/030_update_dataframe.ipynb
+        - notebooks/semanaTres/031_decoradores_pandas.ipynb
+        - notebooks/semanaTres/032_join_merge_concat.ipynb
+        - notebooks/semanaTres/033_datos_faltantes.ipynb
+        - notebooks/semanaTres/034_zonas_horarias.ipynb
     # - part: notebooks/semanaCuatro/semana4.qmd
     #   chapters: 
     #     # - notebooks/semanaCuatro/concepto_espacio_trabajo.qmd

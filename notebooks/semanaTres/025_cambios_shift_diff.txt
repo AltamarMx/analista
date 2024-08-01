@@ -1,5 +1,0 @@
-Hola,  en esta sesión vamos a explorar  las funciones  `pct_change`, `shift` y `diff`
-
-Primero, aprenderemos a usar `pct_change` para calcular los cambios porcentuales entre valores consecutivos en nuestro DataFrame. Luego, utilizaremos `shift` para desplazar datos y hacer los calculos que se requieran. Finalmente, usaremos `diff` para calcular las diferencias entre valores consecutivos.
-
-Vamos a la libreta de Jupyter para analizar el conjunto de datos de emisiones de CO2 en el mundo, analizando el caso de México.

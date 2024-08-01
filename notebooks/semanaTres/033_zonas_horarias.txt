@@ -1,6 +1,0 @@
-Hola, en esta sesión vamos a aprender cómo trabajar con zonas horarias al crear rangos de fechas en pandas y en nuestros dataframes.
-
-Primero, veremos cómo especificar una zona horaria al usar pd.date_range, utilizando el parámetro tz. Luego, aprenderemos a utilizar la biblioteca pytz para manejar y convertir zonas horarias en nuestras series temporales. Estas herramientas nos permiten trabajar de manera precisa con datos que involucran diferentes husos horarios.
-
-
-vamos a la libreta de Jupyter.
