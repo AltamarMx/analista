@@ -59,8 +59,8 @@ book:
         - notebooks/semanaDos/021_Intro_Altair.ipynb
         - notebooks/semanaDos/022a_Matplotlib.ipynb
         - notebooks/semanaDos/022b_Plotly.ipynb
-        - notebooks/semanaDos/022c_Bokeh.ipynb
-        - notebooks/semanaDos/022d_Altair.ipynb
+        # - notebooks/semanaDos/022c_Bokeh.ipynb
+        # - notebooks/semanaDos/022d_Altair.ipynb
     - part: notebooks/semanaTres/semana3.qmd
       chapters: 
         - notebooks/semanaTres/024_Intro_pandas.ipynb
