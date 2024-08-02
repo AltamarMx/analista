@@ -29,7 +29,7 @@ book:
   chapters:
     - index.qmd 
     - uso.qmd
-    - part: notebooks/semanaUno/semana1.qmd
+    - part: 'Semana Uno' #notebooks/semanaUno/semana1.qmd
       chapters:         
         - datos.ipynb
         - notebooks/semanaUno/001_instala_python.qmd
@@ -87,6 +87,6 @@ book:
 format:
   html: 
     theme: 
-      light: morph
+      light: spacelab
       dark: slate
     code-link: true

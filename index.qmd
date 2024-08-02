@@ -3,14 +3,10 @@
 
 
 
-Si ya eres una presona `usuaria de Python` y ya pasaste de `Usuario a Explorador de datos`,  lo que sigue es que te conviertas en una persona experta analista con el curso [MOOC Python: de explorador de datos a analista](https://www.coursera.org/learn/pythonanalista/home/welcome). 
+Si ya eres una persona `usuaria de Python` y ya pasaste de `Usuario a Explorador de datos`,  lo que sigue es que te conviertas en una persona experta analista con el curso [MOOC Python: de explorador de datos a analista](https://www.coursera.org/learn/pythonanalista/home/welcome). 
 
 
-Para esto hemos preparado un viaje de  **4 semanas** y **un proyecto final ** para asegurarnos que aprendas:
-
-1. Algo
-1. Algo
-1. Algo más
+Para esto hemos preparado un viaje de  **4 semanas** y **un proyecto final.
 
 Esta página **no** es un curso, contiene el material de ejercicios del curso [MOOC Python: explorador de datos a analista](https://www.coursera.org/learn/pythonanalista/home/welcome), por lo que si aún no te has inscrito, te recomendamos hacerlo.
 
@@ -20,39 +16,20 @@ Si estás arrancando desde cero, te recomendamos tomes el curso [MOOC Python, de
 
 ::: {.callout-note appearance="simple"}
 Si ya sabes Python y quieres aprender Pandas, Matplotlib mediante el manejo de series temporales, te recomendamos tomes el curso [MOOC Python, usuario a explorador de datos](https://www.coursera.org/learn/pythonexplorador). 
-<!-- :::
+:::
 
 ## ¿Qué aprenderás?
 
 El curso está organizado por **cuatro** grandes temas o semanas y un proyecto final, que son:
 
-1. **Introducción al Manejo de Datos con ETL**:
-   - **Extracción**: Aprenderás a obtener datos desde diferentes fuentes, incluyendo archivos CSV y XLSX.
-   - **Transformación**: Te enseñaremos a manipular y preparar tus datos utilizando `pandas`, facilitando la limpieza y organización.
-   - **Carga**: Finalmente, integraremos los datos transformados en una estructura que puedas utilizar para análisis o informes futuros.
-   -  **Inicio en Pandas**: Dominarás las técnicas de manipulación de dataframes y series temporales, esenciales para cualquier explorador de datos.
+1. **Instalación y prácticas avanzadas**:
 
-2. **Visualización de Datos con Matplotlib**:
-   - Aprenderás a identificar la anatomia de una gráfica en `matplotlib`.
-   - Comenzarás creando gráficas simples con `plt.subplots`.
-   - Aprenderas a crear gráficas complejas con `plt.subplots` y `gridspec` para diseño más complejos.
-   - Aprenderás a crear gráficas interactivas en la libreta de Jupyter con los `ipywidgets`.
-   - Aprenderás a personalizar una figura para dejarla lista para ser publicada en cualquier medio.
 
-3. **Operaciones básicas con NumPy**:
-   - Aprenderas a crear y conocer los arrays.
-   - Aprenderás a cargar datos numéricos de archivos con diferentes herramientas.
-   - Aplicarás la carga y manipulación de matricez con un conjunto de imagenes.
-   - Explorarás las herramientas de algebra lineal  de **NumPy** para manejar grandes conjuntos de datos numéricos, optimizando tus análisis. 
+2. **Exploración avanzada de datos**
 
-4. **Gestión de Proyectos de Datos**:
-   - Aprenderás y aplicarás el concepto del espacio de trabajo para tus proyectos de ciencia de datos.
-   - Conocerás la importancia de la narrativa computacional en tu espacio de trabajo, nombres de libretas y variables dentro de tus libretas de Jupyter.
-   - Conocerás las mejores estrategias para tener un flujo de trabajo robusto, reproducible y colaborativo.
-   - Aprenderás a como desarrollar  tus propios paquetes locales para disminuir los errores en tu flujo de trabajo.
+3. **Pandas avanzado**
 
-5. **Proyecto final**: 
-    - Culminarás con un proyecto final que pone en practica los conceptos de este curso y mucho enfasis en las buenas prácticas sobre narrativa computacional y espacio de trabajo.
-    - Aplicaras el ETL de principio a fin, desde extraer, transformar y cargar tus datos.
- -->
+4. **Nuevas herramientas en la ciencia de datos**
+
+5. **Proyecto final**
 

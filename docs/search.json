@@ -4,7 +4,17 @@
     "href": "index.html",
     "title": "Python: De explorador de datos a analista",
     "section": "",
-    "text": "Bienvenida\nSi ya eres una presona usuaria de Python y ya pasaste de Usuario a Explorador de datos, lo que sigue es que te conviertas en una persona experta analista con el curso MOOC Python: de explorador de datos a analista.\nPara esto hemos preparado un viaje de 4 semanas y un proyecto final  para asegurarnos que aprendas:\n\nAlgo\nAlgo\nAlgo más\n\nEsta página no es un curso, contiene el material de ejercicios del curso MOOC Python: explorador de datos a analista, por lo que si aún no te has inscrito, te recomendamos hacerlo.\n\n\n\n\n\n\nSi estás arrancando desde cero, te recomendamos tomes el curso MOOC Python, de cero a usuario.\n\n\n\n::: {.callout-note appearance=“simple”} Si ya sabes Python y quieres aprender Pandas, Matplotlib mediante el manejo de series temporales, te recomendamos tomes el curso MOOC Python, usuario a explorador de datos.",
+    "text": "Bienvenida\nSi ya eres una persona usuaria de Python y ya pasaste de Usuario a Explorador de datos, lo que sigue es que te conviertas en una persona experta analista con el curso MOOC Python: de explorador de datos a analista.\nPara esto hemos preparado un viaje de 4 semanas y **un proyecto final.\nEsta página no es un curso, contiene el material de ejercicios del curso MOOC Python: explorador de datos a analista, por lo que si aún no te has inscrito, te recomendamos hacerlo.",
+    "crumbs": [
+      "Bienvenida"
+    ]
+  },
+  {
+    "objectID": "index.html#qué-aprenderás",
+    "href": "index.html#qué-aprenderás",
+    "title": "Python: De explorador de datos a analista",
+    "section": "¿Qué aprenderás?",
+    "text": "¿Qué aprenderás?\nEl curso está organizado por cuatro grandes temas o semanas y un proyecto final, que son:\n\nInstalación y prácticas avanzadas:\nExploración avanzada de datos\nPandas avanzado\nNuevas herramientas en la ciencia de datos\nProyecto final",
     "crumbs": [
       "Bienvenida"
     ]
@@ -64,19 +74,9 @@
     "href": "uso.html#copiar-código-fácilmente",
     "title": "Recomendaciones",
     "section": "Copiar código fácilmente",
-    "text": "Copiar código fácilmente\nGracias a la integración con la tecnología de Quarto, copiar y pegar código de estas libretas es más sencillo que nunca. Simplemente con un clic sobre el bloque de código, este se copiará al portapapeles, facilitando la práctica y la implementación de lo aprendido en tus propios proyectos o ejercicios de prueba. Esto es especialmente útil para experimentar con variantes de los códigos proporcionados y para realizar tus propios ajustes y mejoras.\nEste libro de ejercicios es una herramienta valiosa que te proporciona flexibilidad y control sobre tu aprendizaje en Python, permitiéndote explorar, practicar y perfeccionar tus habilidades de programación en ciencia de datos. Utiliza estas libretas como acompañamiento a las lecciones del MOOC Python: De usuario a explorador de datos y verás cómo tu comprensión y habilidad con Python crecen exponencialmente.",
+    "text": "Copiar código fácilmente\nGracias a la integración con la tecnología de Quarto, copiar y pegar código de estas libretas es más sencillo que nunca. Simplemente con un clic sobre el bloque de código, este se copiará al portapapeles, facilitando la práctica y la implementación de lo aprendido en tus propios proyectos o ejercicios de prueba. Esto es especialmente útil para experimentar con variantes de los códigos proporcionados y para realizar tus propios ajustes y mejoras.\nEste libro de ejercicios es una herramienta valiosa que te proporciona flexibilidad y control sobre tu aprendizaje en Python, permitiéndote explorar, practicar y perfeccionar tus habilidades de programación en ciencia de datos. Utiliza estas libretas como acompañamiento a las lecciones del MOOC Python: De explorador de datos a Analista y verás cómo tu comprensión y habilidad con Python crecen exponencialmente.",
     "crumbs": [
       "Recomendaciones"
-    ]
-  },
-  {
-    "objectID": "notebooks/semanaUno/semana1.html",
-    "href": "notebooks/semanaUno/semana1.html",
-    "title": "Semana Uno",
-    "section": "",
-    "text": "¡Bienvenides a una semana emocionante de aprendizaje al manejo de datos!\nEn esta semana abordarás desde las definiciones de funciones hasta la manipulación avanzada de archivos, pasando por una introducción esencial a las series temporales. Desentrañaremos los conceptos clave que forman el esqueleto de cualquier proyecto analítico práctico, incluyendo el manejo de formatos de archivo como CSV y XLSX, y el dominio de Pandas, una de las herramientas más poderosas de Python para el manejo de datos.\nCon cada sesión, te equiparás para enfrentar desafíos cada vez más compleojs. Aprenderás a crear bloques de código reutilizables que servirán para automatizar tus tareas, optimizando así tu flujo de trabajo. Dominarás el proceso de ETL (Extracción, Transformación, Carga), esencial para extraer datos de diversas fuentes, transformarlos para su análisis y cargarlos en un entorno listo para usarse.\nAprenderás que el índice es uno de los conceptos más importantes de los DataFrames y más si es una serie temporal y lo configuras correctamente. Y para cerrar, aprenderás a generar gráficos y visualizaciones rápidas para explorar tus datos de manera efectiva.",
-    "crumbs": [
-      "Semana Uno"
     ]
   },
   {

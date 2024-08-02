@@ -127,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./notebooks/semanaUno/semana1.html" class="sidebar-item-text sidebar-link">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">Semana Uno</span></a>
           <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
@@ -443,7 +443,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#bienvenida" id="toc-bienvenida" class="nav-link active" data-scroll-target="#bienvenida">Bienvenida</a></li>
+  <li><a href="#bienvenida" id="toc-bienvenida" class="nav-link active" data-scroll-target="#bienvenida">Bienvenida</a>
+  <ul class="collapse">
+  <li><a href="#qué-aprenderás" id="toc-qué-aprenderás" class="nav-link" data-scroll-target="#qué-aprenderás">¿Qué aprenderás?</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -471,13 +474,8 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="bienvenida" class="level1 unnumbered">
 <h1 class="unnumbered">Bienvenida</h1>
-<p>Si ya eres una presona <code>usuaria de Python</code> y ya pasaste de <code>Usuario a Explorador de datos</code>, lo que sigue es que te conviertas en una persona experta analista con el curso <a href="https://www.coursera.org/learn/pythonanalista/home/welcome">MOOC Python: de explorador de datos a analista</a>.</p>
-<p>Para esto hemos preparado un viaje de <strong>4 semanas</strong> y <strong>un proyecto final </strong> para asegurarnos que aprendas:</p>
-<ol type="1">
-<li>Algo</li>
-<li>Algo</li>
-<li>Algo más</li>
-</ol>
+<p>Si ya eres una persona <code>usuaria de Python</code> y ya pasaste de <code>Usuario a Explorador de datos</code>, lo que sigue es que te conviertas en una persona experta analista con el curso <a href="https://www.coursera.org/learn/pythonanalista/home/welcome">MOOC Python: de explorador de datos a analista</a>.</p>
+<p>Para esto hemos preparado un viaje de <strong>4 semanas</strong> y **un proyecto final.</p>
 <p>Esta página <strong>no</strong> es un curso, contiene el material de ejercicios del curso <a href="https://www.coursera.org/learn/pythonanalista/home/welcome">MOOC Python: explorador de datos a analista</a>, por lo que si aún no te has inscrito, te recomendamos hacerlo.</p>
 <div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
@@ -489,43 +487,29 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<p>::: {.callout-note appearance=“simple”} Si ya sabes Python y quieres aprender Pandas, Matplotlib mediante el manejo de series temporales, te recomendamos tomes el curso <a href="https://www.coursera.org/learn/pythonexplorador">MOOC Python, usuario a explorador de datos</a>. <!-- :::
-
-## ¿Qué aprenderás?
-
-El curso está organizado por **cuatro** grandes temas o semanas y un proyecto final, que son:
-
-1. **Introducción al Manejo de Datos con ETL**:
-   - **Extracción**: Aprenderás a obtener datos desde diferentes fuentes, incluyendo archivos CSV y XLSX.
-   - **Transformación**: Te enseñaremos a manipular y preparar tus datos utilizando `pandas`, facilitando la limpieza y organización.
-   - **Carga**: Finalmente, integraremos los datos transformados en una estructura que puedas utilizar para análisis o informes futuros.
-   -  **Inicio en Pandas**: Dominarás las técnicas de manipulación de dataframes y series temporales, esenciales para cualquier explorador de datos.
-
-2. **Visualización de Datos con Matplotlib**:
-   - Aprenderás a identificar la anatomia de una gráfica en `matplotlib`.
-   - Comenzarás creando gráficas simples con `plt.subplots`.
-   - Aprenderas a crear gráficas complejas con `plt.subplots` y `gridspec` para diseño más complejos.
-   - Aprenderás a crear gráficas interactivas en la libreta de Jupyter con los `ipywidgets`.
-   - Aprenderás a personalizar una figura para dejarla lista para ser publicada en cualquier medio.
-
-3. **Operaciones básicas con NumPy**:
-   - Aprenderas a crear y conocer los arrays.
-   - Aprenderás a cargar datos numéricos de archivos con diferentes herramientas.
-   - Aplicarás la carga y manipulación de matricez con un conjunto de imagenes.
-   - Explorarás las herramientas de algebra lineal  de **NumPy** para manejar grandes conjuntos de datos numéricos, optimizando tus análisis. 
-
-4. **Gestión de Proyectos de Datos**:
-   - Aprenderás y aplicarás el concepto del espacio de trabajo para tus proyectos de ciencia de datos.
-   - Conocerás la importancia de la narrativa computacional en tu espacio de trabajo, nombres de libretas y variables dentro de tus libretas de Jupyter.
-   - Conocerás las mejores estrategias para tener un flujo de trabajo robusto, reproducible y colaborativo.
-   - Aprenderás a como desarrollar  tus propios paquetes locales para disminuir los errores en tu flujo de trabajo.
-
-5. **Proyecto final**: 
-    - Culminarás con un proyecto final que pone en practica los conceptos de este curso y mucho enfasis en las buenas prácticas sobre narrativa computacional y espacio de trabajo.
-    - Aplicaras el ETL de principio a fin, desde extraer, transformar y cargar tus datos.
- --></p>
+<div class="callout callout-style-simple callout-note">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
+<p>Si ya sabes Python y quieres aprender Pandas, Matplotlib mediante el manejo de series temporales, te recomendamos tomes el curso <a href="https://www.coursera.org/learn/pythonexplorador">MOOC Python, usuario a explorador de datos</a>.</p>
+</div>
+</div>
+</div>
+<section id="qué-aprenderás" class="level2">
+<h2 class="anchored" data-anchor-id="qué-aprenderás">¿Qué aprenderás?</h2>
+<p>El curso está organizado por <strong>cuatro</strong> grandes temas o semanas y un proyecto final, que son:</p>
+<ol type="1">
+<li><p><strong>Instalación y prácticas avanzadas</strong>:</p></li>
+<li><p><strong>Exploración avanzada de datos</strong></p></li>
+<li><p><strong>Pandas avanzado</strong></p></li>
+<li><p><strong>Nuevas herramientas en la ciencia de datos</strong></p></li>
+<li><p><strong>Proyecto final</strong></p></li>
+</ol>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
