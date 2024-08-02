@@ -27,13 +27,11 @@ book:
     background: "#f8f9fa"
   repo-url: https://github.com/altamarmx/analista/
   chapters:
-    - index.qmd
-    - part: "Recomendaciones y datos"
-      chapters:
-        - uso.qmd
-        - datos.qmd
+    - index.qmd 
+    - uso.qmd
     - part: notebooks/semanaUno/semana1.qmd
-      chapters: 
+      chapters:         
+        - datos.ipynb
         - notebooks/semanaUno/001_instala_python.qmd
         - notebooks/semanaUno/002_intro_powershell.qmd
         - notebooks/semanaUno/003_venvs.qmd
@@ -89,7 +87,6 @@ book:
 format:
   html: 
     theme: 
-      light: cerulean
-      dark: darkly
+      light: morph
+      dark: slate
     code-link: true
-
