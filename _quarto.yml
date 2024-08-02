@@ -68,7 +68,7 @@ book:
         - notebooks/semanaTres/028_groupby.ipynb
         - notebooks/semanaTres/029_pivot_table.ipynb
         - notebooks/semanaTres/030_update_dataframe.ipynb
-        - notebooks/semanaTres/031_decoradores_pandas.ipynb
+        # - notebooks/semanaTres/031_decoradores_pandas.ipynb
         - notebooks/semanaTres/032_join_merge_concat.ipynb
         - notebooks/semanaTres/033_datos_faltantes.ipynb
         - notebooks/semanaTres/034a_zonas_horarias.ipynb
