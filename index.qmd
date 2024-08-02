@@ -3,10 +3,10 @@
 
 
 
-Si ya sabes Python, tienes los conocimientos básicos de Pandas y Matplotlib, estás listo para pasar al siguiente nivel en el mundo de la `programación y análisis de datos`, ¡estás en el lugar correcto!. En este curso [MOOC Python: de explorador de datos a analista](https://www.coursera.org/learn/pythonanalista/home/welcome) vamos a transformarte de explorador de datos a analista. 
+Si ya eres una presona `usuaria de Python` y ya pasaste de `Usuario a Explorador de datos`,  lo que sigue es que te conviertas en una persona experta analista con el curso [MOOC Python: de explorador de datos a analista](https://www.coursera.org/learn/pythonanalista/home/welcome). 
 
 
-Hemos preparado  **4 semanas** y **ejercicios** para asegurarnos que aprendas:
+Para esto hemos preparado un viaje de  **4 semanas** y **un proyecto final ** para asegurarnos que aprendas:
 
 1. Algo
 1. Algo
@@ -20,7 +20,7 @@ Si estás arrancando desde cero, te recomendamos tomes el curso [MOOC Python, de
 
 ::: {.callout-note appearance="simple"}
 Si ya sabes Python y quieres aprender Pandas, Matplotlib mediante el manejo de series temporales, te recomendamos tomes el curso [MOOC Python, usuario a explorador de datos](https://www.coursera.org/learn/pythonexplorador). 
-:::
+<!-- :::
 
 ## ¿Qué aprenderás?
 
@@ -54,5 +54,5 @@ El curso está organizado por **cuatro** grandes temas o semanas y un proyecto f
 5. **Proyecto final**: 
     - Culminarás con un proyecto final que pone en practica los conceptos de este curso y mucho enfasis en las buenas prácticas sobre narrativa computacional y espacio de trabajo.
     - Aplicaras el ETL de principio a fin, desde extraer, transformar y cargar tus datos.
-
+ -->
 
