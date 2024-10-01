@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Python: De explorador de datos a analista - 25&nbsp; Introducción rápida a Pandas</title>
+<title>25&nbsp; Introducción rápida a Pandas – Python: De explorador de datos a analista</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -33,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -131,11 +131,11 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaTres/semana3.html">Semana Tres</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaTres/024_Intro_pandas.html"><span class="chapter-number">25</span>&nbsp; <span class="chapter-title">Introducción rápida a Pandas</span></a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -146,7 +146,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="../../index.html" class="sidebar-logo-link">
-      <img src="../../img/python.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="../../img/logo_ier.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
     <div class="sidebar-menu-container"> 
@@ -165,9 +165,9 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Semana Uno</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -256,7 +256,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="sidebar-item-container"> 
             <a href="../../notebooks/semanaDos/semana2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Semana Dos</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -333,7 +333,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="sidebar-item-container"> 
             <a href="../../notebooks/semanaTres/semana3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Semana Tres</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -410,7 +410,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="sidebar-item-container"> 
             <a href="../../notebooks/semanaCuatro/semana4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Semana Cuatro</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -554,17 +554,224 @@ memory usage: 3.2 MB</code></pre>
 <pre><code>Error in callback &lt;function flush_figures at 0x125cfb7e0&gt; (for post_execute), with arguments args (),kwargs {}:</code></pre>
 </div>
 <div class="cell-output cell-output-error">
-<pre><code>KeyboardInterrupt: </code></pre>
+<div class="ansi-escaped-output">
+<pre><span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">KeyboardInterrupt</span>                         Traceback (most recent call last)
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib_inline/backend_inline.py:126</span>, in <span class="ansi-cyan-fg">flush_figures</span><span class="ansi-blue-fg">()</span>
+<span class="ansi-green-fg ansi-bold">    123</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> InlineBackend<span style="color:rgb(98,98,98)">.</span>instance()<span style="color:rgb(98,98,98)">.</span>close_figures:
+<span class="ansi-green-fg ansi-bold">    124</span>     <span style="font-style:italic;color:rgb(95,135,135)"># ignore the tracking, just draw and close all figures</span>
+<span class="ansi-green-fg ansi-bold">    125</span>     <span style="font-weight:bold;color:rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg">--&gt; 126</span>         <span style="font-weight:bold;color:rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">show</span><span class="ansi-yellow-bg">(</span><span style="font-weight:bold;color:rgb(0,135,0)" class="ansi-yellow-bg">True</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    127</span>     <span style="font-weight:bold;color:rgb(0,135,0)">except</span> <span style="font-weight:bold;color:rgb(215,95,95)">Exception</span> <span style="font-weight:bold;color:rgb(0,135,0)">as</span> e:
+<span class="ansi-green-fg ansi-bold">    128</span>         <span style="font-style:italic;color:rgb(95,135,135)"># safely show traceback if in IPython, else raise</span>
+<span class="ansi-green-fg ansi-bold">    129</span>         ip <span style="color:rgb(98,98,98)">=</span> get_ipython()
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib_inline/backend_inline.py:90</span>, in <span class="ansi-cyan-fg">show</span><span class="ansi-blue-fg">(close, block)</span>
+<span class="ansi-green-fg ansi-bold">     88</span> <span style="font-weight:bold;color:rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg ansi-bold">     89</span>     <span style="font-weight:bold;color:rgb(0,135,0)">for</span> figure_manager <span style="font-weight:bold;color:rgb(175,0,255)">in</span> Gcf<span style="color:rgb(98,98,98)">.</span>get_all_fig_managers():
+<span class="ansi-green-fg">---&gt; 90</span>         <span class="ansi-yellow-bg">display</span><span class="ansi-yellow-bg">(</span>
+<span class="ansi-green-fg ansi-bold">     91</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">figure_manager</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">canvas</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">figure</span><span class="ansi-yellow-bg">,</span>
+<span class="ansi-green-fg ansi-bold">     92</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">metadata</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">_fetch_figure_metadata</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">figure_manager</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">canvas</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">figure</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">     93</span> <span class="ansi-yellow-bg">        </span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">     94</span> <span style="font-weight:bold;color:rgb(0,135,0)">finally</span>:
+<span class="ansi-green-fg ansi-bold">     95</span>     show<span style="color:rgb(98,98,98)">.</span>_to_draw <span style="color:rgb(98,98,98)">=</span> []
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/IPython/core/display_functions.py:298</span>, in <span class="ansi-cyan-fg">display</span><span class="ansi-blue-fg">(include, exclude, metadata, transient, display_id, raw, clear, *objs, **kwargs)</span>
+<span class="ansi-green-fg ansi-bold">    296</span>     publish_display_data(data<span style="color:rgb(98,98,98)">=</span>obj, metadata<span style="color:rgb(98,98,98)">=</span>metadata, <span style="color:rgb(98,98,98)">*</span><span style="color:rgb(98,98,98)">*</span>kwargs)
+<span class="ansi-green-fg ansi-bold">    297</span> <span style="font-weight:bold;color:rgb(0,135,0)">else</span>:
+<span class="ansi-green-fg">--&gt; 298</span>     format_dict, md_dict <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">format</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">obj</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">include</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">include</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">exclude</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">exclude</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    299</span>     <span style="font-weight:bold;color:rgb(0,135,0)">if</span> <span style="font-weight:bold;color:rgb(175,0,255)">not</span> format_dict:
+<span class="ansi-green-fg ansi-bold">    300</span>         <span style="font-style:italic;color:rgb(95,135,135)"># nothing to display (e.g. _ipython_display_ took over)</span>
+<span class="ansi-green-fg ansi-bold">    301</span>         <span style="font-weight:bold;color:rgb(0,135,0)">continue</span>
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/IPython/core/formatters.py:179</span>, in <span class="ansi-cyan-fg">DisplayFormatter.format</span><span class="ansi-blue-fg">(self, obj, include, exclude)</span>
+<span class="ansi-green-fg ansi-bold">    177</span> md <span style="color:rgb(98,98,98)">=</span> <span style="font-weight:bold;color:rgb(0,135,0)">None</span>
+<span class="ansi-green-fg ansi-bold">    178</span> <span style="font-weight:bold;color:rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg">--&gt; 179</span>     data <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">formatter</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">obj</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    180</span> <span style="font-weight:bold;color:rgb(0,135,0)">except</span>:
+<span class="ansi-green-fg ansi-bold">    181</span>     <span style="font-style:italic;color:rgb(95,135,135)"># FIXME: log the exception</span>
+<span class="ansi-green-fg ansi-bold">    182</span>     <span style="font-weight:bold;color:rgb(0,135,0)">raise</span>
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/decorator.py:232</span>, in <span class="ansi-cyan-fg">decorate.&lt;locals&gt;.fun</span><span class="ansi-blue-fg">(*args, **kw)</span>
+<span class="ansi-green-fg ansi-bold">    230</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> <span style="font-weight:bold;color:rgb(175,0,255)">not</span> kwsyntax:
+<span class="ansi-green-fg ansi-bold">    231</span>     args, kw <span style="color:rgb(98,98,98)">=</span> fix(args, kw, sig)
+<span class="ansi-green-fg">--&gt; 232</span> <span style="font-weight:bold;color:rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">caller</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">func</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">extras</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">+</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">)</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kw</span><span class="ansi-yellow-bg">)</span>
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/IPython/core/formatters.py:223</span>, in <span class="ansi-cyan-fg">catch_format_error</span><span class="ansi-blue-fg">(method, self, *args, **kwargs)</span>
+<span class="ansi-green-fg ansi-bold">    221</span> <span style="font-style:italic;color:rgb(175,0,0)">"""show traceback on failed format call"""</span>
+<span class="ansi-green-fg ansi-bold">    222</span> <span style="font-weight:bold;color:rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg">--&gt; 223</span>     r <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">method</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    224</span> <span style="font-weight:bold;color:rgb(0,135,0)">except</span> <span style="font-weight:bold;color:rgb(215,95,95)">NotImplementedError</span>:
+<span class="ansi-green-fg ansi-bold">    225</span>     <span style="font-style:italic;color:rgb(95,135,135)"># don't warn on NotImplementedErrors</span>
+<span class="ansi-green-fg ansi-bold">    226</span>     <span style="font-weight:bold;color:rgb(0,135,0)">return</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>_check_return(<span style="font-weight:bold;color:rgb(0,135,0)">None</span>, args[<span style="color:rgb(98,98,98)">0</span>])
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/IPython/core/formatters.py:340</span>, in <span class="ansi-cyan-fg">BaseFormatter.__call__</span><span class="ansi-blue-fg">(self, obj)</span>
+<span class="ansi-green-fg ansi-bold">    338</span>     <span style="font-weight:bold;color:rgb(0,135,0)">pass</span>
+<span class="ansi-green-fg ansi-bold">    339</span> <span style="font-weight:bold;color:rgb(0,135,0)">else</span>:
+<span class="ansi-green-fg">--&gt; 340</span>     <span style="font-weight:bold;color:rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">printer</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">obj</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    341</span> <span style="font-style:italic;color:rgb(95,135,135)"># Finally look for special method names</span>
+<span class="ansi-green-fg ansi-bold">    342</span> method <span style="color:rgb(98,98,98)">=</span> get_real_method(obj, <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>print_method)
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/IPython/core/pylabtools.py:152</span>, in <span class="ansi-cyan-fg">print_figure</span><span class="ansi-blue-fg">(fig, fmt, bbox_inches, base64, **kwargs)</span>
+<span class="ansi-green-fg ansi-bold">    149</span>     <span style="font-weight:bold;color:rgb(0,135,0)">from</span> <span style="font-weight:bold;color:rgb(0,0,255)">matplotlib</span><span style="font-weight:bold;color:rgb(0,0,255)">.</span><span style="font-weight:bold;color:rgb(0,0,255)">backend_bases</span> <span style="font-weight:bold;color:rgb(0,135,0)">import</span> FigureCanvasBase
+<span class="ansi-green-fg ansi-bold">    150</span>     FigureCanvasBase(fig)
+<span class="ansi-green-fg">--&gt; 152</span> <span class="ansi-yellow-bg">fig</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">canvas</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">print_figure</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">bytes_io</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kw</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    153</span> data <span style="color:rgb(98,98,98)">=</span> bytes_io<span style="color:rgb(98,98,98)">.</span>getvalue()
+<span class="ansi-green-fg ansi-bold">    154</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> fmt <span style="color:rgb(98,98,98)">==</span> <span style="color:rgb(175,0,0)">'</span><span style="color:rgb(175,0,0)">svg</span><span style="color:rgb(175,0,0)">'</span>:
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/backend_bases.py:2178</span>, in <span class="ansi-cyan-fg">FigureCanvasBase.print_figure</span><span class="ansi-blue-fg">(self, filename, dpi, facecolor, edgecolor, orientation, format, bbox_inches, pad_inches, bbox_extra_artists, backend, **kwargs)</span>
+<span class="ansi-green-fg ansi-bold">   2176</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> bbox_inches:
+<span class="ansi-green-fg ansi-bold">   2177</span>     <span style="font-weight:bold;color:rgb(0,135,0)">if</span> bbox_inches <span style="color:rgb(98,98,98)">==</span> <span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">tight</span><span style="color:rgb(175,0,0)">"</span>:
+<span class="ansi-green-fg">-&gt; 2178</span>         bbox_inches <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">figure</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get_tightbbox</span><span class="ansi-yellow-bg">(</span>
+<span class="ansi-green-fg ansi-bold">   2179</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">renderer</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">bbox_extra_artists</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">bbox_extra_artists</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">   2180</span>         <span style="font-weight:bold;color:rgb(0,135,0)">if</span> (<span style="color:rgb(0,135,0)">isinstance</span>(layout_engine, ConstrainedLayoutEngine) <span style="font-weight:bold;color:rgb(175,0,255)">and</span>
+<span class="ansi-green-fg ansi-bold">   2181</span>                 pad_inches <span style="color:rgb(98,98,98)">==</span> <span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">layout</span><span style="color:rgb(175,0,0)">"</span>):
+<span class="ansi-green-fg ansi-bold">   2182</span>             h_pad <span style="color:rgb(98,98,98)">=</span> layout_engine<span style="color:rgb(98,98,98)">.</span>get()[<span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">h_pad</span><span style="color:rgb(175,0,0)">"</span>]
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/_api/deprecation.py:457</span>, in <span class="ansi-cyan-fg">make_keyword_only.&lt;locals&gt;.wrapper</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
+<span class="ansi-green-fg ansi-bold">    451</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> <span style="color:rgb(0,135,0)">len</span>(args) <span style="color:rgb(98,98,98)">&gt;</span> name_idx:
+<span class="ansi-green-fg ansi-bold">    452</span>     warn_deprecated(
+<span class="ansi-green-fg ansi-bold">    453</span>         since, message<span style="color:rgb(98,98,98)">=</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">Passing the </span><span style="font-weight:bold;color:rgb(175,95,135)">%(name)s</span><span style="color:rgb(175,0,0)"> </span><span style="font-weight:bold;color:rgb(175,95,135)">%(obj_type)s</span><span style="color:rgb(175,0,0)"> </span><span style="color:rgb(175,0,0)">"</span>
+<span class="ansi-green-fg ansi-bold">    454</span>         <span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">positionally is deprecated since Matplotlib </span><span style="font-weight:bold;color:rgb(175,95,135)">%(since)s</span><span style="color:rgb(175,0,0)">; the </span><span style="color:rgb(175,0,0)">"</span>
+<span class="ansi-green-fg ansi-bold">    455</span>         <span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">parameter will become keyword-only </span><span style="font-weight:bold;color:rgb(175,95,135)">%(removal)s</span><span style="color:rgb(175,0,0)">.</span><span style="color:rgb(175,0,0)">"</span>,
+<span class="ansi-green-fg ansi-bold">    456</span>         name<span style="color:rgb(98,98,98)">=</span>name, obj_type<span style="color:rgb(98,98,98)">=</span><span style="color:rgb(175,0,0)">f</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">parameter of </span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>func<span style="color:rgb(98,98,98)">.</span><span style="color:rgb(0,0,135)">__name__</span><span style="font-weight:bold;color:rgb(175,95,135)">}</span><span style="color:rgb(175,0,0)">()</span><span style="color:rgb(175,0,0)">"</span>)
+<span class="ansi-green-fg">--&gt; 457</span> <span style="font-weight:bold;color:rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">func</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/figure.py:1787</span>, in <span class="ansi-cyan-fg">FigureBase.get_tightbbox</span><span class="ansi-blue-fg">(self, renderer, bbox_extra_artists)</span>
+<span class="ansi-green-fg ansi-bold">   1783</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> ax<span style="color:rgb(98,98,98)">.</span>get_visible():
+<span class="ansi-green-fg ansi-bold">   1784</span>     <span style="font-style:italic;color:rgb(95,135,135)"># some Axes don't take the bbox_extra_artists kwarg so we</span>
+<span class="ansi-green-fg ansi-bold">   1785</span>     <span style="font-style:italic;color:rgb(95,135,135)"># need this conditional....</span>
+<span class="ansi-green-fg ansi-bold">   1786</span>     <span style="font-weight:bold;color:rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg">-&gt; 1787</span>         bbox <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">ax</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get_tightbbox</span><span class="ansi-yellow-bg">(</span>
+<span class="ansi-green-fg ansi-bold">   1788</span> <span class="ansi-yellow-bg">            </span><span class="ansi-yellow-bg">renderer</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">bbox_extra_artists</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">=</span><span class="ansi-yellow-bg">bbox_extra_artists</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">   1789</span>     <span style="font-weight:bold;color:rgb(0,135,0)">except</span> <span style="font-weight:bold;color:rgb(215,95,95)">TypeError</span>:
+<span class="ansi-green-fg ansi-bold">   1790</span>         bbox <span style="color:rgb(98,98,98)">=</span> ax<span style="color:rgb(98,98,98)">.</span>get_tightbbox(renderer)
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/_api/deprecation.py:457</span>, in <span class="ansi-cyan-fg">make_keyword_only.&lt;locals&gt;.wrapper</span><span class="ansi-blue-fg">(*args, **kwargs)</span>
+<span class="ansi-green-fg ansi-bold">    451</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> <span style="color:rgb(0,135,0)">len</span>(args) <span style="color:rgb(98,98,98)">&gt;</span> name_idx:
+<span class="ansi-green-fg ansi-bold">    452</span>     warn_deprecated(
+<span class="ansi-green-fg ansi-bold">    453</span>         since, message<span style="color:rgb(98,98,98)">=</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">Passing the </span><span style="font-weight:bold;color:rgb(175,95,135)">%(name)s</span><span style="color:rgb(175,0,0)"> </span><span style="font-weight:bold;color:rgb(175,95,135)">%(obj_type)s</span><span style="color:rgb(175,0,0)"> </span><span style="color:rgb(175,0,0)">"</span>
+<span class="ansi-green-fg ansi-bold">    454</span>         <span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">positionally is deprecated since Matplotlib </span><span style="font-weight:bold;color:rgb(175,95,135)">%(since)s</span><span style="color:rgb(175,0,0)">; the </span><span style="color:rgb(175,0,0)">"</span>
+<span class="ansi-green-fg ansi-bold">    455</span>         <span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">parameter will become keyword-only </span><span style="font-weight:bold;color:rgb(175,95,135)">%(removal)s</span><span style="color:rgb(175,0,0)">.</span><span style="color:rgb(175,0,0)">"</span>,
+<span class="ansi-green-fg ansi-bold">    456</span>         name<span style="color:rgb(98,98,98)">=</span>name, obj_type<span style="color:rgb(98,98,98)">=</span><span style="color:rgb(175,0,0)">f</span><span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">parameter of </span><span style="font-weight:bold;color:rgb(175,95,135)">{</span>func<span style="color:rgb(98,98,98)">.</span><span style="color:rgb(0,0,135)">__name__</span><span style="font-weight:bold;color:rgb(175,95,135)">}</span><span style="color:rgb(175,0,0)">()</span><span style="color:rgb(175,0,0)">"</span>)
+<span class="ansi-green-fg">--&gt; 457</span> <span style="font-weight:bold;color:rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">func</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">)</span>
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/axes/_base.py:4482</span>, in <span class="ansi-cyan-fg">_AxesBase.get_tightbbox</span><span class="ansi-blue-fg">(self, renderer, call_axes_locator, bbox_extra_artists, for_layout_only)</span>
+<span class="ansi-green-fg ansi-bold">   4480</span> <span style="font-weight:bold;color:rgb(0,135,0)">for</span> axis <span style="font-weight:bold;color:rgb(175,0,255)">in</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>_axis_map<span style="color:rgb(98,98,98)">.</span>values():
+<span class="ansi-green-fg ansi-bold">   4481</span>     <span style="font-weight:bold;color:rgb(0,135,0)">if</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>axison <span style="font-weight:bold;color:rgb(175,0,255)">and</span> axis<span style="color:rgb(98,98,98)">.</span>get_visible():
+<span class="ansi-green-fg">-&gt; 4482</span>         ba <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">martist</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">_get_tightbbox_for_layout_only</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">axis</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">renderer</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">   4483</span>         <span style="font-weight:bold;color:rgb(0,135,0)">if</span> ba:
+<span class="ansi-green-fg ansi-bold">   4484</span>             bb<span style="color:rgb(98,98,98)">.</span>append(ba)
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/artist.py:1408</span>, in <span class="ansi-cyan-fg">_get_tightbbox_for_layout_only</span><span class="ansi-blue-fg">(obj, *args, **kwargs)</span>
+<span class="ansi-green-fg ansi-bold">   1402</span> <span style="font-style:italic;color:rgb(175,0,0)">"""</span>
+<span class="ansi-green-fg ansi-bold">   1403</span> <span style="font-style:italic;color:rgb(175,0,0)">Matplotlib's `.Axes.get_tightbbox` and `.Axis.get_tightbbox` support a</span>
+<span class="ansi-green-fg ansi-bold">   1404</span> <span style="font-style:italic;color:rgb(175,0,0)">*for_layout_only* kwarg; this helper tries to use the kwarg but skips it</span>
+<span class="ansi-green-fg ansi-bold">   1405</span> <span style="font-style:italic;color:rgb(175,0,0)">when encountering third-party subclasses that do not support it.</span>
+<span class="ansi-green-fg ansi-bold">   1406</span> <span style="font-style:italic;color:rgb(175,0,0)">"""</span>
+<span class="ansi-green-fg ansi-bold">   1407</span> <span style="font-weight:bold;color:rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg">-&gt; 1408</span>     <span style="font-weight:bold;color:rgb(0,135,0)">return</span> <span class="ansi-yellow-bg">obj</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get_tightbbox</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">args</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">{</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg">kwargs</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">"</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">for_layout_only</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">"</span><span class="ansi-yellow-bg">:</span><span class="ansi-yellow-bg"> </span><span style="font-weight:bold;color:rgb(0,135,0)" class="ansi-yellow-bg">True</span><span class="ansi-yellow-bg">}</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">   1409</span> <span style="font-weight:bold;color:rgb(0,135,0)">except</span> <span style="font-weight:bold;color:rgb(215,95,95)">TypeError</span>:
+<span class="ansi-green-fg ansi-bold">   1410</span>     <span style="font-weight:bold;color:rgb(0,135,0)">return</span> obj<span style="color:rgb(98,98,98)">.</span>get_tightbbox(<span style="color:rgb(98,98,98)">*</span>args, <span style="color:rgb(98,98,98)">*</span><span style="color:rgb(98,98,98)">*</span>kwargs)
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/axis.py:1371</span>, in <span class="ansi-cyan-fg">Axis.get_tightbbox</span><span class="ansi-blue-fg">(self, renderer, for_layout_only)</span>
+<span class="ansi-green-fg ansi-bold">   1368</span>     renderer <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>figure<span style="color:rgb(98,98,98)">.</span>_get_renderer()
+<span class="ansi-green-fg ansi-bold">   1369</span> ticks_to_draw <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>_update_ticks()
+<span class="ansi-green-fg">-&gt; 1371</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">_update_label_position</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">renderer</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">   1373</span> <span style="font-style:italic;color:rgb(95,135,135)"># go back to just this axis's tick labels</span>
+<span class="ansi-green-fg ansi-bold">   1374</span> tlb1, tlb2 <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>_get_ticklabel_bboxes(ticks_to_draw, renderer)
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/axis.py:2410</span>, in <span class="ansi-cyan-fg">XAxis._update_label_position</span><span class="ansi-blue-fg">(self, renderer)</span>
+<span class="ansi-green-fg ansi-bold">   2408</span> <span style="font-weight:bold;color:rgb(0,135,0)">try</span>:
+<span class="ansi-green-fg ansi-bold">   2409</span>     spine <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>axes<span style="color:rgb(98,98,98)">.</span>spines[<span style="color:rgb(175,0,0)">'</span><span style="color:rgb(175,0,0)">bottom</span><span style="color:rgb(175,0,0)">'</span>]
+<span class="ansi-green-fg">-&gt; 2410</span>     spinebbox <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">spine</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get_window_extent</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">   2411</span> <span style="font-weight:bold;color:rgb(0,135,0)">except</span> <span style="font-weight:bold;color:rgb(215,95,95)">KeyError</span>:
+<span class="ansi-green-fg ansi-bold">   2412</span>     <span style="font-style:italic;color:rgb(95,135,135)"># use Axes if spine doesn't exist</span>
+<span class="ansi-green-fg ansi-bold">   2413</span>     spinebbox <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>axes<span style="color:rgb(98,98,98)">.</span>bbox
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/spines.py:158</span>, in <span class="ansi-cyan-fg">Spine.get_window_extent</span><span class="ansi-blue-fg">(self, renderer)</span>
+<span class="ansi-green-fg ansi-bold">    156</span>     <span style="font-weight:bold;color:rgb(0,135,0)">return</span> bb
+<span class="ansi-green-fg ansi-bold">    157</span> bboxes <span style="color:rgb(98,98,98)">=</span> [bb]
+<span class="ansi-green-fg">--&gt; 158</span> drawn_ticks <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">axis</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">_update_ticks</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    160</span> major_tick <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">next</span>(<span style="color:rgb(0,135,0)">iter</span>({<span style="color:rgb(98,98,98)">*</span>drawn_ticks} <span style="color:rgb(98,98,98)">&amp;</span> {<span style="color:rgb(98,98,98)">*</span><span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>axis<span style="color:rgb(98,98,98)">.</span>majorTicks}), <span style="font-weight:bold;color:rgb(0,135,0)">None</span>)
+<span class="ansi-green-fg ansi-bold">    161</span> minor_tick <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">next</span>(<span style="color:rgb(0,135,0)">iter</span>({<span style="color:rgb(98,98,98)">*</span>drawn_ticks} <span style="color:rgb(98,98,98)">&amp;</span> {<span style="color:rgb(98,98,98)">*</span><span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>axis<span style="color:rgb(98,98,98)">.</span>minorTicks}), <span style="font-weight:bold;color:rgb(0,135,0)">None</span>)
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/axis.py:1306</span>, in <span class="ansi-cyan-fg">Axis._update_ticks</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-fg ansi-bold">   1304</span>     tick<span style="color:rgb(98,98,98)">.</span>label1<span style="color:rgb(98,98,98)">.</span>set_text(label)
+<span class="ansi-green-fg ansi-bold">   1305</span>     tick<span style="color:rgb(98,98,98)">.</span>label2<span style="color:rgb(98,98,98)">.</span>set_text(label)
+<span class="ansi-green-fg">-&gt; 1306</span> minor_locs <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">get_minorticklocs</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">   1307</span> minor_labels <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>minor<span style="color:rgb(98,98,98)">.</span>formatter<span style="color:rgb(98,98,98)">.</span>format_ticks(minor_locs)
+<span class="ansi-green-fg ansi-bold">   1308</span> minor_ticks <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>get_minor_ticks(<span style="color:rgb(0,135,0)">len</span>(minor_locs))
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/matplotlib/axis.py:1535</span>, in <span class="ansi-cyan-fg">Axis.get_minorticklocs</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-fg ansi-bold">   1533</span> <span style="font-style:italic;color:rgb(175,0,0)">"""Return this Axis' minor tick locations in data coordinates."""</span>
+<span class="ansi-green-fg ansi-bold">   1534</span> <span style="font-style:italic;color:rgb(95,135,135)"># Remove minor ticks duplicating major ticks.</span>
+<span class="ansi-green-fg">-&gt; 1535</span> minor_locs <span style="color:rgb(98,98,98)">=</span> np<span style="color:rgb(98,98,98)">.</span>asarray(<span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">minor</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">locator</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">)</span>)
+<span class="ansi-green-fg ansi-bold">   1536</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>remove_overlapping_locs:
+<span class="ansi-green-fg ansi-bold">   1537</span>     major_locs <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>major<span style="color:rgb(98,98,98)">.</span>locator()
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/plotting/_matplotlib/converter.py:1001</span>, in <span class="ansi-cyan-fg">TimeSeries_DateLocator.__call__</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-fg ansi-bold">    999</span>     vmin, vmax <span style="color:rgb(98,98,98)">=</span> vmax, vmin
+<span class="ansi-green-fg ansi-bold">   1000</span> <span style="font-weight:bold;color:rgb(0,135,0)">if</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>isdynamic:
+<span class="ansi-green-fg">-&gt; 1001</span>     locs <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">_get_default_locs</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">vmin</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">vmax</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">   1002</span> <span style="font-weight:bold;color:rgb(0,135,0)">else</span>:  <span style="font-style:italic;color:rgb(95,135,135)"># pragma: no cover</span>
+<span class="ansi-green-fg ansi-bold">   1003</span>     base <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>base
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/plotting/_matplotlib/converter.py:986</span>, in <span class="ansi-cyan-fg">TimeSeries_DateLocator._get_default_locs</span><span class="ansi-blue-fg">(self, vmin, vmax)</span>
+<span class="ansi-green-fg ansi-bold">    984</span> <span style="font-weight:bold;color:rgb(0,135,0)">def</span> <span style="color:rgb(0,0,255)">_get_default_locs</span>(<span style="color:rgb(0,135,0)">self</span>, vmin, vmax):
+<span class="ansi-green-fg ansi-bold">    985</span> <span style="color:rgb(188,188,188)">    </span><span style="font-style:italic;color:rgb(175,0,0)">"""Returns the default locations of ticks."""</span>
+<span class="ansi-green-fg">--&gt; 986</span>     locator <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">finder</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">vmin</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">vmax</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">freq</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    988</span>     <span style="font-weight:bold;color:rgb(0,135,0)">if</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>isminor:
+<span class="ansi-green-fg ansi-bold">    989</span>         <span style="font-weight:bold;color:rgb(0,135,0)">return</span> np<span style="color:rgb(98,98,98)">.</span>compress(locator[<span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">min</span><span style="color:rgb(175,0,0)">"</span>], locator[<span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">val</span><span style="color:rgb(175,0,0)">"</span>])
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/plotting/_matplotlib/converter.py:732</span>, in <span class="ansi-cyan-fg">_daily_finder</span><span class="ansi-blue-fg">(vmin, vmax, freq)</span>
+<span class="ansi-green-fg ansi-bold">    730</span> <span style="font-weight:bold;color:rgb(0,135,0)">elif</span> span <span style="color:rgb(98,98,98)">&lt;</span><span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(98,98,98)">1.15</span> <span style="color:rgb(98,98,98)">*</span> periodsperyear:
+<span class="ansi-green-fg ansi-bold">    731</span>     year_start <span style="color:rgb(98,98,98)">=</span> _period_break(dates_, <span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">year</span><span style="color:rgb(175,0,0)">"</span>)
+<span class="ansi-green-fg">--&gt; 732</span>     month_start <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">_period_break</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">dates_</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">"</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">month</span><span style="color:rgb(175,0,0)" class="ansi-yellow-bg">"</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    733</span>     week_start <span style="color:rgb(98,98,98)">=</span> _period_break(dates_, <span style="color:rgb(175,0,0)">"</span><span style="color:rgb(175,0,0)">week</span><span style="color:rgb(175,0,0)">"</span>)
+<span class="ansi-green-fg ansi-bold">    734</span>     info_maj[month_start] <span style="color:rgb(98,98,98)">=</span> <span style="font-weight:bold;color:rgb(0,135,0)">True</span>
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/plotting/_matplotlib/converter.py:525</span>, in <span class="ansi-cyan-fg">_period_break</span><span class="ansi-blue-fg">(dates, period)</span>
+<span class="ansi-green-fg ansi-bold">    514</span> <span style="font-weight:bold;color:rgb(0,135,0)">def</span> <span style="color:rgb(0,0,255)">_period_break</span>(dates: PeriodIndex, period: <span style="color:rgb(0,135,0)">str</span>) <span style="color:rgb(98,98,98)">-</span><span style="color:rgb(98,98,98)">&gt;</span> npt<span style="color:rgb(98,98,98)">.</span>NDArray[np<span style="color:rgb(98,98,98)">.</span>intp]:
+<span class="ansi-green-fg ansi-bold">    515</span> <span style="color:rgb(188,188,188)">    </span><span style="font-style:italic;color:rgb(175,0,0)">"""</span>
+<span class="ansi-green-fg ansi-bold">    516</span> <span style="font-style:italic;color:rgb(175,0,0)">    Returns the indices where the given period changes.</span>
+<span class="ansi-green-fg ansi-bold">    517</span> 
+<span class="ansi-green-fg">   (...)</span>
+<span class="ansi-green-fg ansi-bold">    523</span> <span style="font-style:italic;color:rgb(175,0,0)">        Name of the period to monitor.</span>
+<span class="ansi-green-fg ansi-bold">    524</span> <span style="font-style:italic;color:rgb(175,0,0)">    """</span>
+<span class="ansi-green-fg">--&gt; 525</span>     mask <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">_period_break_mask</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">dates</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">period</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    526</span>     <span style="font-weight:bold;color:rgb(0,135,0)">return</span> np<span style="color:rgb(98,98,98)">.</span>nonzero(mask)[<span style="color:rgb(98,98,98)">0</span>]
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/plotting/_matplotlib/converter.py:531</span>, in <span class="ansi-cyan-fg">_period_break_mask</span><span class="ansi-blue-fg">(dates, period)</span>
+<span class="ansi-green-fg ansi-bold">    529</span> <span style="font-weight:bold;color:rgb(0,135,0)">def</span> <span style="color:rgb(0,0,255)">_period_break_mask</span>(dates: PeriodIndex, period: <span style="color:rgb(0,135,0)">str</span>) <span style="color:rgb(98,98,98)">-</span><span style="color:rgb(98,98,98)">&gt;</span> npt<span style="color:rgb(98,98,98)">.</span>NDArray[np<span style="color:rgb(98,98,98)">.</span>bool_]:
+<span class="ansi-green-fg ansi-bold">    530</span>     current <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">getattr</span>(dates, period)
+<span class="ansi-green-fg">--&gt; 531</span>     previous <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">getattr</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">dates</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">-</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">1</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">*</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">dates</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">freq</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">period</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    532</span>     <span style="font-weight:bold;color:rgb(0,135,0)">return</span> current <span style="color:rgb(98,98,98)">!=</span> previous
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/core/indexes/extension.py:68</span>, in <span class="ansi-cyan-fg">_inherit_from_data.&lt;locals&gt;.fget</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-fg ansi-bold">     67</span> <span style="font-weight:bold;color:rgb(0,135,0)">def</span> <span style="color:rgb(0,0,255)">fget</span>(<span style="color:rgb(0,135,0)">self</span>):
+<span class="ansi-green-fg">---&gt; 68</span>     result <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)" class="ansi-yellow-bg">getattr</span><span class="ansi-yellow-bg">(</span><span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">_data</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">name</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">     69</span>     <span style="font-weight:bold;color:rgb(0,135,0)">if</span> wrap:
+<span class="ansi-green-fg ansi-bold">     70</span>         <span style="font-weight:bold;color:rgb(0,135,0)">if</span> <span style="color:rgb(0,135,0)">isinstance</span>(result, <span style="color:rgb(0,135,0)">type</span>(<span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>_data)):
+
+File <span class="ansi-green-fg">/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/pandas/core/arrays/period.py:111</span>, in <span class="ansi-cyan-fg">_field_accessor.&lt;locals&gt;.f</span><span class="ansi-blue-fg">(self)</span>
+<span class="ansi-green-fg ansi-bold">    109</span> <span style="font-weight:bold;color:rgb(0,135,0)">def</span> <span style="color:rgb(0,0,255)">f</span>(<span style="color:rgb(0,135,0)">self</span>):
+<span class="ansi-green-fg ansi-bold">    110</span>     base <span style="color:rgb(98,98,98)">=</span> <span style="color:rgb(0,135,0)">self</span><span style="color:rgb(98,98,98)">.</span>dtype<span style="color:rgb(98,98,98)">.</span>_dtype_code
+<span class="ansi-green-fg">--&gt; 111</span>     result <span style="color:rgb(98,98,98)">=</span> <span class="ansi-yellow-bg">get_period_field_arr</span><span class="ansi-yellow-bg">(</span><span class="ansi-yellow-bg">name</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span style="color:rgb(0,135,0)" class="ansi-yellow-bg">self</span><span style="color:rgb(98,98,98)" class="ansi-yellow-bg">.</span><span class="ansi-yellow-bg">asi8</span><span class="ansi-yellow-bg">,</span><span class="ansi-yellow-bg"> </span><span class="ansi-yellow-bg">base</span><span class="ansi-yellow-bg">)</span>
+<span class="ansi-green-fg ansi-bold">    112</span>     <span style="font-weight:bold;color:rgb(0,135,0)">return</span> result
+
+<span class="ansi-red-fg">KeyboardInterrupt</span>: </pre>
+</div>
 </div>
 </div>
 <div id="8eb92a76-d443-42b3-8bc5-a88b83ed428a" class="cell" data-execution_count="9">
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>columnas <span class="op">=</span> tmx.columns</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">7</span>,figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">6</span>))</span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i,columna <span class="kw">in</span> <span class="bu">enumerate</span>(columnas):</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>    ax[i].plot(tmx[columna],label<span class="op">=</span>columna)</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>    ax[i].legend()</span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>plt.show() </span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>columnas <span class="op">=</span> tmx.columns</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>fig, ax <span class="op">=</span> plt.subplots(<span class="dv">7</span>,figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">6</span>))</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i,columna <span class="kw">in</span> <span class="bu">enumerate</span>(columnas):</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>    ax[i].plot(tmx[columna],label<span class="op">=</span>columna)</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a>    ax[i].legend()</span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>plt.show() </span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display">
 <div>
 <figure class="figure">
@@ -574,7 +781,7 @@ memory usage: 3.2 MB</code></pre>
 </div>
 </div>
 <div id="7b6804d0-291d-45fb-810a-895134e2d017" class="cell" data-execution_count="16">
-<div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a>tmx.mean()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>tmx.mean()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="16">
 <pre><code>Ib      236.742726
 Ig      257.414344
@@ -587,7 +794,7 @@ dtype: float64</code></pre>
 </div>
 </div>
 <div id="c1cebb9c-b264-4ac1-847b-51d557807397" class="cell" data-execution_count="17">
-<div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>tmx[[<span class="st">'Ig'</span>,<span class="st">'Ib'</span>]].mean()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>tmx[[<span class="st">'Ig'</span>,<span class="st">'Ib'</span>]].mean()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="17">
 <pre><code>Ig    257.414344
 Ib    236.742726
@@ -595,13 +802,12 @@ dtype: float64</code></pre>
 </div>
 </div>
 <div id="c24c2867-1528-4563-bf5e-61ffcebd400e" class="cell" data-execution_count="18">
-<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>tmx.resample(<span class="st">'ME'</span>).mean()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>tmx.resample(<span class="st">'ME'</span>).mean()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="18">
 <div>
-<div>
 
 
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -751,15 +957,13 @@ dtype: float64</code></pre>
 </div>
 </div>
 </div>
-</div>
 <div id="c624aa2b-da10-4329-9655-480685964074" class="cell" data-execution_count="19">
-<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a>tmx.loc[tmx.Ig <span class="op">&gt;=</span> <span class="dv">300</span>]</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>tmx.loc[tmx.Ig <span class="op">&gt;=</span> <span class="dv">300</span>]</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="19">
 <div>
-<div>
 
 
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -900,26 +1104,24 @@ dtype: float64</code></pre>
 </div>
 </div>
 </div>
-</div>
 <div id="3cad359b-2f57-4a67-8c2e-1af6ead44761" class="cell" data-execution_count="21">
-<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Diccionario de diccionarios</span></span>
-<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>participantes <span class="op">=</span> {</span>
-<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Diego'</span>: {<span class="st">'Edad'</span>: <span class="dv">30</span>, <span class="st">'Ciudad'</span>: <span class="st">'Campeche'</span>},</span>
-<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Nazli'</span>: {<span class="st">'Edad'</span>: <span class="dv">22</span>, <span class="st">'Ciudad'</span>: <span class="st">'CdMx'</span>},</span>
-<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Kevin'</span>: {<span class="st">'Edad'</span>: <span class="dv">40</span>, <span class="st">'Ciudad'</span>: <span class="st">'Cuernavaca'</span>},</span>
-<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Gaby'</span>: {<span class="st">'Edad'</span>: <span class="dv">37</span>, <span class="st">'Ciudad'</span>: <span class="st">'Cuautla'</span>},</span>
-<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir a DataFrame</span></span>
-<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>participantes_df <span class="op">=</span> pd.DataFrame.from_dict(participantes, orient<span class="op">=</span><span class="st">'index'</span>)</span>
-<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>participantes_df</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Diccionario de diccionarios</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>participantes <span class="op">=</span> {</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Diego'</span>: {<span class="st">'Edad'</span>: <span class="dv">30</span>, <span class="st">'Ciudad'</span>: <span class="st">'Campeche'</span>},</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Nazli'</span>: {<span class="st">'Edad'</span>: <span class="dv">22</span>, <span class="st">'Ciudad'</span>: <span class="st">'CdMx'</span>},</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Kevin'</span>: {<span class="st">'Edad'</span>: <span class="dv">40</span>, <span class="st">'Ciudad'</span>: <span class="st">'Cuernavaca'</span>},</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Gaby'</span>: {<span class="st">'Edad'</span>: <span class="dv">37</span>, <span class="st">'Ciudad'</span>: <span class="st">'Cuautla'</span>},</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir a DataFrame</span></span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>participantes_df <span class="op">=</span> pd.DataFrame.from_dict(participantes, orient<span class="op">=</span><span class="st">'index'</span>)</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>participantes_df</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="21">
 <div>
-<div>
 
 
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -954,26 +1156,24 @@ dtype: float64</code></pre>
 </div>
 </div>
 </div>
-</div>
 <div id="2e5a31d5-ddfc-487c-82c5-384e64766cb3" class="cell" data-execution_count="24">
-<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Diccionario con tuplas como valores</span></span>
-<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a>nombres <span class="op">=</span> {</span>
-<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Equipa'</span>: [</span>
-<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>        (<span class="st">'Diego'</span>, <span class="dv">30</span>),</span>
-<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>        (<span class="st">'Nazli'</span>, <span class="dv">22</span>),</span>
-<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>        (<span class="st">'Kevin'</span>, <span class="dv">40</span>)</span>
-<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a>    ]</span>
-<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir a DataFrame</span></span>
-<span id="cb19-11"><a href="#cb19-11" aria-hidden="true" tabindex="-1"></a>nombres_df <span class="op">=</span> pd.DataFrame(nombres[<span class="st">'Equipa'</span>], columns<span class="op">=</span>[<span class="st">'Nombre'</span>, <span class="st">'Edad'</span>])</span>
-<span id="cb19-12"><a href="#cb19-12" aria-hidden="true" tabindex="-1"></a>nombres_df</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb18"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Diccionario con tuplas como valores</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a>nombres <span class="op">=</span> {</span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Equipa'</span>: [</span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a>        (<span class="st">'Diego'</span>, <span class="dv">30</span>),</span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>        (<span class="st">'Nazli'</span>, <span class="dv">22</span>),</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>        (<span class="st">'Kevin'</span>, <span class="dv">40</span>)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a>    ]</span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir a DataFrame</span></span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>nombres_df <span class="op">=</span> pd.DataFrame(nombres[<span class="st">'Equipa'</span>], columns<span class="op">=</span>[<span class="st">'Nombre'</span>, <span class="st">'Edad'</span>])</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>nombres_df</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="24">
 <div>
-<div>
 
 
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -1000,27 +1200,25 @@ dtype: float64</code></pre>
 </tbody>
 </table>
 
-</div>
 </div>
 </div>
 </div>
 <div id="a474ca79-b822-497e-a4c1-cc6b649f75a6" class="cell" data-execution_count="25">
-<div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Diccionario sin fechas</span></span>
-<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>nombres <span class="op">=</span> {</span>
-<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Nombre'</span>: [<span class="st">'Diego'</span>, <span class="st">'Nazli'</span>, <span class="st">'Kevin'</span>],</span>
-<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Edad'</span>: [<span class="dv">30</span>, <span class="dv">22</span>, <span class="dv">40</span>]</span>
-<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>}</span>
-<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir a DataFrame</span></span>
-<span id="cb20-9"><a href="#cb20-9" aria-hidden="true" tabindex="-1"></a>nombres_df <span class="op">=</span> pd.DataFrame(nombres_df)</span>
-<span id="cb20-10"><a href="#cb20-10" aria-hidden="true" tabindex="-1"></a>nombres_df</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="sourceCode cell-code" id="cb19"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb19-1"><a href="#cb19-1" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-2"><a href="#cb19-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Diccionario sin fechas</span></span>
+<span id="cb19-3"><a href="#cb19-3" aria-hidden="true" tabindex="-1"></a>nombres <span class="op">=</span> {</span>
+<span id="cb19-4"><a href="#cb19-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Nombre'</span>: [<span class="st">'Diego'</span>, <span class="st">'Nazli'</span>, <span class="st">'Kevin'</span>],</span>
+<span id="cb19-5"><a href="#cb19-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">'Edad'</span>: [<span class="dv">30</span>, <span class="dv">22</span>, <span class="dv">40</span>]</span>
+<span id="cb19-6"><a href="#cb19-6" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb19-7"><a href="#cb19-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb19-8"><a href="#cb19-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Convertir a DataFrame</span></span>
+<span id="cb19-9"><a href="#cb19-9" aria-hidden="true" tabindex="-1"></a>nombres_df <span class="op">=</span> pd.DataFrame(nombres_df)</span>
+<span id="cb19-10"><a href="#cb19-10" aria-hidden="true" tabindex="-1"></a>nombres_df</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-display" data-execution_count="25">
 <div>
-<div>
 
 
-<table class="dataframe table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
+<table class="dataframe caption-top table table-sm table-striped small" data-quarto-postprocess="true" data-border="1">
 <thead>
 <tr class="header">
 <th data-quarto-table-cell-role="th"></th>
@@ -1047,7 +1245,6 @@ dtype: float64</code></pre>
 </tbody>
 </table>
 
-</div>
 </div>
 </div>
 </div>
@@ -1257,18 +1454,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -1300,7 +1486,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -1308,7 +1516,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

@@ -1,14 +1,89 @@
-# Bienvenida {.unnumbered}
+### Bienvenida {.unnumbered}
 
 
 
 
-Si ya eres una persona `usuaria de Python` y ya pasaste de `Usuario a Explorador de datos`,  lo que sigue es que te conviertas en una persona experta analista con el curso [MOOC Python: de explorador de datos a analista](https://www.coursera.org/learn/pythonanalista/home/welcome). 
+Si ya eres una persona [`usuaria de Python`](https://www.coursera.org/learn/python-usuario) y ya pasaste de [`Usuario a Explorador de datos`](https://www.coursera.org/learn/pythonexplorador),  lo que sigue es que te conviertas en una persona experta analista con el curso [`MOOC Python: de explorador de datos a analista`](https://www.coursera.org/learn/pythonanalista/home/welcome). 
 
 
-Para esto hemos preparado un viaje de  **4 semanas** y **un proyecto final.
+Para esto hemos preparado un viaje de  **4 semanas** y **un proyecto final** para que practiques y puedas evaluar tu aprendizaje.
 
+
+### ¿Qué aprenderás?
+
+El curso está organizado por **cuatro** grandes temas o semanas y un proyecto final, que son:
+
+### Instalación y prácticas avanzadas
+
+- **Bienvenida al curso** • 1 minuto 
+- **Bienvenida a la semana 1** • 3 minutos
+- **Instala Python** • 3 minutos
+- **Introducción a Power Shell** • 3 minutos
+- **Entornos virtuales** • 6 minutos
+- **Espacio de trabajo** • 5 minutos
+- **Desarrolla paquetes de Python** • 8 minutos
+- **Propuestas de Mejora de Python** • 4 minutos
+- **Programación Orientada a Objetos** • 5 minutos
+- **Manejo de errores** • 5 minutos
+- **Decoradores. Parte 1** • 6 minutos
+- **Decoradores. Parte 2** • 5 minutos
+- **Desempaquetado** • 9 minutos
+- **Funciones lambda** • 8 minutos
+- **Operador Walrus** • 4 minutos
+- **1 tarea de programación**
+
+### Exploratory data analysis avanzado
+
+- **Bienvenida a la semana 2** • 3 minutos 
+- **Repaso de Matplotlib** • 8 minutos
+- **Programación Orientada a Objetos en Matplotlib** • 5 minutos
+- **Decoradores en Matplotlib** • 7 minutos
+- **Estilos de gráficos en Matplotlib** • 8 minutos
+- **Gráficas interactivas** • 3 minutos
+- **Estructuras de datos en OWD** • 5 minutos
+- **Introducción a Plotly** • 6 minutos
+- **Introducción a Bokeh** • 7 minutos
+- **Gramática de gráficos** • 9 minutos
+- **Diferencias entre herramientas** • 7 minutos
+- **Diferencias entre herramientas. Parte 2** • 11 minutos
+- **1 tarea de programación**
+
+### Pandas avanzado
+
+- **Bienvenida a la semana 3** • 2 minutos 
+- **Introducción a Pandas** • 10 minutos
+- **Promedios móviles** • 8 minutos
+- **Funciones para valores consecutivos** • 6 minutos
+- **Nuevos formatos de archivos** • 4 minutos
+- **El método `groupby`** • 5 minutos
+- **Método `pivot_table`** • 5 minutos
+- **Combinar dataframes** • 8 minutos
+- **Manejar datos faltantes** • 10 minutos
+- **Zonas horarias** • 5 minutos
+- **Zonas horarias. Parte 2** • 4 minutos
+- **1 tarea de programación**
+
+### Nuevas herramientas en la ciencia de datos
+
+- **Bienvenida a la semana 4** • 2 minutos 
+- **Ejecuta libretas** • 4 minutos
+- **Convertir libretas a scripts** • 6 minutos
+- **Pruebas unitarias** • 10 minutos
+- **Introducción a Quarto** • 2 minutos
+- **Libretas a reportes con Quarto** • 7 minutos
+- **Presentaciones en Quarto** • 11 minutos
+- **Introducción a Shiny** • 6 minutos
+- **Bibliotecas para exploración de datos** • 6 minutos
+- **1 tarea de programación**
+
+### Proyecto final
+
+A través de estas **4 horas y 35 minutos** repartidos en más de **40 videos**, te llevaremos a sentar las bases para que 
+pases de ser una persona exploradora a una analista de datos.
+
+::: {.callout-tip appearance="simple"}
 Esta página **no** es un curso, contiene el material de ejercicios del curso [MOOC Python: explorador de datos a analista](https://www.coursera.org/learn/pythonanalista/home/welcome), por lo que si aún no te has inscrito, te recomendamos hacerlo.
+:::
 
 ::: {.callout-note appearance="simple"}
 Si estás arrancando desde cero, te recomendamos tomes el curso [MOOC Python, de cero a usuario](https://www.coursera.org/learn/python-usuario). 
@@ -18,18 +93,4 @@ Si estás arrancando desde cero, te recomendamos tomes el curso [MOOC Python, de
 Si ya sabes Python y quieres aprender Pandas, Matplotlib mediante el manejo de series temporales, te recomendamos tomes el curso [MOOC Python, usuario a explorador de datos](https://www.coursera.org/learn/pythonexplorador). 
 :::
 
-## ¿Qué aprenderás?
-
-El curso está organizado por **cuatro** grandes temas o semanas y un proyecto final, que son:
-
-1. **Instalación y prácticas avanzadas**:
-
-
-2. **Exploración avanzada de datos**
-
-3. **Pandas avanzado**
-
-4. **Nuevas herramientas en la ciencia de datos**
-
-5. **Proyecto final**
 

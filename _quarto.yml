@@ -19,7 +19,7 @@ book:
     menu: True
     collapse-level: 1
     border: true
-    logo: img/python.png
+    logo: img/logo_ier.png
   page-footer:
     left:  Logo  por  Dnu72, [CC BY-SA 4.0](<https://creativecommons.org/licenses/by-sa/4.0>), via Wikimedia Commons.
     center: "[Repositorio](https://github.com/altamarmx/analista)"
@@ -85,7 +85,7 @@ book:
         - notebooks/semanaCuatro/042_polars_scikitlearn_dask.qmd
     # - creditos.qmd
 format:
-  html: 
+  html:
     theme: 
       light: spacelab
       dark: slate

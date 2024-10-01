@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.554">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -93,11 +93,11 @@ ul.task-list li input[type="checkbox"] {
     </nav>
   <nav class="quarto-secondary-nav">
     <div class="container-fluid d-flex">
-      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
         <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">Bienvenida</a></li></ol></nav>
-        <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
   </nav>
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
   <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header sidebar-header-stacked">
       <a href="./index.html" class="sidebar-logo-link">
-      <img src="./img/python.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      <img src="./img/logo_ier.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
       </div>
     <div class="sidebar-menu-container"> 
@@ -127,9 +127,9 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
  <span class="menu-text">Semana Uno</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -218,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./notebooks/semanaDos/semana2.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Semana Dos</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -295,7 +295,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./notebooks/semanaTres/semana3.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Semana Tres</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -372,7 +372,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="sidebar-item-container"> 
             <a href="./notebooks/semanaCuatro/semana4.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Semana Cuatro</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
@@ -437,10 +437,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Tabla de contenidos</h2>
    
   <ul>
-  <li><a href="#bienvenida" id="toc-bienvenida" class="nav-link active" data-scroll-target="#bienvenida">Bienvenida</a>
-  <ul class="collapse">
+  <li><a href="#bienvenida" id="toc-bienvenida" class="nav-link active" data-scroll-target="#bienvenida">Bienvenida</a></li>
   <li><a href="#qué-aprenderás" id="toc-qué-aprenderás" class="nav-link" data-scroll-target="#qué-aprenderás">¿Qué aprenderás?</a></li>
-  </ul></li>
+  <li><a href="#instalación-y-prácticas-avanzadas" id="toc-instalación-y-prácticas-avanzadas" class="nav-link" data-scroll-target="#instalación-y-prácticas-avanzadas">Instalación y prácticas avanzadas</a></li>
+  <li><a href="#exploratory-data-analysis-avanzado" id="toc-exploratory-data-analysis-avanzado" class="nav-link" data-scroll-target="#exploratory-data-analysis-avanzado">Exploratory data analysis avanzado</a></li>
+  <li><a href="#pandas-avanzado" id="toc-pandas-avanzado" class="nav-link" data-scroll-target="#pandas-avanzado">Pandas avanzado</a></li>
+  <li><a href="#nuevas-herramientas-en-la-ciencia-de-datos" id="toc-nuevas-herramientas-en-la-ciencia-de-datos" class="nav-link" data-scroll-target="#nuevas-herramientas-en-la-ciencia-de-datos">Nuevas herramientas en la ciencia de datos</a></li>
+  <li><a href="#proyecto-final" id="toc-proyecto-final" class="nav-link" data-scroll-target="#proyecto-final">Proyecto final</a></li>
   </ul>
 </nav>
     </div>
@@ -466,11 +469,99 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="bienvenida" class="level1 unnumbered">
-<h1 class="unnumbered">Bienvenida</h1>
-<p>Si ya eres una persona <code>usuaria de Python</code> y ya pasaste de <code>Usuario a Explorador de datos</code>, lo que sigue es que te conviertas en una persona experta analista con el curso <a href="https://www.coursera.org/learn/pythonanalista/home/welcome">MOOC Python: de explorador de datos a analista</a>.</p>
-<p>Para esto hemos preparado un viaje de <strong>4 semanas</strong> y **un proyecto final.</p>
+<section id="bienvenida" class="level3 unnumbered">
+<h3 class="unnumbered anchored" data-anchor-id="bienvenida">Bienvenida</h3>
+<p>Si ya eres una persona <a href="https://www.coursera.org/learn/python-usuario"><code>usuaria de Python</code></a> y ya pasaste de <a href="https://www.coursera.org/learn/pythonexplorador"><code>Usuario a Explorador de datos</code></a>, lo que sigue es que te conviertas en una persona experta analista con el curso <a href="https://www.coursera.org/learn/pythonanalista/home/welcome"><code>MOOC Python: de explorador de datos a analista</code></a>.</p>
+<p>Para esto hemos preparado un viaje de <strong>4 semanas</strong> y <strong>un proyecto final</strong> para que practiques y puedas evaluar tu aprendizaje.</p>
+</section>
+<section id="qué-aprenderás" class="level3">
+<h3 class="anchored" data-anchor-id="qué-aprenderás">¿Qué aprenderás?</h3>
+<p>El curso está organizado por <strong>cuatro</strong> grandes temas o semanas y un proyecto final, que son:</p>
+</section>
+<section id="instalación-y-prácticas-avanzadas" class="level3">
+<h3 class="anchored" data-anchor-id="instalación-y-prácticas-avanzadas">Instalación y prácticas avanzadas</h3>
+<ul>
+<li><strong>Bienvenida al curso</strong> • 1 minuto</li>
+<li><strong>Bienvenida a la semana 1</strong> • 3 minutos</li>
+<li><strong>Instala Python</strong> • 3 minutos</li>
+<li><strong>Introducción a Power Shell</strong> • 3 minutos</li>
+<li><strong>Entornos virtuales</strong> • 6 minutos</li>
+<li><strong>Espacio de trabajo</strong> • 5 minutos</li>
+<li><strong>Desarrolla paquetes de Python</strong> • 8 minutos</li>
+<li><strong>Propuestas de Mejora de Python</strong> • 4 minutos</li>
+<li><strong>Programación Orientada a Objetos</strong> • 5 minutos</li>
+<li><strong>Manejo de errores</strong> • 5 minutos</li>
+<li><strong>Decoradores. Parte 1</strong> • 6 minutos</li>
+<li><strong>Decoradores. Parte 2</strong> • 5 minutos</li>
+<li><strong>Desempaquetado</strong> • 9 minutos</li>
+<li><strong>Funciones lambda</strong> • 8 minutos</li>
+<li><strong>Operador Walrus</strong> • 4 minutos</li>
+<li><strong>1 tarea de programación</strong></li>
+</ul>
+</section>
+<section id="exploratory-data-analysis-avanzado" class="level3">
+<h3 class="anchored" data-anchor-id="exploratory-data-analysis-avanzado">Exploratory data analysis avanzado</h3>
+<ul>
+<li><strong>Bienvenida a la semana 2</strong> • 3 minutos</li>
+<li><strong>Repaso de Matplotlib</strong> • 8 minutos</li>
+<li><strong>Programación Orientada a Objetos en Matplotlib</strong> • 5 minutos</li>
+<li><strong>Decoradores en Matplotlib</strong> • 7 minutos</li>
+<li><strong>Estilos de gráficos en Matplotlib</strong> • 8 minutos</li>
+<li><strong>Gráficas interactivas</strong> • 3 minutos</li>
+<li><strong>Estructuras de datos en OWD</strong> • 5 minutos</li>
+<li><strong>Introducción a Plotly</strong> • 6 minutos</li>
+<li><strong>Introducción a Bokeh</strong> • 7 minutos</li>
+<li><strong>Gramática de gráficos</strong> • 9 minutos</li>
+<li><strong>Diferencias entre herramientas</strong> • 7 minutos</li>
+<li><strong>Diferencias entre herramientas. Parte 2</strong> • 11 minutos</li>
+<li><strong>1 tarea de programación</strong></li>
+</ul>
+</section>
+<section id="pandas-avanzado" class="level3">
+<h3 class="anchored" data-anchor-id="pandas-avanzado">Pandas avanzado</h3>
+<ul>
+<li><strong>Bienvenida a la semana 3</strong> • 2 minutos</li>
+<li><strong>Introducción a Pandas</strong> • 10 minutos</li>
+<li><strong>Promedios móviles</strong> • 8 minutos</li>
+<li><strong>Funciones para valores consecutivos</strong> • 6 minutos</li>
+<li><strong>Nuevos formatos de archivos</strong> • 4 minutos</li>
+<li><strong>El método <code>groupby</code></strong> • 5 minutos</li>
+<li><strong>Método <code>pivot_table</code></strong> • 5 minutos</li>
+<li><strong>Combinar dataframes</strong> • 8 minutos</li>
+<li><strong>Manejar datos faltantes</strong> • 10 minutos</li>
+<li><strong>Zonas horarias</strong> • 5 minutos</li>
+<li><strong>Zonas horarias. Parte 2</strong> • 4 minutos</li>
+<li><strong>1 tarea de programación</strong></li>
+</ul>
+</section>
+<section id="nuevas-herramientas-en-la-ciencia-de-datos" class="level3">
+<h3 class="anchored" data-anchor-id="nuevas-herramientas-en-la-ciencia-de-datos">Nuevas herramientas en la ciencia de datos</h3>
+<ul>
+<li><strong>Bienvenida a la semana 4</strong> • 2 minutos</li>
+<li><strong>Ejecuta libretas</strong> • 4 minutos</li>
+<li><strong>Convertir libretas a scripts</strong> • 6 minutos</li>
+<li><strong>Pruebas unitarias</strong> • 10 minutos</li>
+<li><strong>Introducción a Quarto</strong> • 2 minutos</li>
+<li><strong>Libretas a reportes con Quarto</strong> • 7 minutos</li>
+<li><strong>Presentaciones en Quarto</strong> • 11 minutos</li>
+<li><strong>Introducción a Shiny</strong> • 6 minutos</li>
+<li><strong>Bibliotecas para exploración de datos</strong> • 6 minutos</li>
+<li><strong>1 tarea de programación</strong></li>
+</ul>
+</section>
+<section id="proyecto-final" class="level3">
+<h3 class="anchored" data-anchor-id="proyecto-final">Proyecto final</h3>
+<p>A través de estas <strong>4 horas y 35 minutos</strong> repartidos en más de <strong>40 videos</strong>, te llevaremos a sentar las bases para que pases de ser una persona exploradora a una analista de datos.</p>
+<div class="callout callout-style-simple callout-tip">
+<div class="callout-body d-flex">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-body-container">
 <p>Esta página <strong>no</strong> es un curso, contiene el material de ejercicios del curso <a href="https://www.coursera.org/learn/pythonanalista/home/welcome">MOOC Python: explorador de datos a analista</a>, por lo que si aún no te has inscrito, te recomendamos hacerlo.</p>
+</div>
+</div>
+</div>
 <div class="callout callout-style-simple callout-note">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -491,19 +582,8 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<section id="qué-aprenderás" class="level2">
-<h2 class="anchored" data-anchor-id="qué-aprenderás">¿Qué aprenderás?</h2>
-<p>El curso está organizado por <strong>cuatro</strong> grandes temas o semanas y un proyecto final, que son:</p>
-<ol type="1">
-<li><p><strong>Instalación y prácticas avanzadas</strong>:</p></li>
-<li><p><strong>Exploración avanzada de datos</strong></p></li>
-<li><p><strong>Pandas avanzado</strong></p></li>
-<li><p><strong>Nuevas herramientas en la ciencia de datos</strong></p></li>
-<li><p><strong>Proyecto final</strong></p></li>
-</ol>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -686,18 +766,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -729,7 +798,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -737,7 +828,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {
