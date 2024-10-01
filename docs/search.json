@@ -4,84 +4,7 @@
     "href": "datos.html",
     "title": "1  Datos usados en el curso",
     "section": "",
-    "text": "1.1 Temixco_2018_10Min.csv\nEste archivo contiene datos recopilados cada 10 minutos para todo el año 2018. Las columnas del dataset están descritas a continuación:\n!head ../data/Temixco_2018_10Min.csv\n\ntime,Ib,Ig,To,RH,WS,WD,P\n2018-01-01 00:00:00,,,18.7,36.34,1.422,316.0,87864.11\n2018-01-01 00:10:00,0.002,0.0,18.95,35.29,1.008,283.7,87876.37\n2018-01-01 00:20:00,0.17,0.0,18.94,35.43,1.565,326.0,87888.64\n2018-01-01 00:30:00,0.371,0.0,18.77,35.89,2.175,354.5,87887.21\n2018-01-01 00:40:00,0.305,0.0,18.81,36.34,1.902,348.0,87886.90999999999\n2018-01-01 00:50:00,0.031,0.0,19.23,35.4,1.468,6.668,87889.36\n2018-01-01 01:00:00,0.034,0.0,19.23,35.67,1.368,11.67,87894.78\n2018-01-01 01:10:00,0.178,0.0,19.25,35.6,1.122,3.498,87899.54\n2018-01-01 01:20:00,0.001,0.0,19.21,35.97,0.332,64.51,87896.81999999999",
-    "crumbs": [
-      "Semana Uno",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Datos usados en el curso</span>"
-    ]
-  },
-  {
-    "objectID": "datos.html#temixco_2018_10min.csv",
-    "href": "datos.html#temixco_2018_10min.csv",
-    "title": "1  Datos usados en el curso",
-    "section": "",
-    "text": "time: Fecha y hora del registro en el formato año-mes-día hora:minutos:segundos.\nIb: Radiación directa sobre superficie horizontal (W/m²).\nIg: Radiación global (W/m²).\nTo: Temperatura ambiental (°C).\nRH: Humedad relativa (%).\nWS: Velocidad del viento (m/s).\nWD: Dirección del viento (grados).\nP: Presión atmosférica (hPa).",
-    "crumbs": [
-      "Semana Uno",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Datos usados en el curso</span>"
-    ]
-  },
-  {
-    "objectID": "datos.html#temixco_2018_10min.xls",
-    "href": "datos.html#temixco_2018_10min.xls",
-    "title": "1  Datos usados en el curso",
-    "section": "1.2 Temixco_2018_10Min.xls",
-    "text": "1.2 Temixco_2018_10Min.xls\nEste archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que Temixco_2018_10Min.csv pero en formato xlsx",
-    "crumbs": [
-      "Semana Uno",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Datos usados en el curso</span>"
-    ]
-  },
-  {
-    "objectID": "datos.html#temixco_2018_10min.parquet",
-    "href": "datos.html#temixco_2018_10min.parquet",
-    "title": "1  Datos usados en el curso",
-    "section": "1.3 Temixco_2018_10Min.parquet",
-    "text": "1.3 Temixco_2018_10Min.parquet\nEste archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que Temixco_2018_10Min.csv pero en formato parquet",
-    "crumbs": [
-      "Semana Uno",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Datos usados en el curso</span>"
-    ]
-  },
-  {
-    "objectID": "datos.html#temixco_2018_10min.csv.zip",
-    "href": "datos.html#temixco_2018_10min.csv.zip",
-    "title": "1  Datos usados en el curso",
-    "section": "1.4 Temixco_2018_10Min.csv.zip",
-    "text": "1.4 Temixco_2018_10Min.csv.zip\nEste archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que Temixco_2018_10Min.csv pero comprimido en formato zip.",
-    "crumbs": [
-      "Semana Uno",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Datos usados en el curso</span>"
-    ]
-  },
-  {
-    "objectID": "datos.html#temixco_2018_10min_nan.csv",
-    "href": "datos.html#temixco_2018_10min_nan.csv",
-    "title": "1  Datos usados en el curso",
-    "section": "1.5 Temixco_2018_10Min_NaN.csv",
-    "text": "1.5 Temixco_2018_10Min_NaN.csv\nEste archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que Temixco_2018_10Min.csv pero tiene un periodo con datos NaN en marzo y otro periodo donde se eliminaron datos al final del año.",
-    "crumbs": [
-      "Semana Uno",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Datos usados en el curso</span>"
-    ]
-  },
-  {
-    "objectID": "datos.html#update.parquet",
-    "href": "datos.html#update.parquet",
-    "title": "1  Datos usados en el curso",
-    "section": "1.6 update.parquet",
-    "text": "1.6 update.parquet\nEste archivo contiene datos recopilados cada 10 minutos para marzo del año 2018 al igual que Temixco_2018_10Min.csv solo de la columna To. - To: Temperatura ambiental (°C).",
-    "crumbs": [
-      "Semana Uno",
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Datos usados en el curso</span>"
-    ]
-  },
-  {
-    "objectID": "datos.html#referencias",
-    "href": "datos.html#referencias",
-    "title": "1  Datos usados en el curso",
-    "section": "2.1 Referencias",
-    "text": "2.1 Referencias\nArtículo:\n@article{owid-co2-gdp-decoupling,\nauthor = {Hannah Ritchie},\ntitle = {Many countries have decoupled economic growth from CO2 emissions, even if we take offshored production into account},\njournal = {Our World in Data},\nyear = {2021},\nnote = {https://ourworldindata.org/co2-gdp-decoupling}\n}\nDatos de:\nOur World in Data CO2 Dataset",
+    "text": "Ubicación de los datos\nSi descargaste el repositorio, verás un folder data en el directorio raíz, ahí se encuentran los datos usados en el curso. \nPuedes entrar a cada conjunto de datos y descargar archivo por archivo si así lo deseas. \n\n\nTemixco_2018_10Min.csv\nEste archivo contiene datos recopilados cada 10 minutos para todo el año 2018. Las columnas del dataset están descritas a continuación:\n\ntime: Fecha y hora del registro en el formato año-mes-día hora:minutos:segundos.\nIb: Radiación directa sobre superficie horizontal (W/m²).\nIg: Radiación global (W/m²).\nTo: Temperatura ambiental (°C).\nRH: Humedad relativa (%).\nWS: Velocidad del viento (m/s).\nWD: Dirección del viento (grados).\nP: Presión atmosférica (hPa).\n\n\n!head ../data/Temixco_2018_10Min.csv\n\ntime,Ib,Ig,To,RH,WS,WD,P\n2018-01-01 00:00:00,,,18.7,36.34,1.422,316.0,87864.11\n2018-01-01 00:10:00,0.002,0.0,18.95,35.29,1.008,283.7,87876.37\n2018-01-01 00:20:00,0.17,0.0,18.94,35.43,1.565,326.0,87888.64\n2018-01-01 00:30:00,0.371,0.0,18.77,35.89,2.175,354.5,87887.21\n2018-01-01 00:40:00,0.305,0.0,18.81,36.34,1.902,348.0,87886.90999999999\n2018-01-01 00:50:00,0.031,0.0,19.23,35.4,1.468,6.668,87889.36\n2018-01-01 01:00:00,0.034,0.0,19.23,35.67,1.368,11.67,87894.78\n2018-01-01 01:10:00,0.178,0.0,19.25,35.6,1.122,3.498,87899.54\n2018-01-01 01:20:00,0.001,0.0,19.21,35.97,0.332,64.51,87896.81999999999\n\n\n\n\nTemixco_2018_10Min.xls\nEste archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que Temixco_2018_10Min.csv pero en formato xlsx\n\n\nTemixco_2018_10Min.parquet\nEste archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que Temixco_2018_10Min.csv pero en formato parquet\n\n\nTemixco_2018_10Min.csv.zip\nEste archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que Temixco_2018_10Min.csv pero comprimido en formato zip.\n\n\nTemixco_2018_10Min_NaN.csv\nEste archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que Temixco_2018_10Min.csv pero tiene un periodo con datos NaN en marzo y otro periodo donde se eliminaron datos al final del año.\n\n\nupdate.parquet\nEste archivo contiene datos recopilados cada 10 minutos para marzo del año 2018 al igual que Temixco_2018_10Min.csv solo de la columna To. - To: Temperatura ambiental (°C).\n\n\nowid-co2-data.csv\nEste archivo contiene datos relacionados con las emisiones de CO2, la producción de energía y otros indicadores medioambientales y económicos recopilados a nivel mundial. Los datos abarcan diferentes períodos de tiempo según el país y la variable registrada. Las columnas del dataset están descritas a continuación:\n\ncountry: El nombre del país o región.\nyear: Año del registro de datos.\niso_code: Código ISO 3166-1 alfa-3 del país.\npopulation: Población del país en el año especificado.\ngdp: Producto Interno Bruto (PIB) del país en dólares internacionales constantes.\nprimary_energy_consumption: Consumo de energía primaria en teravatios-hora (TWh).\nenergy_per_capita: Consumo de energía per cápita en kilovatios-hora (kWh).\nenergy_per_gdp: Consumo de energía por unidad de PIB en kilovatios-hora por dólar internacional constante.\nco2: Emisiones totales de CO2 en millones de toneladas.\nco2_per_capita: Emisiones de CO2 per cápita en toneladas.\nco2_per_gdp: Emisiones de CO2 por unidad de PIB en kilogramos por dólar internacional constante.\ncoal_co2: Emisiones de CO2 del carbón en millones de toneladas.\noil_co2: Emisiones de CO2 del petróleo en millones de toneladas.\ngas_co2: Emisiones de CO2 del gas natural en millones de toneladas.\ncement_co2: Emisiones de CO2 del cemento en millones de toneladas.\nflaring_co2: Emisiones de CO2 por quema de gas en millones de toneladas.\nother_industry_co2: Emisiones de CO2 de otras industrias en millones de toneladas.\nco2_growth_abs: Crecimiento absoluto de las emisiones de CO2 en millones de toneladas respecto al año anterior.\nco2_growth_prct: Crecimiento porcentual de las emisiones de CO2 respecto al año anterior.\nco2_including_land_use: Emisiones de CO2 incluyendo el uso del suelo en millones de toneladas.\nco2_including_land_use_per_capita: Emisiones de CO2 incluyendo el uso del suelo per cápita en toneladas.\nco2_including_land_use_per_gdp: Emisiones de CO2 incluyendo el uso del suelo por unidad de PIB en kilogramos por dólar internacional constante.\nmethane: Emisiones de metano en millones de toneladas equivalentes de CO2.\nmethane_per_capita: Emisiones de metano per cápita en toneladas equivalentes de CO2.\nmethane_per_gdp: Emisiones de metano por unidad de PIB en kilogramos equivalentes de CO2 por dólar internacional constante.\nnitrous_oxide: Emisiones de óxido nitroso en millones de toneladas equivalentes de CO2.\nnitrous_oxide_per_capita: Emisiones de óxido nitroso per cápita en toneladas equivalentes de CO2.\nnitrous_oxide_per_gdp: Emisiones de óxido nitroso por unidad de PIB en kilogramos equivalentes de CO2 por dólar internacional constante.\nenergy_consumption: Consumo total de energía en teravatios-hora (TWh).\nenergy_consumption_per_capita: Consumo de energía per cápita en kilovatios-hora (kWh).\nenergy_consumption_per_gdp: Consumo de energía por unidad de PIB en kilovatios-hora por dólar internacional constante.\n\n\n\nReferencias\nArtículo:\n@article{owid-co2-gdp-decoupling,\nauthor = {Hannah Ritchie},\ntitle = {Many countries have decoupled economic growth from CO2 emissions, even if we take offshored production into account},\njournal = {Our World in Data},\nyear = {2021},\nnote = {https://ourworldindata.org/co2-gdp-decoupling}\n}\nDatos de:\nOur World in Data CO2 Dataset\n\n\npersonas_cargas.csv\nEste archivo contiene datos recopilados cada minuto durante el primero de enero del 2006. Contiene en la medición de consumo eléctrico y ocupación de diferentes espacios en un edificio. Las columnas del dataset están descritas a continuación:\n\ndate: Fecha y hora del registro en el formato año-mes-día hora:minutos:segundos.\nB2_LIGHT:Lights Electricity Rate (W): Consumo eléctrico en Watts de las luces en la habitación B2.\nB1:Lights Electricity Rate (W): Consumo eléctrico en Watts de las luces en la habitación B1.\nCOCINA_ESTUFA_EQUIPMENT:Electric Equipment Electricity Rate (W): Consumo eléctrico en Watts del equipo de estufa en la cocina.\nCOCINA_REFR_EQUIPMENT:Electric Equipment Electricity Rate (W): Consumo eléctrico en Watts del refrigerador en la cocina.\nESTANCIA_COCINA_LIGHT:Lights Electricity Rate (W): Consumo eléctrico en Watts de las luces en la estancia de la cocina.\nESTANCIA_TV_EQUIPMENT:Electric Equipment Electricity Rate (W): Consumo eléctrico en Watts del equipo de televisión en la estancia.\nR1_LIGHT:Lights Electricity Rate (W): Consumo eléctrico en Watts de las luces en la habitación R1.\nR2_LIGHT:Lights Electricity Rate (W): Consumo eléctrico en Watts de las luces en la habitación R2.\nR3_LIGHT:Lights Electricity Rate (W): Consumo eléctrico en Watts de las luces en la habitación R3.\nCOCINA_STAND_BY_EQUIPMENT:Electric Equipment Electricity Rate (W): Consumo eléctrico en Watts de los equipos en modo de espera en la cocina.\nB1:Space People Occupant Count (): Número de personas presentes en la habitación B1.\nB2:Space People Occupant Count (): Número de personas presentes en la habitación B2.\nCOCINA:Space People Occupant Count (): Número de personas presentes en la cocina.\nR1:Space People Occupant Count (): Número de personas presentes en la habitación R1.\nR2:Space People Occupant Count (): Número de personas presentes en la habitación R2.\nR3:Space People Occupant Count (): Número de personas presentes en la habitación R3.",
     "crumbs": [
       "Semana Uno",
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Datos usados en el curso</span>"
@@ -596,7 +519,7 @@
     "href": "notebooks/semanaUno/001_instala_python.html",
     "title": "2  Instala Python",
     "section": "",
-    "text": "Hola, para iniciar este curso vamos a ver cómo instalar Python y Jupyter Notebook desde cero, descargando directamente de python.org.\nRealizar esto nos asegura una instalación sencilla y que podemos instalar la versión que deseemos y que podemos personalizar nuestra instalación según necesitemos.\n\nVe python.org, selecciona y descarga\nInstala y asegurate de marcar Add Python to PATH\nAsegurate de que tu power shell funciona ejecutando python o py\nInstala jupyter notebook, pandas y matlplotlib, recuerda hacerlo con python -m pip install jupyter notebook pandas matplotlib\nAbre una terminal nueva y prueba que funciona ejecutando “jupyter",
+    "text": "Hola, para iniciar este curso vamos a ver cómo instalar Python y Jupyter Notebook desde cero, descargando directamente de python.org.\nRealizar esto nos asegura una instalación sencilla y que podemos instalar la versión que deseemos y que podemos personalizar nuestra instalación según necesitemos.\n\nVe python.org, selecciona y descarga Python para instalar en tu sistema operativo.\nInstala y asegurate de marcar Add Python to PATH\nAsegurate de que tu power shell funciona ejecutando python o py\n\nInstala jupyter notebook, pandas y matlplotlib, recuerda hacerlo con python -m pip install jupyter notebook pandas matplotlib\nAbre una terminal nueva y prueba que funciona ejecutando “jupyter",
     "crumbs": [
       "Semana Uno",
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Instala Python</span>"
