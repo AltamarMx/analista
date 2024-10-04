@@ -1,23 +1,55 @@
 # Entornos virtuales
-Hola, hoy vamos a explorar qué son los entornos virtuales, comúnmente llamados `venv`, en Python y por qué debes usarlos en tus proyectos de ciencia de datos.
+
 
 Un entorno virtual en Python es un espacio aislado que permite tener versiones específicas de Python y de paquetes instalados que son independientes de las instalaciones globales. Esto significa que puedes tener diferentes proyectos con sus propias versiones de paquetes y dependencias, sin que interfieran entre sí.
 
-Bueno, en ciencia de datos, frecuentemente necesitas experimentar con diversas bibliotecas y versiones de las mismas. Usando ambientes virtuales, puedes asegurarte de que tu proyecto de análisis de datos use exactamente las versiones que necesitas y además dejar un archivo documentando las versiones que usa.
 
-Puedes crear y tener muchos entornos virtuales, solo necesitas crearlo por primera vez y para usarlo solo necesitas activar entorno virtual. 
+1. Abre una PowerShell como administrador y ejecuta lo siguiente:
+```bash 
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
+```
+Cuida de confirmar si a todo.
 
-1. Activar el permiso de scripts en la terminal para poder activar el entorno virtual.
+1. Crea un directorio en tu home llamado venvs
+```bash
+mkdir venvs
+```
+1. Entra a `venvs` con:
+```bash
+cd venvs
+```
+1. Crea el ambiente virtual llamado `mooc` con:
+```bash
+python -m venv mooc 
+```
+
+1. Activa el ambiente virtual desde tu home con
+```bash 
+.\venvs\mooc\Script\activate\
+```
+Se debe ver así:
+![](../../img/activate.png)
+
+1. Instala pandas y matplotlib en el venv
+![](../../img/pandas_matplotlib.png)
 
 
-1. Tener un ambiente virtual llamado alldays
-1. Crear ambiente virtual llamado mooc
-1. Instalar version de pandas viejita en mooc
-1. Demostrar que tengo una version viejita de pandas en mooc
-1. Actualizar mooc a partir de un requirements.txt
+1. Registra tus paquetes instalados en tu venv con  
+```bash
+python -m pip freeze > requirements.txt
+```
+
+1. Reinstala tu ambiente virtual a partir de un `requirements.txt`
+```bash
+pip install -r requirements.txt
+```
 
 
-PENDIENTES:
-1. Preparar venv alldays
-2. Tener a la manos un requirements.txt para actualizar mooc
+::: {.callout-tip }
+En Linux y MacOs los entornos virtuales se crean igual pero se activan con
+```bash 
+source ~/venvs/mooc/bin/activate
+```
+
+:::
 

@@ -5,11 +5,23 @@ Realizar esto nos asegura una instalación sencilla y que podemos instalar la ve
 
 
 1. Ve [python.org](python.org), selecciona y descarga Python para instalar en tu sistema operativo.
-1. Instala y asegurate de marcar **Add Python to PATH**
-1. Asegurate de que tu power shell funciona ejecutando python o py   
-1. Instala jupyter notebook, pandas y matlplotlib, recuerda hacerlo con 
-python -m pip install jupyter notebook pandas matplotlib
-1. Abre una terminal nueva y prueba que funciona ejecutando
-"jupyter
+![](../../img/python_org.png)
 
+1. Instala y asegurate de marcar **Add Python.exe to PATH**
+![](../../img/add_path.png)
+
+
+1. Asegurate de Python funciona en tu PowerShell ejecutando python o py   
+![](../../img/powershell_python.png)
+
+
+1. Instala jupyter notebook, pandas y matplotlib, recuerda hacerlo con 
+python -m pip install jupyter notebook pandas matplotlib
+![](../../img/pip_install.png)
+
+
+1. Abre una terminal nueva y prueba que funciona ejecutando
+jupyter notebook
+
+![](../../img/jupyter_notebook.png)
 

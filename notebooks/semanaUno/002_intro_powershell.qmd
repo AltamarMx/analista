@@ -1,22 +1,34 @@
-# Powershell
-Hola, hoy vamos a ver qué es PowerShell y algunas de las cosas que puede hacer y que estamos usando en este curso.
+# Powershell y Python 
 
 PowerShell es una interfaz de línea de comandos y lenguaje de scripting desarrollado por Microsoft. Está diseñado principalmente para la administración del sistema y la automatización de tareas repetitivas, por lo que se destaca por su interfaz en modo texto.
 
 Una de las funciones básicas de PowerShell es ejecutar programas, desde abrir el explorador de archivos hasta  lanzar jupyter notebook o iniciar  scripts complejos de automatización. También puedes usar PowerShell para copiar o mover archivos y directorios, siendo una gran herramienta para la gestión de tus proyectos de datos.
 
+## Navega entre directorios
 
-Si trabajas con Python, te interesará saber que puedes ejecutar Jupyter Notebook directamente desde PowerShell, puedes iniciar tus notebooks con un comando en PowerShell, haciendo más  sencillo tu flujo de trabajo.
+Usa `ls` para saber lo que hay en tu directorio:
+![](../../img/ls.png)
+
+Usa `cd Desktop` para entrar a un al directorio **Desktop**,
+![](../../img/cd_desktop.png)
+
+Usa `ii .` para lanzar el explorador de archivos en el folder en que te encuentras.
+
+## Jupyter notebook desde la PoserShell
+
+Escribe `jupyter notebook` y lanzaras la libreta de Jupyter 
+en el directorio en el que te encuentras:
+![](../../img/jupyter_notebook.png)
+
+## Tareas sugeridas
+
+1. Abre tu PowerShell.
+1. Crea un directorio en tu home que se llame `analista`
+1. Entra a ese directorio con `cd analista`
+1. Crea tu espacio de trabajo creando dos folders `mkdir data` y `mkdir notebooks`
+1. Lanza la libreta de jupyter  con `jupyter notebook`
+1. !Feliz inicio de curso!
 
 
-Además, si tienes Git instalado, PowerShell se integra con Git, lo que  te permite ejecutar todos tus comandos de Git desde la misma ventana de PowerShell.
 
-Vamos a ver como usamos PowerShell para navegar por nuestra computadora y lanzar tu libreta de Jupyter.
-
-
-1. Lanzar PowerShell
-1. Contar por qué nos conviene poner los proyectos o repos en el home
-1. Acceder a un repo/espacio de trabajo
-1. Abrir ii . explorador de archivos y mover un archivo
-1. Lanzar jupyter notebook para que vea todos los folders del espacio de trabajo
 

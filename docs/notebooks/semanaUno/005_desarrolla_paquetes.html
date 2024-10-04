@@ -20,6 +20,40 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
@@ -150,7 +184,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notebooks/semanaUno/002_intro_powershell.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Powershell</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Powershell y Python</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -458,26 +492,54 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hola, hoy vamos a hablar sobre cómo desarrollar tus propios paquetes de Python localmente y por qué deberías considerar subirlos a GitHub.</p>
 <p>Desarrollar paquetes localmente te permite modularizar y reutilizar tu código. Esto no solo hace tu código más organizado, sino también más fácil de mantener. Pero, ¿qué pasa cuando quieres compartir tu trabajo con el mundo o tu equipe de trabajo?</p>
 <p>Al subir tus paquetes a GitHub, permites que cualquiera los instale fácilmente con un simple comando y la dirección del repositorio.</p>
-<p>Vamos a ver los pasos para crear un paquete instalable desde github</p>
-<ol type="1">
-<li>Crea el folder del paquete</li>
-<li>Crea otro folder adentro del paquete con el mismo nombre</li>
-<li>Agrega el archivo <strong>init</strong>.py</li>
-<li>Agrega en el directorio raiz del paquete lo siguiente:</li>
-</ol>
-<p>from setuptools import setup, find_packages</p>
-<p>setup( name=‘mi_paquete’, version=‘0.1.0’, packages=find_packages(), description=‘Descripción breve del paquete’, author=‘Tu Nombre’, author_email=‘tu_email@example.com’, url=‘URL del repositorio de GitHub’, install_requires=[ # Lista de dependencias necesarias ], )</p>
-<ol type="1">
-<li><p>Crea un repo y pasa todo a ese repo</p></li>
-<li><p>Instala pip install git+https://github.com/tu_usuario/mi_paquete.git</p></li>
-<li><p>También puedes instalar desde una rama pip install git+https://github.com/tu_usuario/mi_paquete.git@tu_rama</p></li>
-<li><p>Recomendación de usar un template de cookiecutter cuando avance mucho.</p></li>
-</ol>
+<p>Revisa la estructura de un paquete de este repositorio <a href="https://github.com/AltamarMx/paquete_mooc">https://github.com/AltamarMx/paquete_mooc</a></p>
+<p>El archivo <code>setup.py</code> puede ser:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">from</span> setuptools import setup, find_packages</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">setup</span><span class="er">(</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="va">name</span><span class="op">=</span><span class="st">'mi_paquete'</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="va">version</span><span class="op">=</span><span class="st">'0.1.0'</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="va">packages</span><span class="op">=</span>find_packages<span class="kw">()</span><span class="ex">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="va">description</span><span class="op">=</span><span class="st">'Descripción breve del paquete'</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="va">author</span><span class="op">=</span><span class="st">'Tu Nombre'</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="va">author_email</span><span class="op">=</span><span class="st">'tu_email@example.com'</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="va">url</span><span class="op">=</span><span class="st">'URL del repositorio de GitHub'</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="va">install_requires</span><span class="op">=</span>[</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Lista de dependencias necesarias</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="ex">],</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="kw">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Instala el paquete del curso con:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install git+https://github.com/AltamarMx/paquete_mooc</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>También puedes instalar desde una rama</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install git+https://github.com/tu_usuario/mi_paquete.git@tu_rama</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

@@ -1,16 +1,37 @@
 # Espacio de trabajo
-Hola, hoy vamos a hablar sobre cómo estandarizar y automatizar la creación de nuestros espacios de trabajo para proyectos de ciencia de datos usando  Cookiecutter.
 
 Un espacio de trabajo es un conjunto de folders con una estructura y nombres que tienen una narrativa acorde a tu proyecto y nos ayuda a mantenerlos estructurados, propicia la reproducibilidad y facilita la colaboración. 
 
-Con Cookiecutter, podemos crear nuestro  espacio automáticamente, siguiendo un modelo predefinido que garantiza que todos los elementos esenciales estén en su lugar desde el inicio.
+Un espacio de trabajo incial para mi se ve:
+![](../../img/meteorologico.png)
 
-En los próximos minutos, les mostraré cómo usar y configurar Cookiecutter para generar todo tipo de proyectos, y nos enfocaremos en proyectos de ciencia de datos.
+
+Con Cookiecutter, podemos crear nuestro  espacio automáticamente, siguiendo un modelo predefinido que garantiza que todos los elementos esenciales estén en su lugar desde el inicio.
 
 
 
 1. Instalar cookiecutter
-1. Usar cookiecutter para crear un espacio de trabajo
+```bash
+pip install cookiecutter
+```
+1. Usa cookiecutter para crear un espacio de trabajo
+```bash 
 cookiecutter.exe gh:altamarmx/cookiecutter_cienciadatos
+```
 1. Revisar el espacio de trabajo creado
-1. Explicar como funciona cookiecutter
+
+
+
+
+
+
+::: {.callout-note }
+Puedes revisar el repositorio que crea el espacio de trabajó en [https://github.com/AltamarMx/cookiecutter_cienciadatos](https://github.com/AltamarMx/cookiecutter_cienciadatos)
+:::
+
+::: {.callout-tip }
+Puedes leer la documentación de Cookiecutter [aquí](https://cookiecutter.readthedocs.io/en/stable/
+)
+:::
+
+

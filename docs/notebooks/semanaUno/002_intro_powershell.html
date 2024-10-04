@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>3&nbsp; Powershell – Python: De explorador de datos a analista</title>
+<title>3&nbsp; Powershell y Python – Python: De explorador de datos a analista</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -97,7 +97,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datos.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/002_intro_powershell.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Powershell</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datos.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/002_intro_powershell.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Powershell y Python</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -150,7 +150,7 @@ ul.task-list li input[type="checkbox"] {
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notebooks/semanaUno/002_intro_powershell.html" class="sidebar-item-text sidebar-link active">
- <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Powershell</span></span></a>
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Powershell y Python</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -433,15 +433,23 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#navega-entre-directorios" id="toc-navega-entre-directorios" class="nav-link active" data-scroll-target="#navega-entre-directorios"><span class="header-section-number">3.1</span> Navega entre directorios</a></li>
+  <li><a href="#jupyter-notebook-desde-la-posershell" id="toc-jupyter-notebook-desde-la-posershell" class="nav-link" data-scroll-target="#jupyter-notebook-desde-la-posershell"><span class="header-section-number">3.2</span> Jupyter notebook desde la PoserShell</a></li>
+  <li><a href="#tareas-sugeridas" id="toc-tareas-sugeridas" class="nav-link" data-scroll-target="#tareas-sugeridas"><span class="header-section-number">3.3</span> Tareas sugeridas</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datos.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/002_intro_powershell.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Powershell</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../datos.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/002_intro_powershell.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Powershell y Python</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Powershell</span></h1>
+<h1 class="title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Powershell y Python</span></h1>
 </div>
 
 
@@ -458,21 +466,31 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Hola, hoy vamos a ver qué es PowerShell y algunas de las cosas que puede hacer y que estamos usando en este curso.</p>
 <p>PowerShell es una interfaz de línea de comandos y lenguaje de scripting desarrollado por Microsoft. Está diseñado principalmente para la administración del sistema y la automatización de tareas repetitivas, por lo que se destaca por su interfaz en modo texto.</p>
 <p>Una de las funciones básicas de PowerShell es ejecutar programas, desde abrir el explorador de archivos hasta lanzar jupyter notebook o iniciar scripts complejos de automatización. También puedes usar PowerShell para copiar o mover archivos y directorios, siendo una gran herramienta para la gestión de tus proyectos de datos.</p>
-<p>Si trabajas con Python, te interesará saber que puedes ejecutar Jupyter Notebook directamente desde PowerShell, puedes iniciar tus notebooks con un comando en PowerShell, haciendo más sencillo tu flujo de trabajo.</p>
-<p>Además, si tienes Git instalado, PowerShell se integra con Git, lo que te permite ejecutar todos tus comandos de Git desde la misma ventana de PowerShell.</p>
-<p>Vamos a ver como usamos PowerShell para navegar por nuestra computadora y lanzar tu libreta de Jupyter.</p>
+<section id="navega-entre-directorios" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="navega-entre-directorios"><span class="header-section-number">3.1</span> Navega entre directorios</h2>
+<p>Usa <code>ls</code> para saber lo que hay en tu directorio: <img src="../../img/ls.png" class="img-fluid"></p>
+<p>Usa <code>cd Desktop</code> para entrar a un al directorio <strong>Desktop</strong>, <img src="../../img/cd_desktop.png" class="img-fluid"></p>
+<p>Usa <code>ii .</code> para lanzar el explorador de archivos en el folder en que te encuentras.</p>
+</section>
+<section id="jupyter-notebook-desde-la-posershell" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="jupyter-notebook-desde-la-posershell"><span class="header-section-number">3.2</span> Jupyter notebook desde la PoserShell</h2>
+<p>Escribe <code>jupyter notebook</code> y lanzaras la libreta de Jupyter en el directorio en el que te encuentras: <img src="../../img/jupyter_notebook.png" class="img-fluid"></p>
+</section>
+<section id="tareas-sugeridas" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="tareas-sugeridas"><span class="header-section-number">3.3</span> Tareas sugeridas</h2>
 <ol type="1">
-<li>Lanzar PowerShell</li>
-<li>Contar por qué nos conviene poner los proyectos o repos en el home</li>
-<li>Acceder a un repo/espacio de trabajo</li>
-<li>Abrir ii . explorador de archivos y mover un archivo</li>
-<li>Lanzar jupyter notebook para que vea todos los folders del espacio de trabajo</li>
+<li>Abre tu PowerShell.</li>
+<li>Crea un directorio en tu home que se llame <code>analista</code></li>
+<li>Entra a ese directorio con <code>cd analista</code></li>
+<li>Crea tu espacio de trabajo creando dos folders <code>mkdir data</code> y <code>mkdir notebooks</code></li>
+<li>Lanza la libreta de jupyter con <code>jupyter notebook</code></li>
+<li>!Feliz inicio de curso!</li>
 </ol>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
