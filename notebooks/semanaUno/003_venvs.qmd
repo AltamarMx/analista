@@ -4,42 +4,48 @@
 Un entorno virtual en Python es un espacio aislado que permite tener versiones específicas de Python y de paquetes instalados que son independientes de las instalaciones globales. Esto significa que puedes tener diferentes proyectos con sus propias versiones de paquetes y dependencias, sin que interfieran entre sí.
 
 
-1. Abre una PowerShell como administrador y ejecuta lo siguiente:
+Abre una PowerShell como administrador y ejecuta lo siguiente:
 ```bash 
 Set-ExecutionPolicy -ExecutionPolicy RemoteSigned
 ```
 Cuida de confirmar si a todo.
 
-1. Crea un directorio en tu home llamado venvs
+Crea un directorio en tu home llamado venvs
 ```bash
 mkdir venvs
 ```
-1. Entra a `venvs` con:
+
+Entra a `venvs` con:
 ```bash
 cd venvs
 ```
-1. Crea el ambiente virtual llamado `mooc` con:
+
+Crea el ambiente virtual llamado `mooc` con:
 ```bash
 python -m venv mooc 
 ```
 
-1. Activa el ambiente virtual desde tu home con
+
+Activa el ambiente virtual desde tu home con
 ```bash 
 .\venvs\mooc\Script\activate\
 ```
 Se debe ver así:
 ![](../../img/activate.png)
 
-1. Instala pandas y matplotlib en el venv
+
+Instala pandas y matplotlib en el venv
 ![](../../img/pandas_matplotlib.png)
 
 
-1. Registra tus paquetes instalados en tu venv con  
+
+Registra tus paquetes instalados en tu venv con  
 ```bash
 python -m pip freeze > requirements.txt
 ```
 
-1. Reinstala tu ambiente virtual a partir de un `requirements.txt`
+
+Reinstala tu ambiente virtual a partir de un `requirements.txt`
 ```bash
 pip install -r requirements.txt
 ```

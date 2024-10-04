@@ -9,12 +9,12 @@ Una de las funciones básicas de PowerShell es ejecutar programas, desde abrir e
 Usa `ls` para saber lo que hay en tu directorio:
 ![](../../img/ls.png)
 
-Usa `cd Desktop` para entrar a un al directorio **Desktop**,
+Usa `cd Desktop` para entrar  al directorio **Desktop**,
 ![](../../img/cd_desktop.png)
 
 Usa `ii .` para lanzar el explorador de archivos en el folder en que te encuentras.
 
-## Jupyter notebook desde la PoserShell
+## Jupyter notebook desde la PowerShell
 
 Escribe `jupyter notebook` y lanzaras la libreta de Jupyter 
 en el directorio en el que te encuentras:

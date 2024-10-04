@@ -1,8 +1,6 @@
 ### Bienvenida {.unnumbered}
 
 
-
-
 Si ya eres una persona [`usuaria de Python`](https://www.coursera.org/learn/python-usuario) y ya pasaste de [`Usuario a Explorador de datos`](https://www.coursera.org/learn/pythonexplorador),  lo que sigue es que te conviertas en una persona experta analista con el curso [`MOOC Python: de explorador de datos a analista`](https://www.coursera.org/learn/pythonanalista/home/welcome). 
 
 

@@ -10,8 +10,6 @@ project:
   
 book:
   title: "Python: De explorador de datos a analista"
-  # language: es
-  # author: Guillermo Barrios
   # version: 0.9.1
   navbar:
     search: True
@@ -28,10 +26,10 @@ book:
   repo-url: https://github.com/altamarmx/analista/
   chapters:
     - index.qmd 
-    - uso.qmd
+    - uso.qmd      
+    - datos.qmd
     - part: 'Semana Uno' #notebooks/semanaUno/semana1.qmd
       chapters:         
-        - datos.ipynb
         - notebooks/semanaUno/001_instala_python.qmd
         - notebooks/semanaUno/002_intro_powershell.qmd
         - notebooks/semanaUno/003_venvs.qmd
@@ -44,7 +42,7 @@ book:
         - notebooks/semanaUno/010_unpack.ipynb
         - notebooks/semanaUno/011_lambda.ipynb
         - notebooks/semanaUno/012_walrus.ipynb
-    - part: notebooks/semanaDos/semana2.qmd 
+    - part: 'Semana Dos' 
       chapters: 
         - notebooks/semanaDos/013_IntroMatplotlib.ipynb
         - notebooks/semanaDos/014_POOMatplotlib.ipynb
@@ -59,7 +57,7 @@ book:
         - notebooks/semanaDos/022b_Plotly.ipynb
         # - notebooks/semanaDos/022c_Bokeh.ipynb
         # - notebooks/semanaDos/022d_Altair.ipynb
-    - part: notebooks/semanaTres/semana3.qmd
+    - part: 'Semana Tres'
       chapters: 
         - notebooks/semanaTres/024_Intro_pandas.ipynb
         - notebooks/semanaTres/025_Promedios_moviles.ipynb
@@ -72,8 +70,8 @@ book:
         - notebooks/semanaTres/032_join_merge_concat.ipynb
         - notebooks/semanaTres/033_datos_faltantes.ipynb
         - notebooks/semanaTres/034a_zonas_horarias.ipynb
-        - notebooks/semanaTres/034b_zonas_horarias.ipynb
-    - part: notebooks/semanaCuatro/semana4.qmd
+        # - notebooks/semanaTres/034b_zonas_horarias.ipynb
+    - part: 'Semana Cuatro'
       chapters: 
         - notebooks/semanaCuatro/035_EjecutaLibretas.ipynb
         - notebooks/semanaCuatro/036_convierte_libretas_a_scripts.qmd

@@ -10,15 +10,17 @@ Con Cookiecutter, podemos crear nuestro  espacio automáticamente, siguiendo un 
 
 
 
-1. Instalar cookiecutter
+Instalar cookiecutter
 ```bash
 pip install cookiecutter
 ```
-1. Usa cookiecutter para crear un espacio de trabajo
+
+Usa cookiecutter para crear un espacio de trabajo
 ```bash 
 cookiecutter.exe gh:altamarmx/cookiecutter_cienciadatos
 ```
-1. Revisar el espacio de trabajo creado
+
+Revisar el espacio de trabajo creado
 
 
 
