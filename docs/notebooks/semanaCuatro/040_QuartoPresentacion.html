@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Guillermo Barrios">
 
-<title>39&nbsp; Temperatura e Irradiancia en Temixco, Morelos – Python: De explorador de datos a analista</title>
+<title>40&nbsp; Quarto presentación – Python: De explorador de datos a analista</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,8 +64,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../notebooks/semanaCuatro/040_QuartoPresentacion.html" rel="next">
-<link href="../../notebooks/semanaCuatro/038_quarto_presentacion_instalacion.html" rel="prev">
+<link href="../../notebooks/semanaCuatro/041_webapps_shiny.html" rel="next">
+<link href="../../notebooks/semanaCuatro/039_QuartoLibreta.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -161,7 +160,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/035_EjecutaLibretas.html">Semana Cuatro</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/039_QuartoLibreta.html"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Temperatura e Irradiancia en Temixco, Morelos</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/035_EjecutaLibretas.html">Semana Cuatro</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/040_QuartoPresentacion.html"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Quarto presentación</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -462,13 +461,13 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notebooks/semanaCuatro/039_QuartoLibreta.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../notebooks/semanaCuatro/039_QuartoLibreta.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Temperatura e Irradiancia en Temixco, Morelos</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notebooks/semanaCuatro/040_QuartoPresentacion.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notebooks/semanaCuatro/040_QuartoPresentacion.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Quarto presentación</span></span></a>
   </div>
 </li>
@@ -491,27 +490,29 @@ window.Quarto = {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Tabla de contenidos</h2>
+   
+  <ul>
+  <li><a href="#insertar-figura-de-una-libreta" id="toc-insertar-figura-de-una-libreta" class="nav-link active" data-scroll-target="#insertar-figura-de-una-libreta"><span class="header-section-number">40.1</span> Insertar figura de una libreta</a></li>
+  <li><a href="#ecuaciones-en-latex" id="toc-ecuaciones-en-latex" class="nav-link" data-scroll-target="#ecuaciones-en-latex"><span class="header-section-number">40.2</span> Ecuaciones en <span class="math inline">\(\LaTeX\)</span></a></li>
+  <li><a href="#resalta-código" id="toc-resalta-código" class="nav-link" data-scroll-target="#resalta-código"><span class="header-section-number">40.3</span> Resalta código</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/035_EjecutaLibretas.html">Semana Cuatro</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/039_QuartoLibreta.html"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Temperatura e Irradiancia en Temixco, Morelos</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/035_EjecutaLibretas.html">Semana Cuatro</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/040_QuartoPresentacion.html"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Quarto presentación</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Temperatura e Irradiancia en Temixco, Morelos</span></h1>
+<h1 class="title"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Quarto presentación</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Desarrollador</div>
-    <div class="quarto-title-meta-contents">
-             <p>Guillermo Barrios </p>
-          </div>
-  </div>
     
   
     
@@ -522,9 +523,14 @@ window.Quarto = {
 </header>
 
 
-<p>En Temixco, Mor. la temperatura ambiental <span class="math inline">\(T_o\)</span> osciló aproximadamente entre los 8 y 32 <span class="math inline">\(^oC\)</span> durante el 2018, como se puede ver en la <a href="040_QuartoPresentacion.html#fig-to-ig" class="quarto-xref">Figura&nbsp;<span>40.1</span></a>.</p>
-<p>Bla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla bla.</p>
-<p>Bla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla bla.</p>
+<ol type="1">
+<li>Crear diapositivas</li>
+<li>Insertar una figura de una libreta</li>
+<li>Insertar ecuaciones en formato <span class="math inline">\(\LaTeX\)</span></li>
+</ol>
+<section id="insertar-figura-de-una-libreta" class="level2" data-number="40.1">
+<h2 data-number="40.1" class="anchored" data-anchor-id="insertar-figura-de-una-libreta"><span class="header-section-number">40.1</span> Insertar figura de una libreta</h2>
+<div class="quarto-embed-nb-cell" data-notebook="C:\Users\gbv\analista\notebooks\semanaCuatro\039_QuartoLibreta.ipynb" data-notebook-title="Temperatura e Irradiancia en Temixco, Morelos" data-notebook-cellid="cell-fig-to-ig">
 <div id="cell-fig-to-ig" class="cell" data-scrolled="true" data-execution_count="7">
 <details class="code-fold">
 <summary>Código</summary>
@@ -542,21 +548,38 @@ window.Quarto = {
 <div id="fig-to-ig" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-fig figure">
 <div aria-describedby="fig-to-ig-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="039_QuartoLibreta_files/figure-html/fig-to-ig-output-1.png" class="img-fluid figure-img">
+<img src="040_QuartoPresentacion_files/figure-html/039_QuartoLibreta-fig-to-ig-output-1.png" class="img-fluid figure-img">
 </div>
 <figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-to-ig-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;39.1: Temperatura ambiente y radiación en Temixco, Morelos durante el 2018.
+Figura&nbsp;40.1: Temperatura ambiente y radiación en Temixco, Morelos durante el 2018.
 </figcaption>
 </figure>
 </div>
 </div>
 </div>
-<p>Para obtener un documento html solo escribo:</p>
-<pre><code>quarto render 039_QuartoLibreta.ipynb</code></pre>
-<p>Para obtener un PDF</p>
-<pre><code>quarto render 039_QuartoLibreta.ipynb --to pdf</code></pre>
+</div>
+</section>
+<section id="ecuaciones-en-latex" class="level2" data-number="40.2">
+<h2 data-number="40.2" class="anchored" data-anchor-id="ecuaciones-en-latex"><span class="header-section-number">40.2</span> Ecuaciones en <span class="math inline">\(\LaTeX\)</span></h2>
+<p><span class="math display">\[ \frac{\partial T}{\partial t} = \alpha \left( \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} \right)  \]</span></p>
+<ul>
+<li><span class="math inline">\(T = T(x, y, t)\)</span> es la temperatura como función del espacio y del tiempo.</li>
+<li><span class="math inline">\(\alpha\)</span> es la difusividad térmica del material.</li>
+</ul>
+</section>
+<section id="resalta-código" class="level2" data-number="40.3">
+<h2 data-number="40.3" class="anchored" data-anchor-id="resalta-código"><span class="header-section-number">40.3</span> Resalta código</h2>
+<p><br> <br> <br></p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode numberSource python number-lines code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb2-2"><a href="#cb2-2"></a><span class="im">import</span> plotly.express <span class="im">as</span> px</span>
+<span id="cb2-3"><a href="#cb2-3"></a></span>
+<span id="cb2-4"><a href="#cb2-4"></a>f <span class="op">=</span> <span class="st">'../../data/owid-co2-data.csv'</span></span>
+<span id="cb2-5"><a href="#cb2-5"></a>co2 <span class="op">=</span> pd.read_csv(f)</span>
+<span id="cb2-6"><a href="#cb2-6"></a></span>
+<span id="cb2-7"><a href="#cb2-7"></a>px.line(co2, x <span class="op">=</span> <span class="st">'year'</span>,y<span class="op">=</span><span class="st">'co2'</span>,color<span class="op">=</span><span class="st">'country'</span>)</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1125,13 +1148,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../notebooks/semanaCuatro/038_quarto_presentacion_instalacion.html" class="pagination-link" aria-label="Qué es Quarto">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Qué es Quarto</span></span>
+      <a href="../../notebooks/semanaCuatro/039_QuartoLibreta.html" class="pagination-link" aria-label="Temperatura e Irradiancia en Temixco, Morelos">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Temperatura e Irradiancia en Temixco, Morelos</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../notebooks/semanaCuatro/040_QuartoPresentacion.html" class="pagination-link" aria-label="Quarto presentación">
-        <span class="nav-page-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Quarto presentación</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../notebooks/semanaCuatro/041_webapps_shiny.html" class="pagination-link" aria-label="Shiny">
+        <span class="nav-page-text"><span class="chapter-number">41</span>&nbsp; <span class="chapter-title">Shiny</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

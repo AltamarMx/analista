@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Guillermo Barrios">
 
-<title>39&nbsp; Temperatura e Irradiancia en Temixco, Morelos – Python: De explorador de datos a analista</title>
+<title>6&nbsp; Paquetes en Python – Python: De explorador de datos a analista</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -65,8 +64,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
-<link href="../../notebooks/semanaCuatro/040_QuartoPresentacion.html" rel="next">
-<link href="../../notebooks/semanaCuatro/038_quarto_presentacion_instalacion.html" rel="prev">
+<link href="../../notebooks/semanaUno/006_PEP8.html" rel="next">
+<link href="../../notebooks/semanaUno/004_espacio_trabajo_venv.html" rel="prev">
 <script src="../../site_libs/quarto-html/quarto.js"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -106,35 +105,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 </head>
 
@@ -161,7 +131,7 @@ window.Quarto = {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/035_EjecutaLibretas.html">Semana Cuatro</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/039_QuartoLibreta.html"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Temperatura e Irradiancia en Temixco, Morelos</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/001_instala_python.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/005_desarrolla_paquetes.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Paquetes en Python</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Alternar barra lateral" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
     </div>
@@ -198,13 +168,13 @@ window.Quarto = {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true">
  <span class="menu-text">Semana Uno</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="true" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notebooks/semanaUno/001_instala_python.html" class="sidebar-item-text sidebar-link">
@@ -231,7 +201,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notebooks/semanaUno/005_desarrolla_paquetes.html" class="sidebar-item-text sidebar-link">
+  <a href="../../notebooks/semanaUno/005_desarrolla_paquetes.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Paquetes en Python</span></span></a>
   </div>
 </li>
@@ -429,13 +399,13 @@ window.Quarto = {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false">
  <span class="menu-text">Semana Cuatro</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="true" aria-label="Alternar sección">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" role="navigation" aria-expanded="false" aria-label="Alternar sección">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../../notebooks/semanaCuatro/035_EjecutaLibretas.html" class="sidebar-item-text sidebar-link">
@@ -462,7 +432,7 @@ window.Quarto = {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../../notebooks/semanaCuatro/039_QuartoLibreta.html" class="sidebar-item-text sidebar-link active">
+  <a href="../../notebooks/semanaCuatro/039_QuartoLibreta.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Temperatura e Irradiancia en Temixco, Morelos</span></span></a>
   </div>
 </li>
@@ -497,21 +467,15 @@ window.Quarto = {
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/035_EjecutaLibretas.html">Semana Cuatro</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaCuatro/039_QuartoLibreta.html"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Temperatura e Irradiancia en Temixco, Morelos</span></a></li></ol></nav>
+<header id="title-block-header" class="quarto-title-block default"><nav class="quarto-page-breadcrumbs quarto-title-breadcrumbs d-none d-lg-block" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/001_instala_python.html">Semana Uno</a></li><li class="breadcrumb-item"><a href="../../notebooks/semanaUno/005_desarrolla_paquetes.html"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Paquetes en Python</span></a></li></ol></nav>
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-number">39</span>&nbsp; <span class="chapter-title">Temperatura e Irradiancia en Temixco, Morelos</span></h1>
+<h1 class="title"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Paquetes en Python</span></h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Desarrollador</div>
-    <div class="quarto-title-meta-contents">
-             <p>Guillermo Barrios </p>
-          </div>
-  </div>
     
   
     
@@ -522,41 +486,54 @@ window.Quarto = {
 </header>
 
 
-<p>En Temixco, Mor. la temperatura ambiental <span class="math inline">\(T_o\)</span> osciló aproximadamente entre los 8 y 32 <span class="math inline">\(^oC\)</span> durante el 2018, como se puede ver en la <a href="040_QuartoPresentacion.html#fig-to-ig" class="quarto-xref">Figura&nbsp;<span>40.1</span></a>.</p>
-<p>Bla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla bla.</p>
-<p>Bla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla blaBla bla bla bla bla.</p>
-<div id="cell-fig-to-ig" class="cell" data-scrolled="true" data-execution_count="7">
-<details class="code-fold">
-<summary>Código</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>fig, axs <span class="op">=</span> plt.subplots(<span class="dv">2</span>,figsize<span class="op">=</span>(<span class="dv">10</span>,<span class="dv">3</span>),sharex<span class="op">=</span><span class="va">True</span>)</span>
+<p>Desarrollar paquetes localmente te permite modularizar y reutilizar tu código. Esto no solo hace tu código más organizado, sino también más fácil de mantener. Pero, ¿qué pasa cuando quieres compartir tu trabajo con el mundo o tu equipe de trabajo?</p>
+<p>Al subir tus paquetes a GitHub, permites que cualquiera los instale fácilmente con un simple comando y la dirección del repositorio.</p>
+<p>Revisa la estructura de un paquete de este repositorio <a href="https://github.com/AltamarMx/paquete_mooc">https://github.com/AltamarMx/paquete_mooc</a></p>
+<p>El archivo <code>setup.py</code> puede ser:</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="ex">from</span> setuptools import setup, find_packages</span>
 <span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">0</span>].plot(tmx.To,label<span class="op">=</span><span class="st">"To"</span>)</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].plot(tmx.Ig,label<span class="op">=</span><span class="st">"Ig"</span>)</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>axs[<span class="dv">1</span>].plot(tmx.Ib,label<span class="op">=</span><span class="st">"Ib"</span>)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> ax <span class="kw">in</span> axs:</span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    ax.legend()</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-display">
-<div id="fig-to-ig" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-to-ig-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="039_QuartoLibreta_files/figure-html/fig-to-ig-output-1.png" class="img-fluid figure-img">
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="ex">setup</span><span class="er">(</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>    <span class="va">name</span><span class="op">=</span><span class="st">'mi_paquete'</span>,</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>    <span class="va">version</span><span class="op">=</span><span class="st">'0.1.0'</span>,</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>    <span class="va">packages</span><span class="op">=</span>find_packages<span class="kw">()</span><span class="ex">,</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>    <span class="va">description</span><span class="op">=</span><span class="st">'Descripción breve del paquete'</span>,</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    <span class="va">author</span><span class="op">=</span><span class="st">'Tu Nombre'</span>,</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>    <span class="va">author_email</span><span class="op">=</span><span class="st">'tu_email@example.com'</span>,</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>    <span class="va">url</span><span class="op">=</span><span class="st">'URL del repositorio de GitHub'</span>,</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>    <span class="va">install_requires</span><span class="op">=</span>[</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>        <span class="co"># Lista de dependencias necesarias</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>    <span class="ex">],</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a><span class="kw">)</span></span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-to-ig-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;39.1: Temperatura ambiente y radiación en Temixco, Morelos durante el 2018.
-</figcaption>
-</figure>
+<div class="callout-title-container flex-fill">
+Tip
 </div>
 </div>
+<div class="callout-body-container callout-body">
+<p>Instala el paquete del curso con:</p>
+<div class="sourceCode" id="cb2"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install git+https://github.com/AltamarMx/paquete_mooc</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div>
-<p>Para obtener un documento html solo escribo:</p>
-<pre><code>quarto render 039_QuartoLibreta.ipynb</code></pre>
-<p>Para obtener un PDF</p>
-<pre><code>quarto render 039_QuartoLibreta.ipynb --to pdf</code></pre>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>También puedes instalar desde una rama</p>
+<div class="sourceCode" id="cb3"><pre class="sourceCode bash code-with-copy"><code class="sourceCode bash"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="ex">pip</span> install git+https://github.com/tu_usuario/mi_paquete.git@tu_rama</span></code><button title="Copiar al portapapeles" class="code-copy-button"><i class="bi"></i></button></pre></div>
 
 
+</div>
+</div>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -1125,13 +1102,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../../notebooks/semanaCuatro/038_quarto_presentacion_instalacion.html" class="pagination-link" aria-label="Qué es Quarto">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">38</span>&nbsp; <span class="chapter-title">Qué es Quarto</span></span>
+      <a href="../../notebooks/semanaUno/004_espacio_trabajo_venv.html" class="pagination-link" aria-label="Espacio de trabajo">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Espacio de trabajo</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../../notebooks/semanaCuatro/040_QuartoPresentacion.html" class="pagination-link" aria-label="Quarto presentación">
-        <span class="nav-page-text"><span class="chapter-number">40</span>&nbsp; <span class="chapter-title">Quarto presentación</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../../notebooks/semanaUno/006_PEP8.html" class="pagination-link" aria-label="PEP8">
+        <span class="nav-page-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">PEP8</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
