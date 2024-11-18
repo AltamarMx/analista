@@ -27,6 +27,11 @@ setup(
 ```
 
 
+::: {.callout-note}
+Para poder instalar paquetes desde github necesitas instalar [Git](https://git-scm.com/downloads).
+:::
+
+
 ::: {.callout-tip }
 
 Instala el paquete del curso con:

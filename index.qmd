@@ -28,7 +28,7 @@ El curso está organizado por **cuatro** grandes temas o semanas y un proyecto f
 - **Desempaquetado** • 9 minutos
 - **Funciones lambda** • 8 minutos
 - **Operador Walrus** • 4 minutos
-- **1 tarea de programación**
+- **1 tarea de programación** 
 
 ### Exploratory data analysis avanzado
 
@@ -61,11 +61,11 @@ El curso está organizado por **cuatro** grandes temas o semanas y un proyecto f
 - **Zonas horarias. Parte 2** • 4 minutos
 - **1 tarea de programación**
 
-### Nuevas herramientas en la ciencia de datos
+### Nuevas herramientas en la ciencia de datos 
 
 - **Bienvenida a la semana 4** • 2 minutos 
 - **Ejecuta libretas** • 4 minutos
-- **Convertir libretas a scripts** • 6 minutos
+- **Convertir libretas a scripts** • 6 minutos z
 - **Pruebas unitarias** • 10 minutos
 - **Introducción a Quarto** • 2 minutos
 - **Libretas a reportes con Quarto** • 7 minutos

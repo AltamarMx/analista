@@ -27,7 +27,7 @@ book:
   chapters:
     - index.qmd 
     - uso.qmd      
-    - datos.ipynb
+    - datos.qmd
     - part: 'Semana Uno' #notebooks/semanaUno/semana1.qmd
       chapters:         
         - notebooks/semanaUno/001_instala_python.qmd

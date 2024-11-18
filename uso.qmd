@@ -26,7 +26,7 @@ El repositorio está organizado de la siguiente manera:
 ![](img/descarga_zip.jpeg)
 
 3. **Haz una copia (fork) del repositorio**
-![](.img/fork.jpeg)
+![](img/fork.jpeg)
 
 4. **Visita el repositorio en línea**
 El repositorio lo puedes ver en la liga [https://github.com/AltamarMx/analista](https://github.com/AltamarMx/analista).

@@ -1,0 +1,153 @@
+
+
+### Ubicación de los datos {.unnumbered}  
+
+Si descargaste el repositorio, verás un folder data en el directorio raíz, ahí se encuentran los datos usados en el curso.
+![](img/datos.jpeg)
+
+Puedes entrar a cada conjunto de datos y descargar archivo por archivo si así lo deseas.
+![](img/archivo.jpeg)
+
+
+### Temixco_2018_10Min.csv  {.unnumbered}
+
+
+
+Este archivo contiene datos recopilados cada 10 minutos para todo el año 2018. Las columnas del dataset están descritas a continuación:
+
+- **`time`**: Fecha y hora del registro en el formato `año-mes-día hora:minutos:segundos`.
+- **`Ib`**: Radiación directa sobre superficie horizontal (W/m²).
+- **`Ig`**: Radiación global (W/m²).
+- **`To`**: Temperatura ambiental (°C).
+- **`RH`**: Humedad relativa (%).
+- **`WS`**: Velocidad del viento (m/s).
+- **`WD`**: Dirección del viento (grados).
+- **`P`**: Presión atmosférica (hPa).
+
+```{python}
+!head ../data/Temixco_2018_10Min.csv
+```
+
+
+### Temixco_2018_10Min.xls  {.unnumbered}
+
+
+Este archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que  `Temixco_2018_10Min.csv` pero en formato `xlsx`
+
+
+### Temixco_2018_10Min.parquet  {.unnumbered}
+
+
+Este archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que  `Temixco_2018_10Min.csv` pero en formato `parquet`
+
+
+### Temixco_2018_10Min.csv.zip  {.unnumbered}
+
+
+Este archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que `Temixco_2018_10Min.csv` pero comprimido en formato `zip`.
+
+
+### Temixco_2018_10Min_NaN.csv {.unnumbered}
+
+
+Este archivo contiene datos recopilados cada 10 minutos para todo el año 2018 al igual que `Temixco_2018_10Min.csv` pero tiene un periodo con datos `NaN` en marzo y otro periodo donde se eliminaron datos al final del año.
+
+
+### update.parquet {.unnumbered}
+
+
+Este archivo contiene datos recopilados cada 10 minutos para marzo del año 2018 al igual que `Temixco_2018_10Min.csv` solo de la columna `To`.
+- **`To`**: Temperatura ambiental (°C).
+
+
+### owid-co2-data.csv {.unnumbered}
+
+Este archivo contiene datos relacionados con las emisiones de CO2, la producción de energía y otros indicadores medioambientales y económicos recopilados a nivel mundial. Los datos abarcan diferentes períodos de tiempo según el país y la variable registrada. Las columnas del dataset están descritas a continuación:
+
+- **`country`**: El nombre del país o región.
+- **`year`**: Año del registro de datos.
+- **`iso_code`**: Código ISO 3166-1 alfa-3 del país.
+- **`population`**: Población del país en el año especificado.
+- **`gdp`**: Producto Interno Bruto (PIB) del país en dólares internacionales constantes.
+- **`primary_energy_consumption`**: Consumo de energía primaria en teravatios-hora (TWh).
+- **`energy_per_capita`**: Consumo de energía per cápita en kilovatios-hora (kWh).
+- **`energy_per_gdp`**: Consumo de energía por unidad de PIB en kilovatios-hora por dólar internacional constante.
+- **`co2`**: Emisiones totales de CO2 en millones de toneladas.
+- **`co2_per_capita`**: Emisiones de CO2 per cápita en toneladas.
+- **`co2_per_gdp`**: Emisiones de CO2 por unidad de PIB en kilogramos por dólar internacional constante.
+- **`coal_co2`**: Emisiones de CO2 del carbón en millones de toneladas.
+- **`oil_co2`**: Emisiones de CO2 del petróleo en millones de toneladas.
+- **`gas_co2`**: Emisiones de CO2 del gas natural en millones de toneladas.
+- **`cement_co2`**: Emisiones de CO2 del cemento en millones de toneladas.
+- **`flaring_co2`**: Emisiones de CO2 por quema de gas en millones de toneladas.
+- **`other_industry_co2`**: Emisiones de CO2 de otras industrias en millones de toneladas.
+- **`co2_growth_abs`**: Crecimiento absoluto de las emisiones de CO2 en millones de toneladas respecto al año anterior.
+- **`co2_growth_prct`**: Crecimiento porcentual de las emisiones de CO2 respecto al año anterior.
+- **`co2_including_land_use`**: Emisiones de CO2 incluyendo el uso del suelo en millones de toneladas.
+- **`co2_including_land_use_per_capita`**: Emisiones de CO2 incluyendo el uso del suelo per cápita en toneladas.
+- **`co2_including_land_use_per_gdp`**: Emisiones de CO2 incluyendo el uso del suelo por unidad de PIB en kilogramos por dólar internacional constante.
+- **`methane`**: Emisiones de metano en millones de toneladas equivalentes de CO2.
+- **`methane_per_capita`**: Emisiones de metano per cápita en toneladas equivalentes de CO2.
+- **`methane_per_gdp`**: Emisiones de metano por unidad de PIB en kilogramos equivalentes de CO2 por dólar internacional constante.
+- **`nitrous_oxide`**: Emisiones de óxido nitroso en millones de toneladas equivalentes de CO2.
+- **`nitrous_oxide_per_capita`**: Emisiones de óxido nitroso per cápita en toneladas equivalentes de CO2.
+- **`nitrous_oxide_per_gdp`**: Emisiones de óxido nitroso por unidad de PIB en kilogramos equivalentes de CO2 por dólar internacional constante.
+- **`energy_consumption`**: Consumo total de energía en teravatios-hora (TWh).
+- **`energy_consumption_per_capita`**: Consumo de energía per cápita en kilovatios-hora (kWh).
+- **`energy_consumption_per_gdp`**: Consumo de energía por unidad de PIB en kilovatios-hora por dólar internacional constante.
+
+### Referencias {.unnumbered}
+
+**Artículo:**
+
+@article{owid-co2-gdp-decoupling,  
+  author = {Hannah Ritchie},  
+  title = {Many countries have decoupled economic growth from CO2 emissions, even if we take offshored production into account},  
+  journal = {Our World in Data},  
+  year = {2021},  
+  note = {https://ourworldindata.org/co2-gdp-decoupling}  
+}
+
+**Datos de:**
+
+[Our World in Data CO2 Dataset](https://github.com/owid/co2-data?tab=readme-ov-file)
+
+### personas_cargas.csv {.unnumbered}
+
+Este archivo contiene datos recopilados cada  minuto  durante el primero de enero del 2006. Contiene en la medición de consumo eléctrico y ocupación de diferentes espacios en un edificio. Las columnas del dataset están descritas a continuación:
+
+- **`date`**: Fecha y hora del registro en el formato `año-mes-día hora:minutos:segundos`.
+
+- **`B2_LIGHT:Lights Electricity Rate (W)`**: Consumo eléctrico en Watts de las luces en la habitación B2.
+
+- **`B1:Lights Electricity Rate (W)`**: Consumo eléctrico en Watts de las luces en la habitación B1.
+
+- **`COCINA_ESTUFA_EQUIPMENT:Electric Equipment Electricity Rate (W)`**: Consumo eléctrico en Watts del equipo de estufa en la cocina.
+
+- **`COCINA_REFR_EQUIPMENT:Electric Equipment Electricity Rate (W)`**: Consumo eléctrico en Watts del refrigerador en la cocina.
+
+- **`ESTANCIA_COCINA_LIGHT:Lights Electricity Rate (W)`**: Consumo eléctrico en Watts de las luces en la estancia de la cocina.
+
+- **`ESTANCIA_TV_EQUIPMENT:Electric Equipment Electricity Rate (W)`**: Consumo eléctrico en Watts del equipo de televisión en la estancia.
+
+- **`R1_LIGHT:Lights Electricity Rate (W)`**: Consumo eléctrico en Watts de las luces en la habitación R1.
+
+- **`R2_LIGHT:Lights Electricity Rate (W)`**: Consumo eléctrico en Watts de las luces en la habitación R2.
+
+- **`R3_LIGHT:Lights Electricity Rate (W)`**: Consumo eléctrico en Watts de las luces en la habitación R3.
+
+- **`COCINA_STAND_BY_EQUIPMENT:Electric Equipment Electricity Rate (W)`**: Consumo eléctrico en Watts de los equipos en modo de espera en la cocina.
+
+- **`B1:Space People Occupant Count ()`**: Número de personas presentes en la habitación B1.
+
+- **`B2:Space People Occupant Count ()`**: Número de personas presentes en la habitación B2.
+
+- **`COCINA:Space People Occupant Count ()`**: Número de personas presentes en la cocina.
+
+- **`R1:Space People Occupant Count ()`**: Número de personas presentes en la habitación R1.
+
+- **`R2:Space People Occupant Count ()`**: Número de personas presentes en la habitación R2.
+
+- **`R3:Space People Occupant Count ()`**: Número de personas presentes en la habitación R3.
+
+
